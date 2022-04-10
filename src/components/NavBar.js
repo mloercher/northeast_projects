@@ -1,35 +1,34 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo2 from '../images/logo2.png'
+import whiteLogo from '../images/whiteLogo.png'
 import './NavBar.css'
 import { Button } from './Button'
 
 
 function NavBar() {
   const [click, setClick] = useState(false)
-  const [button, setButton] = useState(true)
+  // const [button, setButton] = useState(true)
 
 
   const handeClick = () => setClick(!click)
   const closeMobileMenu = () => setClick(false)
 
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false)
-    } else {
-      setButton(true)
-    }
-  }
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false)
+  //   } else {
+  //     setButton(true)
+  //   }
+  // }
 
-  window.addEventListener('resize', showButton)
+  // window.addEventListener('resize', showButton)
 
   return (
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to="/" className='navbar-logo'>
-            {/* <img src={logo2} alt='logo'></img> */}
-            Northeast_Projects
+            <img id="logo" src={whiteLogo} alt='logo'></img>
           </Link>
           <div className='menu-icon' onClick={handeClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
