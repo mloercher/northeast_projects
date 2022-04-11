@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import whiteLogo from '../images/whiteLogo.png'
+// import whiteLogo from '../images/whiteLogo.png'
 import './NavBar.css'
-import { Button } from './Button'
+// import Home from './Pages/Home'
+// import { Button } from './Button'
 
 
 function NavBar() {
@@ -10,8 +11,15 @@ function NavBar() {
   // const [button, setButton] = useState(true)
 
 
-  const handeClick = () => setClick(!click)
-  const closeMobileMenu = () => setClick(false)
+  // sets click to opposite of what it was
+  const handeClick = () => {
+    setClick(!click)
+  }
+
+
+  const closeMobileMenu = () => {
+    setClick(false)
+  }
 
   // const showButton = () => {
   //   if (window.innerWidth <= 960) {
@@ -28,7 +36,7 @@ function NavBar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to="/" className='navbar-logo'>
-            <img id="logo" src={whiteLogo} alt='logo'></img>
+            <img id="logo" src='../../images/logo2.png' alt='logo' onClick={closeMobileMenu}></img>
           </Link>
           <div className='menu-icon' onClick={handeClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -36,17 +44,17 @@ function NavBar() {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                Home
+                HOME
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
-                About
+                ABOUT
               </Link>
             </li>
             <li className='nav-item'>
               <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
-                Projects
+                PROJECTS
               </Link>
             </li>
           </ul>
