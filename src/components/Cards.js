@@ -8,11 +8,11 @@ function Cards() {
   return (
     <div className='card-container'>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
-            <Card.Text>
+            <Card.Text className='description'>
               2018 PHIUS Design Competition
               Honorable Mention: Residential
             </Card.Text>
@@ -21,7 +21,7 @@ function Cards() {
         </Card>
       </div>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
@@ -33,7 +33,7 @@ function Cards() {
         </Card>
       </div>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
@@ -45,7 +45,7 @@ function Cards() {
         </Card>
       </div>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
@@ -57,7 +57,7 @@ function Cards() {
         </Card>
       </div>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
@@ -69,7 +69,7 @@ function Cards() {
         </Card>
       </div>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
@@ -81,7 +81,7 @@ function Cards() {
         </Card>
       </div>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
@@ -93,7 +93,7 @@ function Cards() {
         </Card>
       </div>
       <div className='card'>
-        <Card style={{ width: '18rem' }}>
+        <Card style={{ width: '25rem' }}>
           <Card.Img variant="top" src="../images/accord_proj.png" />
           <Card.Body>
             <Card.Title>Accord Passive House</Card.Title>
