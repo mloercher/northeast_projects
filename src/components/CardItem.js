@@ -4,10 +4,9 @@ function CardItem() {
     return (
         <>
             <li className='cards-item'>
-                <Link className='cards-item-link'>
+                <Link to='' className='cards-item-link'>
                     <figure className='cards-item-pic-wrap'>
-                        <img src='/' alt='project' className='cards-item-img'>
-                        </img>
+                        <img className='cards-item-img' src='/' alt='project'></img>
                     </figure>
                     <div className='cards_item_info'>
                         <h5 className='cards-item-text'>
