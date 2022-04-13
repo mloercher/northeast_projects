@@ -1,11 +1,15 @@
 .hero-container{
     background: url('../../public/images/hero.png') center center/cover no-repeat;
-    /* opacity: 0.9; */
+    opacity: 0.5;
     height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center; 
     object-fit: contain;
+}
+
+h1{
+    z-index: 1;
 }
 
