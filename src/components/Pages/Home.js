@@ -14,7 +14,7 @@ function Home() {
         <>
 
         <HeroSection />
-        <Cards />
+    
 
 
 
