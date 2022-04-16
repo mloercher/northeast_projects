@@ -24,15 +24,14 @@
     max-height: 50%;
 }
 
-h1 {
+/* h1 {
   font-weight: 200;
   font-size: 3.5rem;
   padding-left: 2%;
   padding-right: 2%;
   display: flex;
   flex-direction: column;
-  border-right: solid black;
-}
+} */
 
 p {
   font-size: 1.2rem;
