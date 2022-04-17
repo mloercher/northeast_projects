@@ -8,6 +8,7 @@ import { Routes, Route } from 'react-router-dom';
 import './App.css'
 import Home from './components/Pages/Home';
 import Projects from './components/Pages/Projects'
+import Accord from './components/Pages/Accord';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Routes>
             <Route exact path='/' element={<Home/>}/>
             <Route exact path='/projects' element={<Projects/>}/>
+            <Route exact path='/accord' element={<Accord />}/>
           </Routes>
       </Router>
       </>
