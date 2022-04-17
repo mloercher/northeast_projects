@@ -3,7 +3,6 @@ import React from 'react'
 import './Cards.css'
 import { Card, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-import Accord from './Pages/Accord'
 
 
 
@@ -12,7 +11,7 @@ function Cards() {
   return (
     <div>
       <Row>
-        <Link to='/accord'>
+        <Link to={'/accord'}>
           <Card>
             <Card.Body>
               <Card.Title>Accord Passive House</Card.Title>
@@ -36,16 +35,16 @@ function Cards() {
             <Card.Img variant="top" src="../images/newburgh_proj.png" />
           </Card>
         </Link>
-        <Link to='accord'>
+        <Link to='/accord'>
           <Card>
             <Card.Body>
-              <Card.Title>Accord Passive House</Card.Title>
+              <Card.Title>Newburgh Passive House</Card.Title>
               <Card.Text>
                 2018 PHIUS Design Competition
                 Honorable Mention: Residential
               </Card.Text>
             </Card.Body>
-            <Card.Img variant="top" src="../images/accord_proj.png" />
+            <Card.Img variant="top" src="../images/newburgh_proj.png" />
           </Card>
         </Link>
       </Row>
