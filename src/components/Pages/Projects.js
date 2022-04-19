@@ -4,7 +4,7 @@ import Cards from '../Cards'
 function Projects() {
   return (
     <>
-    <Cards />
+      <Cards />
     </>
   )
 }
