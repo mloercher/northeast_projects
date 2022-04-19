@@ -18,7 +18,7 @@ function Accord() {
                         src="../images/fairShare.png"
                         alt="First slide"
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='cap'>
                         <h3>First slide label</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>

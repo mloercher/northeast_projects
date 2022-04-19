@@ -23,16 +23,6 @@ img {
   max-height: 100%;
 }
 
-/* .card-body{
-  height: 100%;
-  width: 100%;
-} */
-/* .container{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-} */
 
 .card {
   display: flex;
@@ -42,6 +32,13 @@ img {
   margin-bottom: 2%;
   border: solid gray;
   border-width: .25px;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* @media only screen and (min-width: 1200px) {

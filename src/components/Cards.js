@@ -3,102 +3,27 @@ import React from 'react'
 import './Cards.css'
 import { Card, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import project_data from './project_data'
 
 
 
-function Cards() {
-
-  return (
+function Cards(props) {
+  return project_data.map((project) => (
     <div>
       <Row>
-        <Link to={'/accord'}>
+        <Link to={project.link}>
           <Card>
-            <Card.Body>
-              <Card.Title>Accord Passive House</Card.Title>
-              <Card.Text className='description'>
-                2018 PHIUS Design Competition
-                Honorable Mention: Residential
+            <Card.Body className='card-body'>
+              <Card.Title>{project.title}</Card.Title>
+              <Card.Text className='description'> {project.text}
               </Card.Text>
+              <Card.Img variant="top" src={project.img}/>
             </Card.Body>
-            <Card.Img variant="top" src="../images/accord_proj.png" />
-          </Card>
-        </Link>
-        <Link to='/accord'>
-          <Card>
-            <Card.Body>
-              <Card.Title>Newburgh Passive House</Card.Title>
-              <Card.Text>
-                2018 PHIUS Design Competition
-                Honorable Mention: Residential
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="top" src="../images/newburgh_proj.png" />
-          </Card>
-        </Link>
-        <Link to='/accord'>
-          <Card>
-            <Card.Body>
-              <Card.Title>Newburgh Passive House</Card.Title>
-              <Card.Text>
-                2018 PHIUS Design Competition
-                Honorable Mention: Residential
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="top" src="../images/newburgh_proj.png" />
-          </Card>
-        </Link>
-      </Row>
-      <Row>
-        <Link to='/accord'>
-          <Card>
-            <Card.Body>
-              <Card.Title>Accord Passive House</Card.Title>
-              <Card.Text className='description'>
-                2018 PHIUS Design Competition
-                Honorable Mention: Residential
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="top" src="../images/accord_proj.png" />
-          </Card>
-        </Link>
-        <Link to='/accord'>
-          <Card>
-            <Card.Body>
-              <Card.Title>Newburgh Passive House</Card.Title>
-              <Card.Text>
-                2018 PHIUS Design Competition
-                Honorable Mention: Residential
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="top" src="../images/newburgh_proj.png" />
-          </Card>
-        </Link>
-        <Link to='/accord'>
-          <Card>
-            <Card.Body>
-              <Card.Title>Accord Passive House</Card.Title>
-              <Card.Text>
-                2018 PHIUS Design Competition
-                Honorable Mention: Residential
-              </Card.Text>
-            </Card.Body>
-            <Card.Img variant="top" src="../images/accord_proj.png" />
           </Card>
         </Link>
       </Row>
     </div>
-  )
-}
+  ));
+  }
 
-export default Cards;
-
-{/* <div className='cards'>
-<h1>Projects</h1>
- <div className='cards-container'>
-    <div className='cards-wrapper'>
-        <ul className='cards-items'>
-        <CardItem />
-        </ul>
-    </div>
- </div>
-</div> */}
+  export default Cards;
