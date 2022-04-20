@@ -1,6 +1,10 @@
-/* .cap{
-    background-color: black;
-} */
+.cap{
+    background-color: white;
+    opacity: 0.5;
+}
+h3, p{
+    color: black;
+}
 
 .carousel-control-next,
 .carousel-control-prev /*, .carousel-indicators */ {
