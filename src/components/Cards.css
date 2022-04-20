@@ -19,8 +19,19 @@ h1{
 }
 
 .proj-img{
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.card-img-overlay{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.card-img-overlay h5{
+  color: white;
+  background-color: black;
 }
 /* @media only screen and (min-width: 1200px) {
   .content__blog__container {
