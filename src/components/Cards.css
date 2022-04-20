@@ -1,38 +1,64 @@
-
-h1{
+h1 {
   font-family: "Roboto Mono", monospace;
-  font-weight: 100! important;
+  font-weight: 100 !important;
   text-align: center;
   text-decoration: none;
 }
 
-
-.rounded-0  {
+.rounded-0 {
   color: black;
   width: 100%;
   height: 100%;
   text-align: center;
 }
 
-.container-fluid{
+.container-fluid {
   background-color: white;
 }
 
 .proj-img{
   height: 100%;
-  width: 100%;
-  opacity: 0.8;
+  opacity: 0.7;
 }
 
-.card-img-overlay{
-  justify-content: center;
+.proj-title {
+  justify-content: flex-start;
   display: flex;
   align-items: center;
-}
-.card-img-overlay h5{
+  flex-direction: column;
   color: white;
-  background-color: black;
+  opacity: 1;
+  z-index: 999;
 }
+.card-img-overlay::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, black, gray);
+  opacity: 0.3;
+  z-index: 998;
+}
+
+.card h5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 1;
+  text-align: center;
+  z-index: 999;
+}
+
+.title-overlay{
+  z-index: 999;
+  color: azure;
+}
+
+
+
 /* @media only screen and (min-width: 1200px) {
   .content__blog__container {
     width: 84%;
