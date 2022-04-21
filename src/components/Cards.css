@@ -11,6 +11,13 @@ h1 {
   height: 100%;
   text-align: center;
 }
+.rounded-0:hover {
+  color: black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transform: scale(0.95);
+}
 
 .container-fluid {
   background-color: white;
@@ -18,7 +25,7 @@ h1 {
 
 .proj-img{
   height: 100%;
-  opacity: 0.7;
+  /* opacity: 0.5; */
 }
 
 .proj-title {
@@ -38,24 +45,18 @@ h1 {
   width: 100%;
   height: 100%;
   background-image: linear-gradient(to bottom, black, gray);
-  opacity: 0.3;
-  z-index: 998;
+  opacity: 0.2;
 }
 
-.card h5 {
+/* .card h5 {
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
   opacity: 1;
   text-align: center;
-  z-index: 999;
-}
+} */
 
-.title-overlay{
-  z-index: 999;
-  color: azure;
-}
 
 
 
