@@ -1,6 +1,6 @@
 import React from 'react'
 import Cards from '../Cards'
-import { Container, Row, Col } from 'react-bootstrap'
+// import { Container, Row, Col } from 'react-bootstrap'
 
 function Projects() {
   return (
