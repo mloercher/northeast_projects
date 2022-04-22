@@ -7,12 +7,13 @@ h1 {
 
 .rounded-0 {
   color: black;
-  width: 100%;
+  width: auto;
   height: 100%;
   text-align: center;
 }
+
 .rounded-0:hover {
-  transform: scale(1.02);
+  transform: scale(1.05);
 }
 
 .container-fluid {
@@ -21,7 +22,7 @@ h1 {
 
 .proj-img{
   height: 100%;
-  /* opacity: 0.5; */
+  width: 100%;
 }
 
 .proj-title {
@@ -76,6 +77,10 @@ h1 {
 .img-description{
   font-size: 1.25 em;
   margin-top: 0.25em;
+}
+
+#card{
+  padding: 0 !important;
 }
 
 /* .card-img-overlay::after {

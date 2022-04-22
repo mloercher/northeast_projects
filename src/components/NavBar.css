@@ -85,15 +85,31 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 920px) {
+  #logo {
+    padding-top: 3%;
+    max-width: 25%;
+    max-height: 25%;
+  }
+}
+
+@media screen and (max-width: 541px) {
+  #logo {
+    padding-top: 3%;
+    max-width: 25%;
+    max-height: 25%;
+  }
+}
+
+@media screen and (max-width: 420px) {
   .NavbarItems {
     position: relative;
   }
 
   #logo{
+    max-width: 25%;
+    max-height: 18%;
     padding-top: 5%;
-    max-width: 20%;
-    max-height: 20%;
   }
 
   .nav-menu {

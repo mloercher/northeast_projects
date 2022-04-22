@@ -13,7 +13,7 @@ function Cards() {
       <Row className='gy-4' lg={3}>
         {project_data.map((project) => (
           <Link style={{ textDecoration: 'none' }} to={project.link}>
-            <Card className="rounded-0 mt-4">
+            <Card className="shadow p-3 rounded-0 mt-4" id='card'>
               <img src={project.img} className="proj-img rounded-0 position-relative" alt="project" ></img>
               {/* <h5>{project.title}</h5> */}
               <div className='img-overlay'>
