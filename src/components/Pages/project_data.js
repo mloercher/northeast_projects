@@ -61,13 +61,6 @@ const project_data = [
         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
         img: '../images/newburgh_proj.png',
         id:'9'
-      },
-      {
-        link: '/newburgh8',
-        title: 'Newburgh Passive House',
-        text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
-        id:'10'
       }
 ]
 
