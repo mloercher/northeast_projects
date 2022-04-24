@@ -12,16 +12,17 @@ function Cards() {
     <Container fluid>
       <Row className='gy-4' lg={3}>
         {project_data.map((project) => (
-          <Link key={project.id} style={{ textDecoration: 'none' }} to={project.link}>
-            <Card  className="shadow p-3 rounded-0 mt-4" id='card'>
-              <img src={project.img} className="proj-img rounded-0 position-relative" alt="project" ></img>
-              <div className='img-overlay'>
-                <div className='img-title'>
-                  {project.title}
+            <Link key={project.id} style={{ textDecoration: 'none' }} to={project.link}>
+              <Card className="shadow p-3 rounded-0 mt-4" id='card'>
+                <img src={project.img} className="proj-img rounded-0 position-relative" alt="project" ></img>
+                <div className='img-overlay'>
+                  <div className='img-title'>
+                    {project.title}
+                  </div>
                 </div>
-              </div>
-            </Card>
-          </Link>
+              </Card>
+            </Link>
+
         ))}
       </Row>
     </Container>

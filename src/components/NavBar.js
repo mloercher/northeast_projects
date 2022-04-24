@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 // import whiteLogo from '../images/whiteLogo.png'
 import './NavBar.css'
 // import Home from './Pages/Home'
@@ -43,19 +43,19 @@ function NavBar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <NavLink to='/' activeClassName='active' className='nav-links' onClick={closeMobileMenu}>
                 HOME
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link to='/about' className='nav-links' onClick={closeMobileMenu}>
+              <NavLink to='/about' activeClassName='active' className='nav-links' onClick={closeMobileMenu}>
                 ABOUT
-              </Link>
+              </NavLink>
             </li>
             <li className='nav-item'>
-              <Link to='/projects' className='nav-links' onClick={closeMobileMenu}>
+              <NavLink to='/projects' activeClassName='active' className='nav-links' onClick={closeMobileMenu}>
                 PROJECTS
-              </Link>
+              </NavLink>
             </li>
           </ul>
           {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}

@@ -73,6 +73,8 @@
   color: green;
 }
 
+
+
 .fa-bars {
   color: #fff;
 }
@@ -83,6 +85,12 @@
 
 .menu-icon {
   display: none;
+}
+
+.active{
+  border-bottom: 1px solid #fff;
+  text-decoration: none;
+  color: green;
 }
 
 @media screen and (max-width: 920px) {
