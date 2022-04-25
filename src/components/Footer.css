@@ -1,3 +1,93 @@
-/* .footer-container{
-    margin: 0;
+.footer-container {
+  flex: 0 0 50px;
+  margin-top: auto;
+  position: relative;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.contact-content p{
+  color: white;
+}
+.contact-content {
+  color: white;
+  height: 80%;
+}
+
+.footer-content{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.phone{
+  display: flex;
+}
+.phone p{
+  font-family:'Roboto Mono', monospace;
+  font-weight: lighter;
+  font-size: 80%;
+}
+.email p{
+  font-family:'Roboto Mono', monospace;
+  font-weight: lighter;
+  font-size: 80%;
+}
+.email{
+  display: flex;
+}
+
+.footer-content p {
+  color: white;
+  font-family:'Roboto Mono', monospace;
+  font-weight: 100;
+  font-size: 80%;
+
+}
+.icons-wrapper {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  justify-content: space-between;
+}
+.contact {
+  color: white;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.icons-wrapper p{
+  color: white;
+  font-size: 2px;
+  margin-bottom: 0px;
+  width: 50%;
+}
+
+.icons{
+  display: flex;
+  justify-content: flex-start;
+}
+/* .contact {
+  color: white;
+  display: flex;
+  width: 50%;
+  justify-content: center
 } */
+
+
+.footer-text {
+  display: flex;
+  flex-direction: row;
+}
+.footer-text p {
+  color: white;
+  font-size: 10%;
+}
+

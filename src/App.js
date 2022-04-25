@@ -14,18 +14,18 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
-      <Router>
+
+    <Router>
+      <div className="container-wrap">
         <NavBar />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/projects' element={<Projects />} />
           <Route exact path='/accord' element={<Accord />} />
         </Routes>
-      </Router>
+      </div>
       <Footer />
-    </>
-    
+    </Router>
   );
 }
 
