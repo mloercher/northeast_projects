@@ -7,7 +7,6 @@ function Footer() {
     <>
       <footer className='footer-container'>
         <div className='contact-content'>
-          {/* <p>CONTACT:</p> */}
           <div className='phone'>
             <FaPhoneSquareAlt size={15} />
             <p>518-555-5555</p>
@@ -16,14 +15,18 @@ function Footer() {
             <FaEnvelope size={15} />
             <p>john@ne-projects.com</p>
           </div>
-        </div>
-        <div className='icons-wrapper'>
-          <p>FOLLOW US:</p>
-          <div className='icons'>
-          <FaInstagram size={15}></FaInstagram>
-          <FaFacebook size={15}></FaFacebook>
+          <div className='follow'>
+            <p>FOLLOW:</p>
+            <div className='icons'>
+            <FaInstagram size={20}></FaInstagram>
+            <FaFacebook size={20}></FaFacebook>
+            </div>
+          </div>
+          <div className='copyright'>
+          &#169;{new Date().getFullYear()} NorthEast Projects, LLC
           </div>
         </div>
+      
 
       </footer>
     </>
