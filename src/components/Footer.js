@@ -18,8 +18,8 @@ function Footer() {
           <div className='follow'>
             <p>FOLLOW:</p>
             <div className='icons'>
-            <FaInstagram size={30} id="insta"></FaInstagram>
-            <FaFacebook size={30} id="facebook"></FaFacebook>
+            <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><FaInstagram size={30} id="insta" /></a>
+            <a href="https://www.facebook.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}> <FaFacebook size={30} id="facebook"/></a>
             </div>
           </div>
           <div className='copyright'>

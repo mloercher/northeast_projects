@@ -87,11 +87,16 @@
   display: flex;
   justify-content: center;
   padding-bottom: 6px;
+  
+}
+.icons a{
+  text-decoration: none;
 }
 
 #insta{
   padding-right: 10px;
   size: 10px;
+  text-decoration: none;
 }
 
 #facebook{
