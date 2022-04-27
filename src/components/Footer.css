@@ -40,13 +40,13 @@
 .phone p{
   font-family:'Roboto Mono', monospace;
   font-weight: lighter;
-  font-size: 80%;
+  font-size: 70%;
   margin-bottom: 0%;
 }
 .email p{
   font-family:'Roboto Mono', monospace;
   font-weight: lighter;
-  font-size: 80%;
+  font-size: 70%;
   margin-bottom: 0%;
 }
 .email{
@@ -81,37 +81,23 @@
   font-size: 80%;
 
 }
-.icons-wrapper {
-  color: white;
-  display: flex;
-  justify-content: center;
-  /* flex-direction: column; */
-  width: 50%;
-  
-  /* justify-content: center; */
-}
-/* .contact {
-  color: white;
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-} */
 
-.icons-wrapper p{
-  color: white;
-  font-size: 80%;
-  margin-bottom: 0px;
-  width: 50%;
-}
 
 .icons{
   display: flex;
   justify-content: center;
+  padding-bottom: 6px;
 }
-.icons p{
-  display: flex;
-  justify-content: center;
+
+#insta{
+  padding-right: 10px;
+  size: 10px;
 }
+
+#facebook{
+  padding-left: 10px;
+}
+
 /* .contact {
   color: white;
   display: flex;
@@ -131,5 +117,6 @@
 
 .copyright{
   font-weight: 100;
+  font-size: 10px;
 }
 

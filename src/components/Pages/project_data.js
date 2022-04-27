@@ -3,7 +3,7 @@ const project_data = [
         link: '/accord',
         title: 'Accord Passive House',
         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/accord_proj.png',
+        img: '../images/accord_crop.png',
         id:'1'
       },
       {
@@ -14,31 +14,31 @@ const project_data = [
         id:'2'
       },
       {
-        link: '/newburgh1',
-        title: 'Newburgh Passive House',
+        link: '/gallatin',
+        title: 'Gallatin Passive House',
         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
+        img: '../images/gallatin/sideEleBlast.jpg',
         id:'3'
       },
       {
-        link: '/newburgh2',
-        title: 'Newburgh Passive House',
+        link: '/hilltop',
+        title: 'Hilltop Passive House',
         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
+        img: '../images/hilltop/alt_long1.jpg',
         id:'4'
       },
       {
-        link: '/newburgh3',
-        title: 'Newburgh Passive House',
+        link: '/dubois',
+        title: 'Dubois Passive House',
         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
+        img: '../images/dubois/poster.jpg',
         id:'5'
       },
       {
-        link: '/newburgh4',
-        title: 'Newburgh Passive House',
+        link: '/pr',
+        title: 'PR Passive House',
         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
+        img: '../images/pr/whyNot.jpg',
         id:'6'
       },
       {
