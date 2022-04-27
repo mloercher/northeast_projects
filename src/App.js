@@ -16,8 +16,8 @@ function App() {
   return (
 
     <Router>
+      <NavBar />
       <div className="container-wrap">
-        <NavBar />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/projects' element={<Projects />} />
