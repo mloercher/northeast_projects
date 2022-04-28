@@ -7,19 +7,12 @@ function Footer() {
     <>
       <footer className='footer-container'>
         <div className='contact-content'>
-          {/* <div className='phone'>
-            <FaPhoneSquareAlt size={15} />
-            <p>518-555-5555</p>
-          </div>
-          <div className='email'>
-            <FaEnvelope size={15} />
-            <p>john@ne-projects.com</p>
-          </div> */}
+         
           <div className='follow'>
             <p>FOLLOW:</p>
             <div className='icons'>
-            <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><FaInstagram size={30} id="insta" /></a>
-            <a href="https://www.facebook.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}> <FaFacebook size={30} id="facebook"/></a>
+            <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><FaInstagram size={30} style={{ color: '#FFF' }} id="insta" /></a>
+            <a href="https://www.facebook.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}> <FaFacebook size={30} style={{ color: '#FFF' }}id="facebook"/></a>
             </div>
           </div>
           <div className='copyright'>

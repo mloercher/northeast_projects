@@ -10,6 +10,7 @@ import Home from './components/Pages/Home';
 import Projects from './components/Pages/Projects'
 import Accord from './components/Pages/Accord';
 import Footer from './components/Footer';
+import Contact from './components/Pages/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path='/projects' element={<Projects />} />
+          <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/accord' element={<Accord />} />
         </Routes>
       </div>

@@ -12,7 +12,7 @@ function HeroSection() {
             <img
               className='d-block w-100'
               id='slider'
-              src='../images/hero.png'
+              src='../images/gallatin/lake.jpg'
               alt="First slide"
             />
           </Carousel.Item>
@@ -20,7 +20,7 @@ function HeroSection() {
             <img
               className='d-block w-100'
               id='slider'
-              src='../images/fairShare.png'
+              src='../images/dubois/poster.jpg'
               alt="Second slide"
             />
           </Carousel.Item>
@@ -28,7 +28,7 @@ function HeroSection() {
             <img
               className='d-block w-100'
               id='slider'
-              src='../images/newburgh_proj.png'
+              src='../images/hilltop/alt_long1.jpg'
               alt="Third slide"
             />
           </Carousel.Item>
