@@ -112,3 +112,33 @@
 h1 {
   z-index: 1;
 }
+
+
+  /* Portrait */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+    .carousel {
+        /* width: 96%;
+       height: 80%; */
+       border: solid black; 
+       box-shadow: 0.75px 0.75px 0px 0px;
+       height: 100%;
+       overflow: hidden;
+       width: 99%;
+       object-fit: cover;
+     }
+     
+     .carousel-item img {
+       /* height: inherit; */
+       width: 85vw;
+       height: 49.3vh;
+       /* max-height: 70%; */
+       /* max-width: 79%; */
+       /* width: 100%; */
+       object-fit: cover;
+       object-position: center;
+     }
+}
