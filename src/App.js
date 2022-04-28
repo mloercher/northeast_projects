@@ -11,7 +11,6 @@ import Projects from './components/Pages/Projects'
 import Accord from './components/Pages/Accord';
 import Footer from './components/Footer';
 
-
 function App() {
   return (
 

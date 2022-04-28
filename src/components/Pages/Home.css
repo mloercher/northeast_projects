@@ -1,15 +1,11 @@
 * {
   font-family: "Roboto Mono", monospace;
 }
-.what-is {
-  padding-top: 2%;
+.home-container{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 100;
-  border-bottom: solid black;
+  flex-direction: column;
+  align-items: center ;
 }
-
 .fair-share {
   padding-top: 2%;
   display: flex;
