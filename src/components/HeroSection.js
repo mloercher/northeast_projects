@@ -7,7 +7,7 @@ function HeroSection() {
   return (
     <>
       <div className='left-panel'>
-        {/* <Carousel >
+        <Carousel>
           <Carousel.Item >
             <img
               className='d-block w-100'
@@ -32,15 +32,15 @@ function HeroSection() {
               alt="Third slide"
             />
           </Carousel.Item>
-        </Carousel> */}
-        <img src='../images/hero.png' alt='home'></img>
+        </Carousel>
+        {/* <img src='../images/hero.png' alt='home'></img> */}
 
-        <div className='text'>
+        {/* <div className='text'>
           <p>Whole System
             Design Solutions
             for <span>Healthy and
               Resilient Living</span></p>
-        </div>
+        </div> */}
       </div>
       <div className='about-ne'>
         <p>

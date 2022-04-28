@@ -40,27 +40,6 @@ const project_data = [
         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
         img: '../images/pr/whyNot.jpg',
         id:'6'
-      },
-      {
-        link: '/newburgh5',
-        title: 'Newburgh Passive House',
-        text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
-        id:'7'
-      },
-      {
-        link: '/newburgh6',
-        title: 'Newburgh Passive House',
-        text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
-        id:'8'
-      },
-      {
-        link: '/newburgh7',
-        title: 'Newburgh Passive House',
-        text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-        img: '../images/newburgh_proj.png',
-        id:'9'
       }
 ]
 
