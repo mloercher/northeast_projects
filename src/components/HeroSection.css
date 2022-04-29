@@ -1,24 +1,14 @@
 .hero-container {
-  /* background: url('../../public/images/hero.png') center center/cover no-repeat;
-    opacity: 0.5; */
   height: 100vh;
-  /* width: 100%; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  /* flex-wrap: wrap; */
-  /* flex-direction: column; */
-  /* align-items: center;  */
-  /* object-fit: contain; */
-  /* padding-bottom: 5%; */
 }
 
 .left-panel {
-  margin-top: 1.5%;
   display: flex;
   justify-content: center;
   width: 100vw;
-  border-width: 90%;
   height: 100%;
 }
 
@@ -32,18 +22,18 @@
 .carousel {
    /* width: 96%;
   height: 80%; */
-  border: solid black; 
+  /* border: solid black;  */
   box-shadow: 0.75px 0.75px 0px 0px;
   height: 100%;
   overflow: hidden;
-  width: 99%;
+  width: 100%;
   object-fit: cover;
 }
 
 .carousel-item img {
   /* height: inherit; */
-  width: 85vw;
-  height: 85vh;
+  width: 100vw;
+  height: 100vh;
   /* max-height: 70%; */
   /* max-width: 79%; */
   /* width: 100%; */
