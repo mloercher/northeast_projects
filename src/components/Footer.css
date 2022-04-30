@@ -29,32 +29,14 @@
   width: 100%;
 }
 
-.phone{
-  padding-top: 5%;
-  margin-bottom: 0%;
-  padding-left: 2%;
-  display:flex;
-  justify-content: center;
-}
+
 .phone p{
   font-family:'Roboto Mono', monospace;
   font-weight: lighter;
   font-size: 70%;
   margin-bottom: 0%;
 }
-.email p{
-  font-family:'Roboto Mono', monospace;
-  font-weight: lighter;
-  font-size: 70%;
-  margin-bottom: 0%;
-}
-.email{
-  margin-bottom: 0%;
-  margin-left: 2%;
-  display:flex;
-  width: 100%;
-  justify-content: center;
-}
+
 .follow{
   margin-bottom: 0%;
   margin-left: 2%;

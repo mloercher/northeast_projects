@@ -1,14 +1,4 @@
 
-/* .body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-} */
-
-/* .container-wrap {
-  margin-bottom: 1%;
-} */
-
 #root {
   display: flex;
   flex-direction: column;
