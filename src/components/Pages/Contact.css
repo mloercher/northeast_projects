@@ -1,17 +1,119 @@
-.contact-container{
+.contact-container {
+  display: flex;
+  width: 100vw;
+  height: 91vh;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.top-container {
+  height: 55vh;
+  width: 100vw;
+  /* background-image:url("../../../public/images/contact-bg.png"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center top;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-container {
+  height: 36vh;
+  display: flex;
+  width: 100vw;
+}
+
+#bg {
+  height: 100%;
+  width: 100%;
+}
+
+.contact {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  border-right: solid black;
+  border-width: 1px;
+  padding-top: 0.5%;
+}
+
+.c-title {
+  font-size: 45px;
+  font-weight: 100;
+}
+
+button {
+  height: 20%;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.phone {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.phone p {
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.email p {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+.appt {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.5%;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.services li {
+  font-size: 80%;
+}
+
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .contact-container {
     display: flex;
     width: 100vw;
-    height: 91vh;
+    height: 92vh;
     /* justify-content: center; */
     flex-direction: column;
     align-items: center;
     /* justify-content: center; */
-}
-
-.top-container{
-    height: 55vh;
+  }
+  #bg {
+    height: 75vh;
+    width: 100%;
+  }
+  .top-container {
+    height: 30vh;
     width: 100vw;
-    /* background-image:url("../../../public/images/contact-bg.png"); */
+    /* background-image: url(../../../public/images/contact-bg.png); */
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center top;
@@ -19,80 +121,68 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+  }
 
+  .bottom-container {
+    height: 100%;
+    display: block;
+    width: 100%;
+  }
 
-
-.bottom-container{
-    height: 36vh;
-    display: flex;
-    width: 100vw;
-}
-
-#bg{
-  height: 100%;
-  width: 100%;  
-}
-
-.contact{
-    width: 50%;
+  .contact {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:flex-start;
-    border-right: solid black;
-    border-width: 1px;
-    padding-top: 0.5%;
-}
-
-.c-title{
-font-size: 45px;
-font-weight: 100;
-}
-
-button{
-    height: 20%;
-    width: auto;
-    margin-bottom: 2rem;
-}
-
-.email{
-    display: flex;
     justify-content: center;
-    width: 100%;
-}
+    /* border-right: solid black; */
+    /* border-width: 1px; */
+    margin-top: 5%;
+  }
 
-.phone{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-}
-
-.phone p{
-    font-size: 2.5rem;
-    font-weight: 100;
-}
-.email p{
-    font-size: 2rem;
+  .email p {
+    font-size: 1.5rem;
     font-weight: 200;
-}
-
-.appt{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:center;
-    padding-top: 0.5%;
-}
-
-.services{
+  }
+  .phone p {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .appt {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.services li{
-    font-size: 80%;
+    height: 50%;
+  }
+  .c-title {
+    font-size: 35px;
+    font-weight: 100;
+  }
+
+  .phone svg {
+    height: 25px;
+    width: 25px;
+  }
+  .email svg {
+    height: 40px;
+    width: 25px;
+  }
+
+  .services{
+      width: 95%;
+  }
+
+  .services p {
+    font-size: 100%;
+  }
+
+  .phone {
+    margin-top: 5%;
+  }
+
+  .email {
+    margin-top: 5%;
+  }
 }
