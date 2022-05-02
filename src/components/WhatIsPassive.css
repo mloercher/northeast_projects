@@ -1,0 +1,15 @@
+/* #pas-title{
+    margin-top: 5%;
+} */
+
+.what-is-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cont-1{
+    display:inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+}

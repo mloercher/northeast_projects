@@ -20,7 +20,7 @@
 }
 
 .carousel {
-   /* width: 96%;
+  /* width: 96%;
   height: 80%; */
   /* border: solid black;  */
   box-shadow: 0.75px 0.75px 0px 0px;
@@ -70,13 +70,6 @@
 }
 
 .text span {
-  /* display: flex;
-    font-weight: 100;
-    font-size: 3.4vw;
-    width: 10px;
-    margin-top: 8%;
-    border-left: solid black;
-    padding-left: 3px; */
   color: green;
   font-weight: 100;
   width: 25px;
@@ -84,63 +77,64 @@
 
 .about-ne {
   display: flex;
-  justify-content: center;
-  width: 92vw;
+  flex-direction: flex-start;
+  justify-content: spa;
+  width: 93vw;
   border: solid black;
   text-align: center;
-  background-color: antiquewhite;
+  background-color: rgb(222, 245, 253);
   margin-top: 2%;
 }
 
 .about-ne p {
-  font-size: 95%;
-  display: flex;
-  justify-content: center;
+  font-size: 1.5rem;
   padding-top: 0.8%;
+  font-weight: 190;
 }
 
 h1 {
   z-index: 1;
 }
 
-
-  /* Portrait */
-@media only screen 
-and (min-device-width: 320px) 
-and (max-device-width: 480px)
-and (-webkit-min-device-pixel-ratio: 2)
-and (orientation: portrait) {
-    .carousel {
-        /* width: 96%;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  /* Use to adjust size of icons */
+  width: 3rem;
+  height: 3rem;
+}
+/* Portrait */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .carousel {
+    /* width: 96%;
        height: 80%; */
-       /* border: solid black;  */
-       box-shadow: 0.75px 0.75px 0px 0px;
-       height: 100%;
-       overflow: hidden;
-       width: 100%;
-       object-fit: cover;
-     }
-     
-     .carousel-item img {
-       height: 100vh;
-       object-fit: cover;
-       object-position: center;
-     }
+    /* border: solid black;  */
+    box-shadow: 0.75px 0.75px 0px 0px;
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+  }
 
-     .about-ne {
-      display: flex;
-      justify-content: center;
-      width: 98vw;
-      border: solid black;
-      text-align: center;
-      background-color: antiquewhite;
-      margin-top: 5%;
-    }
-    
-    .about-ne p {
-      font-size: 95%;
-      display: flex;
-      justify-content: center;
-      padding-top: 0.8%;
-    }
+  .carousel-item img {
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .about-ne {
+    display: flex;
+    justify-content: center;
+    width: 98vw;
+    border: solid black;
+    text-align: center;
+    background-color: whitesmoke;
+    margin-top: 5%;
+  }
+
+  .about-ne p {
+    font-size: 95%;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8%;
+  }
 }

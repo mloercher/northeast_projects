@@ -95,8 +95,9 @@ button {
   font-size: 80%;
 }
 
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+
+/* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
+@media only screen and (min-device-width: 412px) and (max-device-width:1200px){
   .contact-container {
     display: flex;
     width: 100vw;
@@ -106,12 +107,9 @@ button {
     align-items: center;
     /* justify-content: center; */
   }
-  #bg {
-    height: 75vh;
-    width: 100%;
-  }
+ 
   .top-container {
-    height: 30vh;
+    height:40vh;
     width: 100vw;
     /* background-image: url(../../../public/images/contact-bg.png); */
     background-repeat: no-repeat;
@@ -135,9 +133,8 @@ button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* border-right: solid black; */
-    /* border-width: 1px; */
     margin-top: 5%;
+    border: none;
   }
 
   .email p {
@@ -158,6 +155,182 @@ button {
   }
   .c-title {
     font-size: 35px;
+    font-weight: 100;
+  }
+
+  .phone svg {
+    height: 25px;
+    width: 25px;
+  }
+  .email svg {
+    height: 40px;
+    width: 25px;
+  }
+
+  .services{
+      width: 95%;
+  }
+
+  .services p {
+    font-size: 100%;
+  }
+
+  .phone {
+    margin-top: 5%;
+  }
+
+  .email {
+    margin-top: 5%;
+  }
+}
+
+/* Iphone SE + friends */
+@media only screen and (max-device-width: 393px) and (min-device-width: 270px ) {
+  .contact-container {
+    display: flex;
+    width: 100vw;
+    height: 92vh;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+ 
+  .top-container {
+    height:40vh;
+    width: 100vw;
+    /* background-image: url(../../../public/images/contact-bg.png); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom-container {
+    height: 100%;
+    display: block;
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    border: none;
+  }
+
+  .email p {
+    font-size: 1.5rem;
+    font-weight: 200;
+  }
+  .phone p {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .appt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+  }
+  .c-title {
+    font-size: 20px;
+    font-weight: 100;
+  }
+
+  .phone svg {
+    height: 25px;
+    width: 25px;
+  }
+  .email svg {
+    height: 40px;
+    width: 25px;
+  }
+
+  .services{
+      width: 95%;
+  }
+
+  .services p {
+    font-size: 100%;
+  }
+
+  .phone {
+    margin-top: 5%;
+  }
+
+  .email {
+    margin-top: 5%;
+  }
+}
+
+/* Galaxy Fold */
+@media only screen and (max-device-width: 281px){
+  .contact-container {
+    display: flex;
+    width: 100vw;
+    height: 92vh;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+ 
+  .top-container {
+    height:40vh;
+    width: 100vw;
+    /* background-image: url(../../../public/images/contact-bg.png); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bottom-container {
+    height: 100%;
+    display: block;
+    width: 100%;
+  }
+
+  .contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    border: none;
+  }
+
+  .email p {
+    font-size: 1rem;
+    font-weight: 200;
+  }
+  .phone p {
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  .appt {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+  }
+  .c-title {
+    font-size: 20px;
     font-weight: 100;
   }
 
