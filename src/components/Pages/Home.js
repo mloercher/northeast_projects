@@ -14,7 +14,7 @@ function Home() {
     return (
         <div className='home-container'>
         <HeroSection />
-        <WhatIsPassive />
+        {/* <WhatIsPassive /> */}
         </div>
     )
 }

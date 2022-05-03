@@ -9,9 +9,16 @@
   display: flex;
   justify-content: center;
   width: 100vw;
-  height: 100%;
+  /* height: 80%; */
 }
 
+.below-carousel{
+  height: 50vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
 .text {
   display: flex;
   flex-direction: column;
@@ -76,18 +83,20 @@
 }
 
 .about-ne {
+  margin-top: 2.5%;
   display: flex;
   flex-direction: flex-start;
-  justify-content: spa;
-  width: 93vw;
+  width: 90vw;
+  height: 70%;
   border: solid black;
   text-align: center;
   background-color: rgb(222, 245, 253);
-  margin-top: 2%;
+  /* margin-top: 2%; */
+  box-shadow: 20px 20px 2px 1px rgba(17, 17, 17, 0.614);
 }
 
 .about-ne p {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   padding-top: 0.8%;
   font-weight: 190;
 }
@@ -138,3 +147,5 @@ h1 {
     padding-top: 0.8%;
   }
 }
+
+
