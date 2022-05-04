@@ -12,12 +12,11 @@
   /* height: 80%; */
 }
 
-.below-carousel{
-  height: 50vh;
+.below-carousel {
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
-
 }
 .text {
   display: flex;
@@ -82,24 +81,24 @@
   width: 25px;
 }
 
-.about-ne {
-  margin-top: 2.5%;
+/* .about-ne {
+  margin-top: 1%;
   display: flex;
   flex-direction: flex-start;
   width: 90vw;
-  height: 70%;
+  height: 90%;
   border: solid black;
   text-align: center;
   background-color: rgb(222, 245, 253);
-  /* margin-top: 2%; */
-  box-shadow: 20px 20px 2px 1px rgba(17, 17, 17, 0.614);
-}
 
-.about-ne p {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+} */
+
+/* .about-ne p {
   font-size: 1.6rem;
   padding-top: 0.8%;
   font-weight: 190;
-}
+} */
 
 h1 {
   z-index: 1;
@@ -130,22 +129,23 @@ h1 {
     object-position: center;
   }
 
-  .about-ne {
+  /* .about-ne {
     display: flex;
     justify-content: center;
-    width: 98vw;
+    width: 95vw;
     border: solid black;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(222, 245, 253);
     margin-top: 5%;
+    height: 90%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 
   .about-ne p {
-    font-size: 95%;
+    font-size: 100%;
+    font-weight: 200;
     display: flex;
     justify-content: center;
-    padding-top: 0.8%;
-  }
+    padding-top: 2%;
+  } */
 }
-
-

@@ -43,12 +43,12 @@ function HeroSection() {
               Resilient Living</span></p>
         </div> */}
       </div>
-      <div className='below-carousel'>
+      {/* <div className='below-carousel'>
         <div className='about-ne'>
           <p>
             Northeast Projects is one of the lead Passive House Consultants in the Northeast and can help deliver your high performance project within your needs, on time and on budget.Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project.</p>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }

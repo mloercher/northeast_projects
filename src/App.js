@@ -7,6 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
 import Home from './components/Pages/Home';
+import About from './components/Pages/About'
 import Projects from './components/Pages/Projects'
 import Accord from './components/Pages/Accord';
 import Footer from './components/Footer';
@@ -19,7 +20,8 @@ function App() {
       <NavBar />
       <div className="container-wrap">
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/' element={<Home />}/>
+          <Route exact path='/about' element={<About />} />
           <Route exact path='/projects' element={<Projects />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/accord' element={<Accord />} />
