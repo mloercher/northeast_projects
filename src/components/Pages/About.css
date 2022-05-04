@@ -70,9 +70,8 @@
 .about-ne2{
     width: 100vw;
     display: flex;
-    justify-content: center;
-    margin-top: 1%;
-    /* flex-direction: column; */
+    justify-content: space-around;
+    margin-top: 1%;  
 }
 .about-ne2 p{
    font-size: 140%;
@@ -88,10 +87,11 @@
 }
 
 #friend{
-    width: 45%;
+    width: 40%;
     height: 90%;
     border: solid black;
-    margin-left: 1%;
+    margin-top: 1%;
+    margin-left: 2%;
 }
 
 .services-container{
@@ -107,12 +107,9 @@
     align-items: center;
     flex-direction: column;
     width: 55%;
-    margin-top: 2%;
+    margin-top: 1%;
 }
-.services-about li{
-    font-size: 90%;
-    padding-right: 2%;
-}
+
 .services-about li span{
     font-weight: bold;
 }
@@ -140,6 +137,13 @@
     height: 60%;
     border: solid black;
     margin-top: 5%;
+}
+
+.services-about li{
+    margin-left: 3%;
+    margin-right: 2%;
+    font-size: 90%;
+    padding-right: 2%;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 767px) {
