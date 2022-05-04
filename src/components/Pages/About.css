@@ -75,7 +75,7 @@
     /* flex-direction: column; */
 }
 .about-ne2 p{
-   font-size: 160%;
+   font-size: 140%;
    width: 50%;
    font-weight: 100;
    /* padding-top: .5%; */
@@ -88,8 +88,8 @@
 }
 
 #friend{
-    width: 50%;
-    height: 95%;
+    width: 45%;
+    height: 90%;
     border: solid black;
     margin-left: 1%;
 }
@@ -118,8 +118,8 @@
 }
 
 #services-next{
-    width: 52%;
-    height: 84%;
+    width: 94%;
+    height: 30%;
     border: solid black;
     margin-top: 3%;
     margin-right: 1%;
@@ -127,6 +127,19 @@
 
 .services-about h2{
     font-weight: 300;
+}
+
+.service-imgs{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#passive-logo{
+    width: 94%;
+    height: 60%;
+    border: solid black;
+    margin-top: 5%;
 }
 
 @media only screen and (min-width: 280px) and (max-width: 767px) {
@@ -168,9 +181,23 @@
         height: auto;
         border: solid black;
         /* margin-top: 3%; */
-        /* margin-right: 1%; */
+        margin-right: 0%;
     }
+
+    .service-imgs {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    #passive-logo{
+        border: solid black;
+        width: 100%;
+    }
+
     
+
 }
 
 

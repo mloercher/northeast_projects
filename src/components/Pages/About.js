@@ -9,7 +9,7 @@ function About() {
       <div className='about-ne2'>
         <img src='../images/johnAndFriend.png' id='friend' alt='meeting'></img>
         <p>
-         <span>Northeast Projects</span> is a leading Passive House Consultant group and can help deliver your high performance project within your needs, on time and on budget.<br></br><br></br>Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project.</p>
+          <span>Northeast Projects</span> is a leading Passive House Consultant group and can help deliver your high performance project within your needs, on time and on budget.<br></br><br></br>Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project.</p>
       </div>
       <div className='services-container'>
         <div className='services-about'>
@@ -39,7 +39,10 @@ function About() {
 
 
         </div>
-        <img src='../images/hero_crop.png' id='services-next' alt='passive house'></img>
+        <div className='service-imgs'>
+          <img src='../images/sketch.png' id='services-next' alt='passive house'></img>
+          <img src='../images/ph-logo.png' id='passive-logo' alt='ph-logo'></img>
+        </div>
       </div>
       {/* <div className='what-is-container'>
         <div className='cont-1'>
