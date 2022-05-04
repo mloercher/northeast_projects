@@ -75,11 +75,12 @@
     /* flex-direction: column; */
 }
 .about-ne2 p{
-   font-size: 165%;
+   font-size: 160%;
    width: 50%;
    font-weight: 100;
    /* padding-top: .5%; */
    padding-left: 1%;
+   padding-right: 1%;
 }
 .about-ne2 p span{
   font-weight: bold;
@@ -87,8 +88,8 @@
 }
 
 #friend{
-    width: 49%;
-    height: 100%;
+    width: 50%;
+    height: 95%;
     border: solid black;
     margin-left: 1%;
 }
@@ -126,6 +127,50 @@
 
 .services-about h2{
     font-weight: 300;
+}
+
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+    .about-ne2{
+        display: block;
+        margin-top: 0%;
+        text-align: center;
+    }
+
+    #friend{
+        width: 100%;
+        margin-left: 0%;
+        height: auto;
+    }
+
+    .about-ne2 p {
+        font-size: 160%;
+        width: 100%;
+        font-weight: 100;
+        /* padding-top: .5%; */
+        /* padding-left: 1%;
+        padding-right: 1%; */
+    }
+
+    .services-container {
+       display: block;
+    }
+
+    .services-about {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 2%;
+        border-top: solid black;
+    }
+    #services-next {
+        width: 100%;
+        height: auto;
+        border: solid black;
+        /* margin-top: 3%; */
+        /* margin-right: 1%; */
+    }
+    
 }
 
 
