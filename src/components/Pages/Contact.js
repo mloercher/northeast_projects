@@ -14,7 +14,7 @@ function Contact() {
                     <h1 className='c-title'>CONTACT:</h1>
                     <div className='phone'>
                         <FaPhoneSquareAlt size={50} />
-                        <p>518-555-5555</p>
+                        <p>518-227-0732</p>
                     </div>
                     <div className='email'>
                         <FaEnvelope size={50} />

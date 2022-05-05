@@ -1,5 +1,3 @@
-
-
 .rounded-0 {
   color: black;
   width: auto;
@@ -16,7 +14,7 @@
   padding-bottom: 5.2%;
 }
 
-.proj-img{
+.proj-img {
   height: 100%;
   width: 100%;
 }
@@ -31,13 +29,13 @@
   z-index: 999;
 }
 
-.img-overlay{
+.img-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,0.6);
+  background: rgba(0, 0, 0, 0.6);
   color: white;
   display: flex;
   flex-direction: column;
@@ -46,35 +44,41 @@
   opacity: 0;
   transition: opacity 0.3s;
   font-weight: 100;
-  
 }
 
-.img-overlay > *{
+.img-overlay > * {
   transform: translateY(20px);
   transform: 0.25s;
 }
 
-.img-overlay:hover{
+.img-overlay:hover {
   opacity: 1;
 }
 
 /* means every direct child of... */
 
-.img-overlay:hover > *{
+.img-overlay:hover > * {
   transform: translateY(0);
   transition: 0.25s;
 }
 
-.img-title{
+.img-title {
   font-size: 2em;
   /* font-weight: bold; */
 }
 
-.img-description{
+.img-description {
   font-size: 1.25 em;
   margin-top: 0.25em;
 }
 
-#card{
+#card {
   padding: 0 !important;
+}
+
+/* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
+  .container-wrap {
+    padding-bottom: 5%;
+  }
 }

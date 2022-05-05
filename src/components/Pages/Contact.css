@@ -179,6 +179,10 @@ button {
   .email {
     margin-top: 5%;
   }
+
+  #friend{
+    margin-top: 0%;
+  }
 }
 
 /* Iphone SE + friends */
