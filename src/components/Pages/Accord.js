@@ -7,7 +7,7 @@ function Accord() {
     return (
         <div className='accord-container'>
             <div className='title-img'>
-                <img src='../images/accord_proj.png' alt='accord passive house' id='accord_proj'></img>
+                <img src='../images/accord_proj.png' alt='accord passive house' id='img_proj'></img>
                 <h1 id='proj_name'>Accord Passive House</h1>
                 <h5 id='proj_location'>Accord, NY</h5>
             </div>

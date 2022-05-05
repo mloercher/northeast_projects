@@ -11,9 +11,16 @@ h3, p{
     flex-direction: column;
 }
 
-#accord_proj{
-    width:100%;
+.newburgh_container{
     height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#img_proj{
+    width:100%;
+    height: 520px;
 }
 
 .title-img{
@@ -25,6 +32,7 @@ h3, p{
 .accord-info{
     display: flex;
     flex-direction: column;
+    margin-top: 0%;
 }
 
 
@@ -54,4 +62,13 @@ h3, p{
 
 #proj_location{
     font-weight: lighter;
+}
+
+#newburgh_proj{
+    width: 100%;
+    height: 600px;
+}
+
+.title-img-newburgh{
+    width: 100vw;
 }
