@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/northeast_projects/static/css/main.479b7ee0.css",
+    "main.js": "/northeast_projects/static/js/main.46b6c16c.js",
+    "index.html": "/northeast_projects/index.html",
+    "main.479b7ee0.css.map": "/northeast_projects/static/css/main.479b7ee0.css.map",
+    "main.46b6c16c.js.map": "/northeast_projects/static/js/main.46b6c16c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.479b7ee0.css",
+    "static/js/main.46b6c16c.js"
+  ]
+}
