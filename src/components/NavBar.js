@@ -4,6 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './NavBar.css'
 // import Home from './Pages/Home'
 // import { Button } from './Button'
+import logo2 from '../images/logo2.png'
 
 
 function NavBar() {
@@ -36,7 +37,7 @@ function NavBar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to="/" className='navbar-logo'>
-            <img id="logo" src='../../images/logo2.png' alt='logo' onClick={closeMobileMenu}></img>
+            <img id="logo" src={logo2} alt='logo' onClick={closeMobileMenu}></img>
           </Link>
           <div className='menu-icon' onClick={handeClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

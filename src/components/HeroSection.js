@@ -2,6 +2,9 @@ import React from 'react'
 import './HeroSection.css'
 import '../App.css'
 import { Carousel } from 'react-bootstrap'
+import gallatinLake from '../images/gallatin/lake.jpg'
+import duboisPoster from '../images/dubois/poster.jpg'
+import hilltopAlt from '../images/hilltop/alt_long1.jpg'
 
 function HeroSection() {
   return (
@@ -12,7 +15,7 @@ function HeroSection() {
             <img
               className='d-block w-100 carousel-fade'
               id='slider'
-              src='../images/gallatin/lake.jpg'
+              src={gallatinLake}
               alt="First slide"
 
             />
@@ -21,7 +24,7 @@ function HeroSection() {
             <img
               className='d-block w-100 carousel-fade'
               id='slider'
-              src='../images/dubois/poster.jpg'
+              src={duboisPoster}
               alt="Second slide"
             />
           </Carousel.Item>
@@ -29,7 +32,7 @@ function HeroSection() {
             <img
               className='d-block w-100 carousel-fade'
               id='slider'
-              src='../images/hilltop/alt_long1.jpg'
+              src={hilltopAlt}
               alt="Third slide"
             />
           </Carousel.Item>
