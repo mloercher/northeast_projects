@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/northeast_projects/static/css/main.479b7ee0.css",
-    "main.js": "/northeast_projects/static/js/main.7fb00db3.js",
+    "main.js": "/northeast_projects/static/js/main.607bc4b3.js",
+    "static/media/lake.jpg": "/northeast_projects/static/media/lake.cc848117c9bffe701d23.jpg",
+    "static/media/poster.jpg": "/northeast_projects/static/media/poster.1e630185563000edab24.jpg",
+    "static/media/alt_long1.jpg": "/northeast_projects/static/media/alt_long1.4ac0f88aa09a7d29c51f.jpg",
+    "static/media/logo2.png": "/northeast_projects/static/media/logo2.fc4ae29da79b7e373b47.png",
     "index.html": "/northeast_projects/index.html",
     "main.479b7ee0.css.map": "/northeast_projects/static/css/main.479b7ee0.css.map",
-    "main.7fb00db3.js.map": "/northeast_projects/static/js/main.7fb00db3.js.map"
+    "main.607bc4b3.js.map": "/northeast_projects/static/js/main.607bc4b3.js.map"
   },
   "entrypoints": [
     "static/css/main.479b7ee0.css",
-    "static/js/main.7fb00db3.js"
+    "static/js/main.607bc4b3.js"
   ]
 }
