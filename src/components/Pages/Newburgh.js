@@ -1,11 +1,12 @@
 import React from 'react';
 import './Accord.css';
+import newbugh_proj from '../../assets/images/newburgh_proj.png'
 
 function Newburgh() {
   return (
     <div className='accord-container'>
         <div className='title-img'>
-            <img src='../images/newburgh_proj.png' alt='accord passive house' id='img_proj'></img>
+            <img src={newbugh_proj} alt='accord passive house' id='img_proj'></img>
             <h1 id='proj_name'>Newburgh Passive House</h1>
             <h5 id='proj_location'>Newburgh, NY</h5>
         </div>

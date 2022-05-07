@@ -1,11 +1,12 @@
 import React from 'react'
 import './Accord.css';
+import whyNot from '../../assets/images/pr/whyNot.jpg'
 
 function Pr() {
     return (
         <div className='accord-container'>
             <div className='title-img'>
-                <img src='../images/pr/whyNot.jpg' alt='accord passive house' id='img_proj'></img>
+                <img src={whyNot} alt='accord passive house' id='img_proj'></img>
                 <h1 id='proj_name'>Accord Passive House</h1>
                 <h5 id='proj_location'>Accord, NY</h5>
             </div>

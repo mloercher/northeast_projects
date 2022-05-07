@@ -1,13 +1,13 @@
 import React from 'react'
 import './Accord.css';
-// import accord_slides from './AccordSlides';
+import accord_proj from '../../assets/images/accord_proj.png'
 
 function Accord() {
     // return accord_slides.map((slide) => (
     return (
         <div className='accord-container'>
             <div className='title-img'>
-                <img src='../images/accord_proj.png' alt='accord passive house' id='img_proj'></img>
+                <img src={accord_proj} alt='accord passive house' id='img_proj'></img>
                 <h1 id='proj_name'>Accord Passive House</h1>
                 <h5 id='proj_location'>Accord, NY</h5>
             </div>

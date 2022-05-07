@@ -1,11 +1,12 @@
 import React from 'react'
 import './Accord.css';
+import sideEleBlast from '../../assets/images/gallatin/sideEleBlast.jpg'
 
 function Gallatin() {
     return (
         <div className='accord-container'>
             <div className='title-img'>
-                <img src='../images/gallatin/sideEleBlast.jpg' alt='accord passive house' id='img_proj'></img>
+                <img src={sideEleBlast} alt='accord passive house' id='img_proj'></img>
                 <h1 id='proj_name'>Gallatin Passive House</h1>
                 <h5 id='proj_location'>Gallatin, NY</h5>
             </div>

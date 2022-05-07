@@ -1,11 +1,12 @@
 import React from 'react'
 import './Accord.css';
+import poster2 from '../../assets/images/dubois/poster2.jpg'
 
 function Dubois() {
     return (
         <div className='accord-container'>
             <div className='title-img'>
-                <img src='../images/dubois/poster2.jpg' alt='accord passive house' id='img_proj'></img>
+                <img src={poster2} alt='accord passive house' id='img_proj'></img>
                 <h1 id='proj_name'>Accord Passive House</h1>
                 <h5 id='proj_location'>Accord, NY</h5>
             </div>

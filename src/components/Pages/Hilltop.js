@@ -1,12 +1,13 @@
 import React from 'react'
 import './Accord.css'; 
+import alt_long2 from '../../assets/images/hilltop/alt_long2.jpg'
 
 function Hilltop() {
     return (
         <div className='accord-container'>
             <div className='title-img'>
-                <img src='../images/hilltop/alt_long2.jpg' alt='accord passive house' id='img_proj'></img>
-                <h1 id='proj_name'>Accord Passive House</h1>
+                <img src={alt_long2} alt='accord passive house' id='img_proj'></img>
+                <h1 id='proj_name'>Hilltop Passive House</h1>
                 <h5 id='proj_location'>Accord, NY</h5>
             </div>
             <div className='accord-info'>
