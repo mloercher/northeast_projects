@@ -2,9 +2,9 @@ import React from 'react'
 import './HeroSection.css'
 import '../App.css'
 import { Carousel } from 'react-bootstrap'
-import gallatinLake from '../images/gallatin/lake.jpg'
-import duboisPoster from '../images/dubois/poster.jpg'
-import hilltopAlt from '../images/hilltop/alt_long1.jpg'
+import gallatinLake from '../assets/images/gallatin/lake.jpg'
+import duboisPoster from '../assets/images/dubois/poster.jpg'
+import hilltopAlt from '../assets/images/hilltop/alt_long1.jpg'
 
 function HeroSection() {
   return (

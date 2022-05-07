@@ -1,5 +1,8 @@
 import React from 'react'
 import './About.css'
+import friend from '../../assets/images/johnAndFriend.png'
+import sketch from '../../assets/images/sketch.png'
+import phLogo from '../../assets/images/ph-logo.png'
 
 
 function About() {
@@ -7,7 +10,7 @@ function About() {
 
     <div className='about-container'>
       <div className='about-ne2'>
-        <img src='../../images/johnAndFriend.png' id='friend' alt='meeting'></img>
+        <img src={friend} id='friend' alt='meeting'></img>
         <p>
           <span>Northeast Projects</span> is a leading Passive House Consultant group and can help deliver your high performance project within your needs, on time and on budget.<br></br><br></br>Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project.</p>
       </div>
@@ -40,8 +43,8 @@ function About() {
 
         </div>
         <div className='service-imgs'>
-          <img src='../images/sketch.png' id='services-next' alt='passive house'></img>
-          <img src='../images/ph-logo.png' id='passive-logo' alt='ph-logo'></img>
+          <img src={sketch} id='services-next' alt='passive house'></img>
+          <img src={phLogo} id='passive-logo' alt='ph-logo'></img>
         </div>
       </div>
       {/* <div className='what-is-container'>

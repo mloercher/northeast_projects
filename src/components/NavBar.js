@@ -4,7 +4,7 @@ import { Link, NavLink } from 'react-router-dom'
 import './NavBar.css'
 // import Home from './Pages/Home'
 // import { Button } from './Button'
-import logo2 from '../images/logo2.png'
+import logo2 from '../assets/images/logo2.png'
 
 
 function NavBar() {

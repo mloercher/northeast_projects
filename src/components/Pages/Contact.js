@@ -2,12 +2,13 @@ import React from 'react'
 import { PopupButton } from 'react-calendly'
 import './Contact.css'
 import { FaPhoneSquareAlt, FaEnvelope } from 'react-icons/fa'
+import contact_bg from '../../assets/images/contact-bg.png'
 
 function Contact() {
     return (
         <div className='contact-container'>
             <div className='top-container' >
-                <img src='../images/contact-bg.png' alt='contact' id='bg'></img>
+                <img src={contact_bg} alt='contact' id='bg'></img>
             </div>
             <div className='bottom-container'>
                 <div className='contact'>

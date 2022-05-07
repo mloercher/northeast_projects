@@ -1,9 +1,9 @@
-import accord_crop from '../../images/accord_crop.png'
-import newburgh_proj from '../../images/newburgh_proj.png'
-import sideEleBlast from '../../images/gallatin/sideEleBlast.jpg'
-import alt_long1 from '../../images/hilltop/alt_long1.jpg'
-import dubois_Poster from '../../images/dubois/poster.jpg'
-import whyNot from '../../images/pr/whyNot.jpg'
+import accord_crop from '../assets/images/accord_crop.png'
+import newburgh_proj from '../assets/images/newburgh_proj.png'
+import sideEleBlast from '../assets/images/gallatin/sideEleBlast.jpg'
+import alt_long1 from '../assets/images/hilltop/alt_long1.jpg'
+import dubois_Poster from '../assets/images/dubois/poster.jpg'
+import whyNot from '../assets/images/pr/whyNot.jpg'
 
 const project_data = [
     {
