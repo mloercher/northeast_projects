@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.479b7ee0.css",
-    "main.js": "/static/js/main.5d405749.js",
+    "main.js": "/static/js/main.3c623b0d.js",
     "static/media/lake.jpg": "/static/media/lake.cc848117c9bffe701d23.jpg",
     "static/media/poster2.jpg": "/static/media/poster2.ddeb2f2969874c90e264.jpg",
     "static/media/poster.jpg": "/static/media/poster.1e630185563000edab24.jpg",
@@ -19,10 +19,10 @@
     "static/media/johnAndFriend.png": "/static/media/johnAndFriend.000be559d938acaef991.png",
     "index.html": "/index.html",
     "main.479b7ee0.css.map": "/static/css/main.479b7ee0.css.map",
-    "main.5d405749.js.map": "/static/js/main.5d405749.js.map"
+    "main.3c623b0d.js.map": "/static/js/main.3c623b0d.js.map"
   },
   "entrypoints": [
     "static/css/main.479b7ee0.css",
-    "static/js/main.5d405749.js"
+    "static/js/main.3c623b0d.js"
   ]
 }
