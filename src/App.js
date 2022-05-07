@@ -26,6 +26,7 @@ function App() {
       <div className="container-wrap">
         <Routes>
           <Route exact path='/' element={<Home />} />
+          <Route exact path='/northeast_projects' element={<Home />}/>
           <Route exact path='/about' element={<About />} />
           <Route exact path='/projects' element={<Projects />} />
           <Route exact path='/contact' element={<Contact />} />
