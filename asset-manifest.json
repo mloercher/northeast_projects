@@ -1,21 +1,25 @@
 {
   "files": {
     "main.css": "/northeast_projects/static/css/main.479b7ee0.css",
-    "main.js": "/northeast_projects/static/js/main.3e967a76.js",
+    "main.js": "/northeast_projects/static/js/main.25af51fb.js",
     "static/media/lake.jpg": "/northeast_projects/static/media/lake.cc848117c9bffe701d23.jpg",
     "static/media/poster.jpg": "/northeast_projects/static/media/poster.1e630185563000edab24.jpg",
     "static/media/whyNot.jpg": "/northeast_projects/static/media/whyNot.e913974da4b7f0f92fbe.jpg",
     "static/media/sideEleBlast.jpg": "/northeast_projects/static/media/sideEleBlast.61139e7aec86aa18d785.jpg",
-    "static/media/alt_long1.jpg": "/northeast_projects/static/media/alt_long1.4ac0f88aa09a7d29c51f.jpg",
-    "static/media/accord_crop.png": "/northeast_projects/static/media/accord_crop.be7a4ab7f0d661d5ca9c.png",
+    "static/media/contact-bg.png": "/northeast_projects/static/media/contact-bg.cdb36cc3c0558b3e3c3b.png",
+    "static/media/alt_long1.jpg": "/northeast_projects/static/media/alt_long1.cddde3bac68d081288a6.jpg",
+    "static/media/ph-logo.png": "/northeast_projects/static/media/ph-logo.ead52521cc9eec20f0fd.png",
+    "static/media/sketch.png": "/northeast_projects/static/media/sketch.741adc32bc96eb266645.png",
+    "static/media/accord_crop.png": "/northeast_projects/static/media/accord_crop.45e2bae3d9ce59dd0804.png",
     "static/media/newburgh_proj.png": "/northeast_projects/static/media/newburgh_proj.7e96ad65c490df212090.png",
-    "static/media/logo2.png": "/northeast_projects/static/media/logo2.fc4ae29da79b7e373b47.png",
+    "static/media/logo2.png": "/northeast_projects/static/media/logo2.d4db71b76bdcae3d2e97.png",
+    "static/media/johnAndFriend.png": "/northeast_projects/static/media/johnAndFriend.000be559d938acaef991.png",
     "index.html": "/northeast_projects/index.html",
     "main.479b7ee0.css.map": "/northeast_projects/static/css/main.479b7ee0.css.map",
-    "main.3e967a76.js.map": "/northeast_projects/static/js/main.3e967a76.js.map"
+    "main.25af51fb.js.map": "/northeast_projects/static/js/main.25af51fb.js.map"
   },
   "entrypoints": [
     "static/css/main.479b7ee0.css",
-    "static/js/main.3e967a76.js"
+    "static/js/main.25af51fb.js"
   ]
 }
