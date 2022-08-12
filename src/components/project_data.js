@@ -44,6 +44,7 @@ const project_data = [
     img: require('../assets/images/pr/whyNot.jpg'),
     id: '6'
   }
+  
 ]
 
 export default project_data;

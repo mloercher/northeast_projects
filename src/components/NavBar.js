@@ -9,28 +9,16 @@ import logo2 from '../assets/images/logo2.png'
 
 function NavBar() {
   const [click, setClick] = useState(false)
-  // const [button, setButton] = useState(true)
-
 
   // sets click to opposite of what it was
   const handeClick = () => {
     setClick(!click)
   }
 
-
   const closeMobileMenu = () => {
     setClick(false)
   }
 
-  // const showButton = () => {
-  //   if (window.innerWidth <= 960) {
-  //     setButton(false)
-  //   } else {
-  //     setButton(true)
-  //   }
-  // }
-
-  // window.addEventListener('resize', showButton)
 
   return (
     <>
