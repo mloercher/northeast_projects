@@ -4,13 +4,13 @@ Business page for Northeast Projects, llc -- a Hudson Valley, NY based Passive H
 
 ## Technologies Used
 
--React.js
--Google Fonts
--React Router
--React Bootstrap
--HTML
--CSS
--JavaScript
+*React.js
+*Google Fonts
+*React Router
+*React Bootstrap
+*HTML
+*CSS
+*JavaScript
 
 ## Screenshots
 
