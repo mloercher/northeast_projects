@@ -2,6 +2,8 @@
 
 Business page for Northeast Projects, llc -- a Hudson Valley, NY based Passive House design company
 
+
+
 ## Screenshots
 
 ![Homescreen](src/assets/screenshots/homescreen.png)
