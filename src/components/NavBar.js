@@ -36,16 +36,6 @@ function NavBar() {
                 ABOUT
               </NavLink>
             </li>
-            <li className='nav-item'>
-              <NavLink to='/projects' activeclassname='active' className='nav-links' onClick={closeMobileMenu}>
-                PROJECTS
-              </NavLink>
-            </li>
-            <li className='nav-item'>
-              <NavLink to='/contact' activeclassname='active' className='nav-links' onClick={closeMobileMenu}>
-                CONTACT
-              </NavLink>
-            </li>
           </ul>
           {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
