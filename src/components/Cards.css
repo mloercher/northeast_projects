@@ -44,6 +44,7 @@
   opacity: 0;
   transition: opacity 0.3s;
   font-weight: 100;
+  
 }
 
 .img-overlay > * {
@@ -74,6 +75,7 @@
 
 #card {
   padding: 0 !important;
+  border-radius: 25px !important;
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/

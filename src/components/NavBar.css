@@ -74,15 +74,9 @@
   color: white;
 }
 
-
-
 .fa-bars {
   color: #fff;
 }
-
-/* .nav-links-mobile {
-  display: none;
-} */
 
 .menu-icon {
   display: none;
@@ -93,6 +87,8 @@
   text-decoration: none;
   color: whitesmoke;
 }
+
+
 
 @media screen and (max-width: 920px) {
   #logo {

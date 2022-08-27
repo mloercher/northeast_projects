@@ -3,12 +3,12 @@ import { Link, NavLink } from 'react-router-dom'
 // import whiteLogo from '../images/whiteLogo.png'
 import './NavBar.css'
 // import Home from './Pages/Home'
-// import { Button } from './Button'
 import logo2 from '../assets/images/logo2.png'
 
 
 function NavBar() {
   const [click, setClick] = useState(false)
+
 
   // sets click to opposite of what it was
   const handeClick = () => {
@@ -18,6 +18,8 @@ function NavBar() {
   const closeMobileMenu = () => {
     setClick(false)
   }
+
+
 
 
   return (

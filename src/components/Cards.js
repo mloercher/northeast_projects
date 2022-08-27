@@ -6,60 +6,8 @@ import project_data from './project_data'
 
 
 
-// import accord_crop from '../assets/images/accord_crop.png'
-// import newburgh_proj from '../assets/images/newburgh_proj.png'
-// import sideEleBlast from '../assets/images/gallatin/sideEleBlast.jpg'
-// import alt_long1 from '../assets/images/hilltop/alt_long1.jpg'
-// import dubois_Poster from '../assets/images/dubois/poster.jpg'
-// import whyNot from '../assets/images/pr/whyNot.jpg'
-
-
-
 function Cards() {
-//   const project_data = [
-//     {
-//         link: '/accord',
-//         title: 'Accord Passive House',
-//         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-//         img: '../assets/images/accord_crop.png',
-//         id:'1'
-//       },
-//       {
-//         link: '/newburgh',
-//         title: 'Newburgh Passive House',
-//         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-//         img: '../assets/images/accord_crop.png',
-//         id:'2'
-//       },
-//       {
-//         link: '/gallatin',
-//         title: 'Gallatin Passive House',
-//         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-//         img: '../assets/images/accord_crop.png',
-//         id:'3'
-//       },
-//       {
-//         link: '/hilltop',
-//         title: 'Hilltop Passive House',
-//         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-//         img: '../assets/images/accord_crop.png',
-//         id:'4'
-//       },
-//       {
-//         link: '/dubois',
-//         title: 'Dubois Passive House',
-//         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-//         img: '../assets/images/accord_crop.png',
-//         id:'5'
-//       },
-//       {
-//         link: '/pr',
-//         title: 'PR Passive House',
-//         text: '2018 PHIUS Design Competition Honorable Mention: Residential',
-//         img: '../assets/images/accord_crop.png',
-//         id:'6'
-//       }
-// ]
+
   return (
     <Container fluid>
       <Row className='gy-4' lg={3}>
