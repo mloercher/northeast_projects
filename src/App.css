@@ -1,12 +1,10 @@
-* {
-    box-sizing: border-box;
-    /* margin: 0;
-    padding: 0; */
-    font-family: 'PT Sans', sans-serif;
-  }
+/* * {
+  box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+} */
 
-  .container-wrap{
+/* .container-wrap{
     display: flex;
     flex-shrink: 1;
     width: 100%;
-  }
+  } */
