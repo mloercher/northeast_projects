@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebook} from 'react-icons/fa'
 function Footer() {
   return (
     <>
-      <footer className='footer-container'>
+      {/* <footer className='footer-container'>
         <div className='contact-content'>
          
           <div className='follow'>
@@ -21,7 +21,7 @@ function Footer() {
         </div>
       
 
-      </footer>
+      </footer> */}
     </>
   )
 }

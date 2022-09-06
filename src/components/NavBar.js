@@ -1,76 +1,64 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './NavBar.css'
-import Dropdown from './Dropdown'
-import { NavLink } from 'react-router-dom'
+import Dropdown from './Dropdown';
 import logo2 from '../assets/images/logo2.png'
 
+function Navbar() {
+  const [click, setClick] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
-
-
-function NavBar() {
-
-  const [click, setClick] = useState(false)
-  const [dropdown, setDropdown] = useState(false)
-
-  const handleClick = () => {
-    setClick(!click)
-  }
-
-  const closeMobileMenu = () => {
-    setClick(false)
-  }
+  const handleClick = () => setClick(!click);
+  const closeMobileMenu = () => setClick(false);
 
   const onMouseEnter = () => {
     if (window.innerWidth < 960) {
-      setDropdown(false)
+      setDropdown(false);
     } else {
-      setDropdown(true)
+      setDropdown(true);
     }
-  }
+  };
 
   const onMouseLeave = () => {
     if (window.innerWidth < 960) {
-      setDropdown(false)
+      setDropdown(false);
     } else {
-      setDropdown(false)
+      setDropdown(false);
     }
-  }
+  };
 
   return (
     <div className='navbar'>
-      <NavLink to='/' className='navbar-logo'>
+      <Link to='/' className='navbar-logo'>
         <img id="logo" src={logo2} alt='logo'></img>
-      </NavLink>
+      </Link>
       <div className='menu-icon' onClick={handleClick}>
         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li className='nav-item'>
-          <NavLink to='/' className='nav-links' onClick={closeMobileMenu}>
+          <Link to='/' className='nav-links' onClick={closeMobileMenu}>
             Home
-          </NavLink>
+          </Link>
         </li>
-        <li className='nav-item' 
-        onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}
+        <li
+          className='nav-item'
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
         >
-          <NavLink to='/About' className='nav-links' onClick={closeMobileMenu}>
-            About <i className='fas fa-caret-down' />
-          </NavLink>
-          {/* dropdown menu */}
-          {dropdown && <Dropdown />}
-        </li>
-        <li className='nav-item'onMouseEnter={onMouseEnter}
-        onMouseLeave={onMouseLeave}>
-          <NavLink to='/About' className='nav-links' onClick={closeMobileMenu}>
-            Projects <i className='fas fa-caret-down' />
-          </NavLink>
-          {/* dropdown menu */}
-          {dropdown && <Dropdown />}
+           <Link
+              to='/services'
+              className='nav-links'
+              onClick={closeMobileMenu}
+            >
+              Services <i className='fas fa-caret-down' />
+            </Link>
+            {dropdown && < Dropdown />}
         </li>
       </ul>
     </div>
+
   )
 }
 
-export default NavBar
+export default Navbar
