@@ -20,35 +20,35 @@ function NavBar() {
   }
 
   return (
-      <div className='navbar'>
-        <Link to='/' className='navbar-logo'>
-          <img id="logo" src={logo2} alt='logo'></img>
-        </Link>
-        <div className='menu-icon' onClick={handleClick}>
-          <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
-        </div>
-        <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-          <li className='nav-item'>
-            <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-              Home 
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/About' className='nav-links' onClick={closeMobileMenu}>
-              About <i className='fas fa-caret-down' />
-            </Link>
-            {/* dropdown menu */}
-            {dropdown && <Dropdown />}
-          </li>
-          <li className='nav-item'>
-            <Link to='/About' className='nav-links' onClick={closeMobileMenu}>
-              Projects <i className='fas fa-caret-down' />
-            </Link>
-            {/* dropdown menu */}
-            {dropdown && <Dropdown />}
-          </li>
-        </ul>
+    <div className='navbar'>
+      <Link to='/' className='navbar-logo'>
+        <img id="logo" src={logo2} alt='logo'></img>
+      </Link>
+      <div className='menu-icon' onClick={handleClick}>
+        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
       </div>
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li className='nav-item'>
+          <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+            Home
+          </Link>
+        </li>
+        <li className='nav-item'>
+          <Link to='/About' className='nav-links' onClick={closeMobileMenu}>
+            About <i className='fas fa-caret-down' />
+          </Link>
+          {/* dropdown menu */}
+          {dropdown && <Dropdown />}
+        </li>
+        <li className='nav-item'>
+          <Link to='/About' className='nav-links' onClick={closeMobileMenu}>
+            Projects <i className='fas fa-caret-down' />
+          </Link>
+          {/* dropdown menu */}
+          {dropdown && <Dropdown />}
+        </li>
+      </ul>
+    </div>
   )
 }
 

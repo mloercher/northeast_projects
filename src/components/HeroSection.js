@@ -9,7 +9,7 @@ import hilltopAlt from '../assets/images/hilltop/newlong.png'
 function HeroSection() {
   return (
     <>
-      <div className='left-panel'>
+      {/* <div className='left-panel'>
         <Carousel fade indicators={false} autoPlay={true} interval={3000} controls={false}>
           <Carousel.Item >
             <img
@@ -36,22 +36,7 @@ function HeroSection() {
               alt="Third slide"
             />
           </Carousel.Item>
-        </Carousel>
-        {/* <img src='../images/hero.png' alt='home'></img> */}
-
-        {/* <div className='text'>
-          <p>Whole System
-            Design Solutions
-            for <span>Healthy and
-              Resilient Living</span></p>
-        </div> */}
-      </div>
-      {/* <div className='below-carousel'>
-        <div className='about-ne'>
-          <p>
-            Northeast Projects is one of the lead Passive House Consultants in the Northeast and can help deliver your high performance project within your needs, on time and on budget.Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project.</p>
-        </div>
-      </div> */}
+        </Carousel> */}
     </>
   )
 }
