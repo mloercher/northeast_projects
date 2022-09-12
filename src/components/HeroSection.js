@@ -9,7 +9,7 @@ import hilltopAlt from '../assets/images/hilltop/newlong.png'
 function HeroSection() {
   return (
     <>
-      {/* <div className='left-panel'>
+      <div className='left-panel'>
         <Carousel fade indicators={false} autoPlay={true} interval={3000} controls={false}>
           <Carousel.Item >
             <img
@@ -36,7 +36,8 @@ function HeroSection() {
               alt="Third slide"
             />
           </Carousel.Item>
-        </Carousel> */}
+        </Carousel>
+      </div>
     </>
   )
 }

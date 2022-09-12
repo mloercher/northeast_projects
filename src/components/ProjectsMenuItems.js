@@ -1,4 +1,4 @@
-export const MenuItems = [
+export const ProjectsMenuItems = [
     {
         title: "Firm",
         path: '/firm',

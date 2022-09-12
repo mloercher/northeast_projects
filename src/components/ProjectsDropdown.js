@@ -1,27 +1,27 @@
 
 import React, { useState } from 'react';
-import { MenuItems } from './MenuItems';
+import { ProjectsMenuItems } from './ProjectsMenuItems';
 import './Dropdown.css';
 import { Link } from 'react-router-dom';
 
-function Dropdown() {
-    const [click, setClick] = useState(false);
+function ProjectsDropdown() {
+    const [pClick, setPClick] = useState(false);
 
-    const handleClick = () => setClick(!click);
+    const pHandleClick = () => setPClick(!pClick);
 
     return (
         <>
             <ul
-                onClick={handleClick}
-                className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
+                onClick={pHandleClick}
+                className={pClick ? 'dropdown-menu clicked' : 'dropdown-menu'}
             >
-                {MenuItems.map((item, index) => {
+                {ProjectsMenuItems.map((item, index) => {
                     return (
                         <li key={index}>
                             <Link
                                 className={item.cName}
                                 to={item.path}
-                                onClick={() => setClick(false)}
+                                onClick={() => setPClick(false)}
                             >
                                 {item.title}
                             </Link>
@@ -33,4 +33,4 @@ function Dropdown() {
     );
 }
 
-export default Dropdown;
+export default ProjectsDropdown;

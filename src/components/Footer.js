@@ -5,7 +5,7 @@ import { FaInstagram, FaFacebook} from 'react-icons/fa'
 function Footer() {
   return (
     <>
-      {/* <footer className='footer-container'>
+      <footer className='footer-container'>
         <div className='contact-content'>
          
           <div className='follow'>
@@ -19,9 +19,7 @@ function Footer() {
           &#169;{new Date().getFullYear()} NorthEast Projects, LLC
           </div>
         </div>
-      
-
-      </footer> */}
+      </footer>
     </>
   )
 }

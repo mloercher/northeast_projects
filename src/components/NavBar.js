@@ -1,29 +1,50 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
-import Dropdown from './Dropdown';
+import AboutDropdown from './AboutDropdown';
+import ProjectsDropdown from './ProjectsDropdown';
 import logo2 from '../assets/images/logo2.png'
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [dropdown, setDropdown] = useState(false);
+  const [Adropdown, setADropdown] = useState(false);
+
+  const [Pdropdown, setPDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
-  const onMouseEnter = () => {
+
+  // when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
+  const AonMouseEnter = () => {
     if (window.innerWidth < 960) {
-      setDropdown(false);
+      setADropdown(false);
     } else {
-      setDropdown(true);
+      setADropdown(true);
     }
   };
-
-  const onMouseLeave = () => {
+  // when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
+  const AonMouseLeave = () => {
     if (window.innerWidth < 960) {
-      setDropdown(false);
+      setADropdown(false);
     } else {
-      setDropdown(false);
+      setADropdown(false);
+    }
+  };
+  // when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
+  const PonMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setPDropdown(false);
+    } else {
+      setPDropdown(true);
+    }
+  };
+  // when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
+  const PonMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setPDropdown(false);
+    } else {
+      setPDropdown(false);
     }
   };
 
@@ -36,24 +57,33 @@ function Navbar() {
         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <li className='nav-item'>
-          <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-            Home
+        <li
+          className='nav-item'
+          onMouseEnter={AonMouseEnter}
+          onMouseLeave={AonMouseLeave}
+        >
+          <Link
+            to='/services'
+            className='nav-links'
+            onClick={closeMobileMenu}
+          >
+            About <i className='fas fa-caret-down' />
           </Link>
+          {Adropdown && < AboutDropdown />}
         </li>
         <li
           className='nav-item'
-          onMouseEnter={onMouseEnter}
-          onMouseLeave={onMouseLeave}
+          onMouseEnter={PonMouseEnter}
+          onMouseLeave={PonMouseLeave}
         >
-           <Link
-              to='/services'
-              className='nav-links'
-              onClick={closeMobileMenu}
-            >
-              Services <i className='fas fa-caret-down' />
-            </Link>
-            {dropdown && < Dropdown />}
+          <Link
+            to='/services'
+            className='nav-links'
+            onClick={closeMobileMenu}
+          >
+            Projects <i className='fas fa-caret-down' />
+          </Link>
+          {Pdropdown && < ProjectsDropdown />}
         </li>
       </ul>
     </div>

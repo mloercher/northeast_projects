@@ -1,16 +1,16 @@
 .dropdown-menu {
   display: block !important;
   position: absolute ;
-  background: black;
-  width: 200px;
-  top: 70px;
-  list-style: none;
+  /* background: black; */
+  width: 180px;
+  top: 60px;
+  /* list-style: none; */
   text-align: start;
 }
 
 .dropdown-menu li {
-  background: black;
-  cursor: pointer;
+  background:black;
+  /* cursor: pointer; */
 }
 
 .dropdown-menu li:hover {
