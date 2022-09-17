@@ -1,22 +1,22 @@
 export const ProjectsMenuItems = [
     {
-        title: "Firm",
-        path: '/firm',
+        title: "Single Family Residential",
+        path: '/singleFam',
         cName: 'dropdown-link'
     },
     {
-        title: "Services",
-        path: '/services',
+        title: "Multi-Family",
+        path: '/multiFam',
         cName: 'dropdown-link'
     },
     {
-        title: "Passive House",
-        path: '/passiveHouse',
+        title: "Commercial",
+        path: '/commercial',
         cName: 'dropdown-link'
     },
     {
-        title: "Contact",
-        path: '/contact',
+        title: "Retrofit",
+        path: '/retro',
         cName: 'dropdown-link'
     }
 ];

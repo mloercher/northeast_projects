@@ -31,7 +31,7 @@ function Navbar() {
       setADropdown(false);
     }
   };
-  // when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
+  //**DUPLICATE FOR PROJS */ when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
   const PonMouseEnter = () => {
     if (window.innerWidth < 960) {
       setPDropdown(false);
@@ -39,7 +39,7 @@ function Navbar() {
       setPDropdown(true);
     }
   };
-  // when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
+  //**DUPLICATE FOR PROJS  when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
   const PonMouseLeave = () => {
     if (window.innerWidth < 960) {
       setPDropdown(false);
@@ -62,13 +62,9 @@ function Navbar() {
           onMouseEnter={AonMouseEnter}
           onMouseLeave={AonMouseLeave}
         >
-          <Link
-            to='/services'
-            className='nav-links'
-            onClick={closeMobileMenu}
-          >
-            About <i className='fas fa-caret-down' />
-          </Link>
+
+          <div className='aboutProj'>About</div><i className='fas fa-caret-down'/>
+
           {Adropdown && < AboutDropdown />}
         </li>
         <li
@@ -76,13 +72,7 @@ function Navbar() {
           onMouseEnter={PonMouseEnter}
           onMouseLeave={PonMouseLeave}
         >
-          <Link
-            to='/services'
-            className='nav-links'
-            onClick={closeMobileMenu}
-          >
-            Projects <i className='fas fa-caret-down' />
-          </Link>
+          <div className='aboutProj'>Projects</div><i className='fas fa-caret-down' />
           {Pdropdown && < ProjectsDropdown />}
         </li>
       </ul>

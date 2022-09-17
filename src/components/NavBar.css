@@ -14,6 +14,10 @@
   font-size: 1.2rem;
 }
 
+/* .aboutProj{
+  background: white;
+} */
+
 
 .fa-firstdraft {
   margin-left: 0.5rem;
@@ -26,15 +30,24 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 70vw;
-  justify-content: end;
+  width: 50vw;
+  justify-content: center;
   margin-right: 2rem;
 }
 
 .nav-item {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 50px;
+  color: white;
+  padding: 2rem;
+
+}
+.nav-item:hover{
+  color: cornflowerblue;
+  border-radius: 2px;
+  width: auto;
+  
 }
 
 .nav-links {
