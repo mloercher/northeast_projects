@@ -1,0 +1,22 @@
+.phTop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fairShare{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+#whatIs{
+    width: 12rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
+#aboutNE{
+    width: 50rem;
+    font-size: 1rem;
+}
