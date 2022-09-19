@@ -1,22 +1,85 @@
-.phTop{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+/* .phContainer {
+  margin: 1.5rem;
+} */
+
+#phRow1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f2e9dc;
+}
+#phRow2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #f06c37;
+}
+#phRow3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #ced116;
+}
+#phRow4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #000000;
+}
+#phRow5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #8e8c8c;
 }
 
-.fairShare{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+/* .fairShare {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+} */
+
+/* row 1 */
+#whatIs {
+  width: 30%;
+  height: auto;
+  font-family: "PT Sans, sans-serif";
+  font-size: 5.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
 }
 
-#whatIs{
-    width: 12rem;
-    margin-left: 1rem;
-    margin-top: 1rem;
+.aboutNE {
+  width: 70%;
+  font-size: 2rem;
 }
 
-#aboutNE{
-    width: 50rem;
-    font-size: 1rem;
+/* row2 */
+.fairAbout {
+  width: 50%;
+  font-size: 1.75rem;
+}
+
+#phiusGraph {
+  height: 8rem;
+  width: 30rem;
+}
+
+.fairPic {
+  height: 20rem;
+  width: 50%;
+}
+
+#phiusAlliance {
+  height: 8rem;
+  width: 30rem;
+}
+
+.aNEp {
+  font-size: 1.8rem;
 }
