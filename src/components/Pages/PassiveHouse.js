@@ -72,7 +72,7 @@ function PassiveHouse() {
       <section className="parallax bg2" >
         <h1>Fair Share Principle</h1>
       </section>
-      <section id="no-parallax1">
+      <section id="no-parallax2">
         <p id='fairP'>
           The underlying math behind the Passive House formula is all based on a fair share principle of Co2 emissions. Our existing American building stock accounts for over 40% of those total emissions and Passive House gives us the opportunity to cut our building's CO2 footprint. As Americans we produce up to 28 tons of CO2 annual (14,000 Watts), but based on the carbon fair share principle, our global fair share is only 2,000 Watts! The Passive House standard is the only way to achieve these drastic CO2 reductions within a reasonable time limit.   (Image: 2000-watt-society.org)
         </p>
@@ -80,7 +80,7 @@ function PassiveHouse() {
       <section className="parallax bg3">
         <h1>Characteristics of a Passive House</h1>
       </section>
-      <section id="no-parallax1">
+      <section id="no-parallax3">
         <p id='fairP'>
           The Passive House system balances total system gains (solar gain, occupant gains) with the total system losses (envelope losses, mechanical losses). The difference between the two is the total energy consumption of your building.
           Building envelope losses are addressed by having: 1. Continuous insulation 2. A Thermal bridge-free enclosure 3. An airtight envelope and 4. High performance windows and doors. Mechanical losses are mitigated through a heat recovery system (HRV / ERV). Solar gains are controlled through a solar energy management (shading system) and Occupant gains are up to you! (Image: hammerandhand.com)
@@ -89,7 +89,7 @@ function PassiveHouse() {
       <section className="parallax bg4">
         <h1>PHIUS Certification</h1>
       </section>
-      <section id="no-parallax1">
+      <section id="no-parallax4">
         <p id='fairP'>
           The PHIUS+ Certification Program is the leading passive building certification program in North America. It is the only passive building certification that combines a thorough passive house design verification protocol with a stringent Quality Assurance/Quality Control (QA/QC) program performed onsite by highly skilled and specialized PHIUS+ Raters and Verifiers.
           The benefits of PHIUS+ certification include:
@@ -104,9 +104,9 @@ function PassiveHouse() {
       <section className="parallax bg5">
         <h1>Passive House Alliance</h1>
       </section>
-      <section id="no-parallax1"F>
-        <p id='fairP'>
-          Passive House Alliance - Hudson Valley (PHA-HV) is the exclusive local chapter of the Passive House Alliance U.S. (PHAUS) in the Northeast region. It provides a robust membership-based network with over 1000 members throughout North America and provides training, resources, marketing, and advocacy support to its members throughout New York, New Jersey, Connecticut, Pennsylvania and New England.
+      <section id="no-parallax5"F>
+        <p id='phiusAbout'>
+          <a href="https://www.pha-hv.org/" target="_blank" >Passive House Alliance - Hudson Valley (PHA-HV)</a> is the exclusive local chapter of the Passive House Alliance U.S. (PHAUS) in the Northeast region. It provides a robust membership-based network with over 1000 members throughout North America and provides training, resources, marketing, and advocacy support to its members throughout New York, New Jersey, Connecticut, Pennsylvania and New England.
         </p>
       </section>
     </main>
