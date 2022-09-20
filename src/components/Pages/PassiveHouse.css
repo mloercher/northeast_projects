@@ -1,4 +1,3 @@
-
 /* row 1 */
 #phRow1 {
   display: flex;
@@ -20,6 +19,7 @@
 #whatIsP {
   width: 60%;
   font-size: 1.5rem;
+  background-color: whitesmoke;
 }
 
 /* row2 */
@@ -101,12 +101,12 @@
 /* row5 */
 
 #phRow5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: auto;
-    background-color: #8e8c8c;
-  }
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  background-color: #8e8c8c;
+}
 
 #phiusAlliance {
   height: 8rem;
@@ -120,4 +120,90 @@
   font-size: 1rem;
   margin-top: 1.4rem;
   margin-left: 1.4rem;
+}
+
+/* parallax styling */
+body {
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+section {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#no-parallax1 {
+  background-color: #f06c37;
+  z-index: 999;
+  color: black;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+
+.parallax h1 {
+  width: 60%;
+  font-size: 2rem;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg1::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/images/accord_crop.png");
+  background-size: cover;
+}
+.bg2::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/images/fairShare.png");
+  background-size: cover;
+}
+.bg3::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("/src/assets/images/characteristicsPH.png");
+  background-size: cover;
+}
+.bg4::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  url("/src/assets/images/PHIUSgraph.png");
+  background-size: cover;
+}
+.bg5::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("/src/assets/images/ph-logo.png");
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  section h1 {
+    font-size: 8rem;
+  }
+  .parallax h1 {
+    font-size: 4rem;
+  }
 }
