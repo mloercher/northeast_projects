@@ -1,0 +1,16 @@
+.button-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-right: solid black;
+    width: 20rem;
+    min-width: 2rem;
+}
+
+.btn{
+    height: 5rem;
+    width: 10rem;
+    margin-bottom: 2rem;
+    /* box-shadow: 2px; */
+}
