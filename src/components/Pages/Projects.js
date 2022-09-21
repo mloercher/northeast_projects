@@ -1,12 +1,25 @@
-import React from 'react'
+import React, {useState} from 'react'
+import Buttons from '../Buttons';
 import Cards from '../Cards'
+import project_data from '../project_data'
+import './Projects.css'
 // import { Container, Row, Col } from 'react-bootstrap'
 
+
 function Projects() {
+  const [projectMenuItem, setProjectMenuItem] = useState(project_data)
+  const [buttons, setButtons] = useState([])
+
+  const filter = (button) => {
+    const filteredData = project_data.filter(project => project.type === button)
+    setProjectMenuItem(filteredData)
+    console.log(button)
+  }
   return (
-    <>
-      <Cards />
-    </>
+    <div className='project-main'>
+      <Buttons button={buttons} filter={filter}/>
+      <Cards projectMenuItem={projectMenuItem}/>
+    </div>
   )
 }
 

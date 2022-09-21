@@ -67,13 +67,15 @@ function Navbar() {
 
           {Adropdown && < AboutDropdown />}
         </li>
+        
         <li
           className='nav-item'
-          onMouseEnter={PonMouseEnter}
-          onMouseLeave={PonMouseLeave}
+          // onMouseEnter={PonMouseEnter}
+          // onMouseLeave={PonMouseLeave}
         >
-          <div className='aboutProj'>Projects</div><i className='fas fa-caret-down' />
-          {Pdropdown && < ProjectsDropdown />}
+          <Link to='/projects'>
+          <div>Projects</div>
+          </Link>
         </li>
       </ul>
     </div>

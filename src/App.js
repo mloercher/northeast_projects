@@ -13,10 +13,10 @@ import Firm from './components/Pages/Firm'
 import Services from './components/Pages/Services'
 import Projects from './components/Pages/Projects'
 import PassiveHouse from './components/Pages/PassiveHouse';
-import SingleFam from './components/Pages/SingleFam';
-import MultiFam from './components/Pages/MultiFam';
-import Commercial from './components/Pages/Commercial';
-import Retro from './components/Pages/Retro';
+// import SingleFam from './components/Pages/SingleFam';
+// import MultiFam from './components/Pages/MultiFam';
+// import Commercial from './components/Pages/Commercial';
+// import Retro from './components/Pages/Retro';
 
 
 
@@ -43,10 +43,10 @@ function App() {
           <Route exact path='/services' element={<Services />} />
           <Route exact path='/projects' element={<Projects />} />
           <Route exact path='/passiveHouse' element={<PassiveHouse />} />
-          <Route exact path='/singleFam' element={<SingleFam />} />
+          {/* <Route exact path='/singleFam' element={<SingleFam />} />
           <Route exact path='/multiFam' element={<MultiFam />} />
           <Route exact path='/commercial' element={<Commercial />} />
-          <Route exact path='/retro' element={<Retro />} />
+          <Route exact path='/retro' element={<Retro />} /> */}
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/accord' element={<Accord />} />
           <Route exact path='/newburgh' element={<Newburgh />} />

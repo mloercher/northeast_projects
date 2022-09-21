@@ -1,8 +1,9 @@
+
 #whatIsP {
   width: 60%;
   font-size: 1.5rem;
   font-weight: 400;
-  /* background-color: whitesmoke; */
+  font-family: 'Roboto Mono', monospace;
 }
 
 #fairP {
@@ -66,6 +67,7 @@ section {
   background-color: #f2e9dc;
   z-index: 999;
   color: black;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 #no-parallax2 {
   background-color: #000000;
@@ -113,29 +115,35 @@ section h1 {
 }
 
 .bg1::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/accord_crop.png");
   background-size: cover;
 }
 .bg2::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/fairShare.png");
   background-size: cover;
 }
 .bg3::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/characteristicsPH.png");
   background-size: cover;
 }
 .bg4::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/PHIUSgraph.png");
   background-size: cover;
 }
 .bg5::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/ph-logo.png");
   background-size: cover;
+}
+
+section h1{
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 100;
+  width: 100vw;
 }
 
 @media screen and (min-width: 768px) {
