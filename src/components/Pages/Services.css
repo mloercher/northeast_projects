@@ -1,0 +1,28 @@
+
+.services-about{
+    display: flex;
+    flex-direction: column;
+}
+.services-container{
+    background-color: #F2E9DC;
+    margin: 0;
+    width: 100vw;
+}
+
+
+.services-title {
+    font-family:'Roboto Mono', monospace;
+    font-weight: lighter;
+    color: black;
+    font-size: 5rem;
+}
+
+.services-list-item{
+    color: black;
+    font-family:'Roboto Mono', monospace;
+    font-size: 1.5rem;
+    width: 80vw;
+    text-align: center;
+    list-style: none;
+}
+

@@ -63,7 +63,7 @@ function Navbar() {
           onMouseLeave={AonMouseLeave}
         >
 
-          <div className='aboutProj'>About</div><i className='fas fa-caret-down'/>
+          <div className='aboutProj'>ABOUT</div><i className='fas fa-caret-down'/>
 
           {Adropdown && < AboutDropdown />}
         </li>
@@ -73,8 +73,8 @@ function Navbar() {
           // onMouseEnter={PonMouseEnter}
           // onMouseLeave={PonMouseLeave}
         >
-          <Link to='/projects'>
-          <div>Projects</div>
+          <Link to='/projects' style={{ textDecoration: 'none' }}>
+          <div className='aboutProj' text-decoration="none">PROJECTS</div>
           </Link>
         </li>
       </ul>

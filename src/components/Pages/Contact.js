@@ -47,6 +47,7 @@ function Contact() {
                     </p>
                     <PopupButton
                         url="https://calendly.com/jmccasusi/"
+                        variant="outline-light" classname='btn'
                         /*
                          * react-calendly uses React's Portal feature (https://reactjs.org/docs/portals.html) to render the popup modal. As a result, you'll need to
                          * specify the rootElement property to ensure that the modal is inserted into the correct domNode.

@@ -1,9 +1,7 @@
-
-
 #logo {
   height: 3rem;
   padding-left: 1rem;
-} 
+}
 
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
@@ -14,10 +12,11 @@
   font-size: 1.2rem;
 }
 
-/* .aboutProj{
-  background: white;
-} */
-
+.aboutProj{
+  font-family:'Roboto Mono', monospace;
+  font-weight: 150;
+  color: white;
+}
 
 .fa-firstdraft {
   margin-left: 0.5rem;
@@ -30,7 +29,7 @@
   grid-gap: 10px;
   list-style: none;
   text-align: center;
-  width: 50vw;
+  width: 25vw;
   justify-content: center;
   margin-right: 2rem;
 }
@@ -41,13 +40,12 @@
   height: 50px;
   color: white;
   padding: 2rem;
-
+  font-family: "Roboto Mono", monospace;
 }
-.nav-item:hover{
+.aboutProj:hover {
   color: cornflowerblue;
   border-radius: 2px;
   width: auto;
-  
 }
 
 .nav-links {
@@ -74,12 +72,15 @@
   display: none;
 }
 
-@media screen and (max-width: 960px) {
+#projNavbar {
+  text-decoration: none !important;
+}
 
+@media screen and (max-width: 960px) {
   .nav-item {
     display: flex;
     align-items: center;
-    height:300px;
+    height: 300px;
   }
   .NavbarItems {
     position: relative;

@@ -78,12 +78,12 @@
   margin-top: 5%;
 }
 
-.services-about li {
+/* .services-about li {
   margin-left: 3%;
   margin-right: 2%;
   font-size: 90%;
   padding-right: 2%;
-}
+} */
 
 @media only screen and (min-width: 280px) and (max-width: 767px) {
   .about-ne2 {

@@ -6,6 +6,8 @@
     border-right: solid black;
     width: 20rem;
     min-width: 2rem;
+    padding-top: 2rem;
+    background-color: black;
 }
 
 .btn{
