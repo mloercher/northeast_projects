@@ -8,13 +8,12 @@ import hilltopAlt from '../assets/images/hilltop/newlong.png'
 
 function HeroSection() {
   return (
-    <>
       <div className='left-panel'>
-        <Carousel fade indicators={false} autoPlay={true} interval={3000} controls={false}>
+        <Carousel fade indicators={false} autoPlay={true} interval={2500} controls={true}>
           <Carousel.Item >
             <img
-              className='d-block w-100 carousel-fade'
-              id='slider'
+              className='d-block w-100  carousel-fade'
+              // id='slider'
               src={gallatinLake}
               alt="First slide"
 
@@ -23,22 +22,21 @@ function HeroSection() {
           <Carousel.Item>
             <img
               className='d-block w-100 carousel-fade'
-              id='slider'
+              // id='slider'
               src={duboisPoster}
               alt="Second slide"
             />
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className='d-block w-100 carousel-fade'
-              id='slider'
+              className='d-block w-100  carousel-fade'
+              // id='slider'
               src={hilltopAlt}
               alt="Third slide"
             />
           </Carousel.Item>
         </Carousel>
       </div>
-    </>
   )
 }
 

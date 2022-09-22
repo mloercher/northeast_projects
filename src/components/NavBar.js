@@ -9,10 +9,10 @@ function Navbar() {
   const [click, setClick] = useState(false);
   const [Adropdown, setADropdown] = useState(false);
 
-  const [Pdropdown, setPDropdown] = useState(false);
+  // const [Pdropdown, setPDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
-  const closeMobileMenu = () => setClick(false);
+ const closeMobileMenu = () => setClick(false);
 
 
   // when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
@@ -32,21 +32,22 @@ function Navbar() {
     }
   };
   //**DUPLICATE FOR PROJS */ when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
-  const PonMouseEnter = () => {
-    if (window.innerWidth < 960) {
-      setPDropdown(false);
-    } else {
-      setPDropdown(true);
-    }
-  };
-  //**DUPLICATE FOR PROJS  when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
-  const PonMouseLeave = () => {
-    if (window.innerWidth < 960) {
-      setPDropdown(false);
-    } else {
-      setPDropdown(false);
-    }
-  };
+   //**DUPLICATE FOR PROJS  when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
+
+  // const PonMouseEnter = () => {
+  //   if (window.innerWidth < 960) {
+  //     setPDropdown(false);
+  //   } else {
+  //     setPDropdown(true);
+  //   }
+  // };
+  // const PonMouseLeave = () => {
+  //   if (window.innerWidth < 960) {
+  //     setPDropdown(false);
+  //   } else {
+  //     setPDropdown(false);
+  //   }
+  // };
 
   return (
     <div className='navbar'>
@@ -74,7 +75,7 @@ function Navbar() {
           // onMouseLeave={PonMouseLeave}
         >
           <Link to='/projects' style={{ textDecoration: 'none' }}>
-          <div className='aboutProj' text-decoration="none">PROJECTS</div>
+          <div className='aboutProj' textDecoration="none">PROJECTS</div>
           </Link>
         </li>
       </ul>
