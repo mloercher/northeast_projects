@@ -69,7 +69,7 @@ function PassiveHouse() {
           Unlike many other 'green' certifications, the Passive House standard is performance driven, meaning you either pass or fail based on target criteria developed for your specific project.
         </p>
       </section>
-      <section className="parallax bg2" >
+      <section className="parallax bg2" style={{margin:0}}>
         <h1>Fair Share Principle</h1>
       </section>
       <section id="no-parallax2">

@@ -26,9 +26,17 @@
   object-fit: cover;
 }
 
-.carousel-item img {
+
+/* .carousel-item img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
+} */
+
+/* adjusts size of carousel images */
+.carousel-item :active {
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
 }
 
@@ -43,14 +51,13 @@
   padding-left: 3px;
 }
 
-.text span {
-  color: green;
-  font-weight: 100;
-  width: 25px;
-}
 
 h1 {
   z-index: 1;
+}
+
+.carousel-img{
+  height: 100%;
 }
 
 

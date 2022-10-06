@@ -13,6 +13,7 @@
   background-color: white;
   padding-bottom: 5.2%;
   width:90vw;
+  background: #CED116;
 }
 
 .proj-img {
@@ -78,6 +79,7 @@
 #card {
   width: 100%;
   padding: 0;
+  
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/

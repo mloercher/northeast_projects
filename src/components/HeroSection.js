@@ -12,7 +12,7 @@ function HeroSection() {
         <Carousel fade indicators={false} autoPlay={true} interval={2500} controls={true}>
           <Carousel.Item >
             <img
-              className='d-block w-100  carousel-fade'
+              className='carousel-img d-block w-100  carousel-fade'
               // id='slider'
               src={gallatinLake}
               alt="First slide"
@@ -21,7 +21,7 @@ function HeroSection() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className='d-block w-100 carousel-fade'
+              className='carousel-img d-block w-100 carousel-fade'
               // id='slider'
               src={duboisPoster}
               alt="Second slide"
@@ -29,7 +29,7 @@ function HeroSection() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className='d-block w-100  carousel-fade'
+              className='carousel-img d-block w-100  carousel-fade'
               // id='slider'
               src={hilltopAlt}
               alt="Third slide"

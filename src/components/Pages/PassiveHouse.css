@@ -49,6 +49,7 @@ body {
 main {
   height: 100vh;
   overflow-x: hidden;
+  /* look into functionality of below  */
   overflow-y: auto;
   perspective: 2px;
 }
@@ -67,7 +68,7 @@ section {
   background-color: #f2e9dc;
   z-index: 999;
   color: black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #no-parallax2 {
   background-color: #000000;
@@ -86,9 +87,13 @@ section {
 }
 #no-parallax5 {
   background-color: #000000;
-
+height: 70%;
   z-index: 999;
   color: black;
+}
+
+.parallax-bg1{
+  height: 100vh;
 }
 
 section h1 {
@@ -115,29 +120,34 @@ section h1 {
 }
 
 .bg1::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("/src/assets/images/accord_crop.png");
   background-size: cover;
+  height: 100vh;
 }
 .bg2::after {
   background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/fairShare.png");
   background-size: cover;
+  height: 100vh;
 }
 .bg3::after {
   background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/characteristicsPH.png");
   background-size: cover;
+  height: 100vh;
 }
 .bg4::after {
   background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/PHIUSgraph.png");
   background-size: cover;
+  height: 100vh;
 }
 .bg5::after {
   background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
     url("/src/assets/images/ph-logo.png");
   background-size: cover;
+  height: 100vh;
 }
 
 section h1{

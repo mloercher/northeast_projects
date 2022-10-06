@@ -3,14 +3,12 @@ import Buttons from '../Buttons';
 import Cards from '../Cards'
 import project_data from '../project_data'
 import './Projects.css'
-// import { Container, Row, Col } from 'react-bootstrap'
 
 
-const allCategories = ['All', ...new Set(project_data.map(project=> project.category))];
 
 function Projects() {
   const [projectMenuItem, setProjectMenuItem] = useState(project_data)
-  const [buttons, setButtons] = useState([])
+  // const [buttons, setButtons] = useState('')
 
   const filter = (button) => {
 
@@ -19,14 +17,15 @@ function Projects() {
       return;
     }
 
-    const filteredData = project_data.filter(project => project.type === button)
-    setProjectMenuItem(filteredData)
+    const filteredData = project_data.filter(project =>  button === project.type)
     console.log(button)
+    setProjectMenuItem(filteredData)
+    
   }
   return (
 
     <div className='project-main'>
-      <Buttons button={buttons} filter={filter} />
+      <Buttons filter={filter} />
       <Cards projectMenuItem={projectMenuItem} />
     </div>
 
