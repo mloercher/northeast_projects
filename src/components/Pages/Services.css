@@ -7,6 +7,7 @@
 }
 .services-container{
     background-color: #F2E9DC;
+    background-color: black;
     margin: 0;
     width: 100vw;
 }
@@ -19,12 +20,12 @@
 .services-title {
     font-family:'Roboto Mono', monospace;
     font-weight: lighter;
-    color: black;
+    color: white;
     font-size: 5rem;
 }
 
 .services-list-item{
-    color: black;
+    color: white;
     font-family:'Roboto Mono', monospace;
     font-size: 1.5rem;
     width: 50vw;
@@ -32,3 +33,7 @@
     list-style: none;
 }
 
+#building{
+    color: white;
+    size:15rem;
+}
