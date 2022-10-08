@@ -57,7 +57,7 @@ main {
 section {
   transform-style: preserve-3d;
   position: relative;
-  height: 100vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,7 +120,7 @@ section h1 {
 }
 
 .bg1::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("/src/assets/images/accord_crop.png");
   background-size: cover;
   height: 100vh;
