@@ -120,31 +120,31 @@ section h1 {
 }
 
 .bg1::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/src/assets/images/accord_crop.png");
-  background-size: cover;
+  background-size: contain;
   height: 100vh;
 }
 .bg2::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/src/assets/images/fairShare.png");
   background-size: cover;
   height: 100vh;
 }
 .bg3::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/src/assets/images/characteristicsPH.png");
   background-size: cover;
   height: 100vh;
 }
 .bg4::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/src/assets/images/PHIUSgraph.png");
   background-size: cover;
   height: 100vh;
 }
 .bg5::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.74), rgba(0, 0, 0, 0.74)),
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/src/assets/images/ph-logo.png");
   background-size: cover;
   height: 100vh;

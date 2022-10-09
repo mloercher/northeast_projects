@@ -52,10 +52,16 @@ function Services() {
     return (
         <div className='services-outside-container'>
             <div className='services-intro'>
-                <motion.h1 animate={{ y: 0 }} initial={{y:-20}}
-                transition={{type: "spring", stiffness: 100}} id='services-heading'>SERVICES</motion.h1>
-                <motion.p  animate={{ y: 0 }} initial={{y:20}}
-                transition={{stiffness: 100}}id='ne-mission'>Northeast Projects supports designers, builders and homeowners to complete their high performance projects. Before investing in training or losing valuable time and money in mistakes, take advantage of these valuable design support services.</motion.p>
+                <div className='services-text'>
+                    <motion.h1
+                        animate={{ y: 0 }}
+                        initial={{ y: -20 }}
+                        transition={{ type: "spring", stiffness: 100 }} id='services-heading'>
+                        SERVICES</motion.h1>
+                    <br></br>
+                    <motion.p animate={{ y: 0 }} initial={{ y: 20 }}
+                        transition={{ stiffness: 100 }} id='ne-mission'>Northeast Projects supports designers, builders and homeowners to complete their high performance projects. Before investing in training or losing valuable time and money in mistakes, take advantage of these valuable design support services.</motion.p>
+                </div>
             </div>
             <div className='services-container'>
                 <div className='services-about'>

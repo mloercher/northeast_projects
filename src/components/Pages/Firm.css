@@ -1,10 +1,69 @@
 .about-container {
-  display: flex;
-  flex-direction: column;
   background-color: white;
+  height: 100vh;
 }
 
-.about-ne2 {
+#portrait {
+  height: 25rem;
+  border-radius: 50%;
+}
+.firm-intro {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8) 10%,
+      rgba(0, 0, 0, 0.75) 40%,
+      rgba(0, 0, 0, 0.3) 80%,
+      rgba(0, 0, 0, 0.2) 20%
+    ),
+    url("/src/assets/images/livingRoom.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 78vh;
+  width: 100%;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.firm-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.firm-title {
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  color: white;
+  font-size: 3rem;
+  /* padding-top: 5rem; */
+}
+
+.firm-list-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.5rem;
+  width: 80vw;
+  text-align: center;
+  list-style: none;
+}
+
+.firm-container {
+  background-color: #f2e9dc;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  margin: 0;
+  width: 100vw;
+}
+
+#firm-heading {
+  height: 20rem;
+  width: 45rem;
+}
+
+/* .about-ne2 {
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -14,7 +73,6 @@
   font-size: 140%;
   width: 50%;
   font-weight: 100;
-  /* padding-top: .5%; */
   padding-left: 1%;
   padding-right: 1%;
   margin-bottom: 0%;
@@ -23,66 +81,14 @@
 .about-ne2 p span {
   font-weight: bold;
   font-size: 110%;
-}
+} */
 
-#friend {
+/* #friend {
   width: 40%;
   height: 90%;
   border: solid black;
   margin-top: 1%;
   margin-left: 2%;
-}
-
-.services-container {
-  margin-top: 1%;
-  display: flex;
-  justify-content: center;
-  height: 80%;
-  /* flex-direction: column; */
-}
-
-.services-about {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 55%;
-  padding-top: 3%;
-}
-
-.services-about li span {
-  font-weight: bold;
-}
-
-#services-next {
-  width: 94%;
-  height: 30%;
-  border: solid black;
-  margin-top: 3%;
-  margin-right: 1%;
-}
-
-.services-about h2 {
-  font-weight: 300;
-}
-
-.service-imgs {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
-
-#passive-logo {
-  width: 94%;
-  height: 60%;
-  border: solid black;
-  margin-top: 5%;
-}
-
-/* .services-about li {
-  margin-left: 3%;
-  margin-right: 2%;
-  font-size: 90%;
-  padding-right: 2%;
 } */
 
 @media only screen and (min-width: 280px) and (max-width: 767px) {

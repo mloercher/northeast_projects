@@ -17,10 +17,8 @@
 }
 
 .proj-img {
-  height: 10rem;
-  width: 100%;
+  height: 12rem;
   object-fit: cover;
-  border: solid gray;
 }
 
 .proj-title {
@@ -38,7 +36,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 12rem;
   background: rgba(0, 0, 0, 0.6);
   color: white;
   display: flex;
@@ -48,6 +46,7 @@
   opacity: 0;
   transition: opacity 0.3s;
   font-weight: 100;
+  border-radius: 5px;
 }
 
 .img-overlay > * {
@@ -78,8 +77,8 @@
 
 #card {
   width: 100%;
-  padding: 0;
-  
+  padding: 0 !important;
+  height: 12rem;
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/

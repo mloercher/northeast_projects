@@ -24,9 +24,12 @@
   overflow: hidden;
   width: 100%;
   object-fit: cover;
-  
 }
 
+#h-img {
+  height: 100vh;
+  width: 100vw;
+}
 
 /* .carousel-item img {
   width: 100%;
@@ -52,15 +55,13 @@
   padding-left: 3px;
 }
 
-
 h1 {
   z-index: 1;
 }
 
-.carousel-img{
+.carousel-img {
   height: 100%;
 }
-
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
@@ -68,10 +69,15 @@ h1 {
   width: 3rem;
   height: 3rem;
 }
+
+.carousel-overlay {
+  background: linear-gradient(90deg, rgb(0,0,0,0.9) 50%, rgb(0,0,0,0.9)  100%);
+  width: 100vw;
+  height: 100vh;
+}
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .carousel {
- 
     box-shadow: 0.75px 0.75px 0px 0px;
     height: 100%;
     overflow: hidden;
@@ -84,5 +90,4 @@ h1 {
     object-fit: cover;
     object-position: center;
   }
-
 }

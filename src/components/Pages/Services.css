@@ -6,7 +6,7 @@
 }
 .services-container {
   background-color: #f2e9dc;
-  background-color: black;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   margin: 0;
   width: 100vw;
 }
@@ -20,6 +20,7 @@
   font-weight: lighter;
   color: white;
   font-size: 3rem;
+  /* padding-top: 5rem; */
 }
 
 #services-heading {
@@ -48,11 +49,6 @@
   /* width: 60rem; */
 }
 
-#building {
-  color: white;
-  size: 15rem;
-}
-
 .border {
   width: 200px;
   align-items: center;
@@ -65,27 +61,44 @@
 } */
 
 .services-intro {
-  background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.6)),
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.93) 10%,
+      rgba(0, 0, 0, 0.85) 40%,
+      rgba(0, 0, 0, 0.1) 60%,
+      rgba(0, 0, 0, 0.1) 20%
+    ),
     url("/src/assets/images/heroCROP.png");
-    object-fit: contain;
-  height: 80vh;
-  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 78vh;
+  width: 100%;
+  /* display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center; */
+}
+
+.services-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 40%;
+  height: 100%;
+  padding-left: 4rem;
 }
 
-#ne-mission{
+#ne-mission {
   color: white;
   font-family: "Roboto Mono", monospace;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-align: center;
-  width: 50%;
   margin: 0;
   padding: 0;
 }
 
-.services-outside-container{
-    width: 100vw;
-}
+/* .services-outside-container {
+  width: 100vw;
+} */
