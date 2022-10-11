@@ -1,9 +1,9 @@
 export const AboutMenuItems = [
-    {
-        title: "Firm",
-        path: '/firm',
-        cName: 'dropdown-link'
-    },
+    // {
+    //     title: "Firm",
+    //     path: '/firm',
+    //     cName: 'dropdown-link'
+    // },
     {
         title: "Services",
         path: '/services',

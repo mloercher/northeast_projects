@@ -1,9 +1,9 @@
-
 #whatIsP {
   width: 60%;
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'Roboto Mono', monospace;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #fairP {
@@ -13,6 +13,7 @@
   margin-left: 1.4rem;
   font-weight: 400;
   color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #modelAbout {
@@ -21,6 +22,7 @@
   margin-top: 1.4rem;
   margin-left: 1.4rem;
   font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #row4p {
@@ -30,6 +32,7 @@
   margin-left: 1.4rem;
   font-size: 1.2rem;
   font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 #phiusAbout {
@@ -39,6 +42,12 @@
   margin-left: 1.4rem;
   color: white;
   font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#phius-link{
+  text-decoration: none;
+  color: white;
 }
 
 /* parallax styling */
@@ -57,7 +66,7 @@ main {
 section {
   transform-style: preserve-3d;
   position: relative;
-  height: 70vh;
+  height: 78vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,10 +74,9 @@ section {
 }
 
 #no-parallax1 {
-  background-color: #f2e9dc;
+  background-color: #010e12;
   z-index: 999;
   color: black;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #no-parallax2 {
   background-color: #000000;
@@ -76,23 +84,26 @@ section {
   color: black;
 }
 #no-parallax3 {
-  background-color: #f06c37;
+  background-color: #021108;
   z-index: 999;
   color: black;
 }
 #no-parallax4 {
-  background-color: #ced116;
+  background-color: #021d1e;
   z-index: 999;
   color: black;
 }
 #no-parallax5 {
   background-color: #000000;
-height: 70%;
+  height: 70%;
   z-index: 999;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.parallax-bg1{
+.parallax-bg1 {
   height: 100vh;
 }
 
@@ -120,7 +131,11 @@ section h1 {
 }
 
 .bg1::after {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.8) 80%,
+      rgba(0, 0, 0, 0.5) 20%,
+      rgba(0, 0, 0, 0.4) 20%
+    ),
     url("/src/assets/images/accord_crop.png");
   background-size: contain;
   height: 100vh;
@@ -150,10 +165,14 @@ section h1 {
   height: 100vh;
 }
 
-section h1{
-  font-family: 'Roboto Mono', monospace;
+section h1 {
+  font-family: "Roboto Mono", monospace;
   font-weight: 100;
   width: 100vw;
+}
+
+.services-heading {
+  font-family: "Roboto", sans-serif;
 }
 
 @media screen and (min-width: 768px) {

@@ -7,7 +7,7 @@ import logo2 from '../assets/images/logo2.png'
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [Adropdown, setADropdown] = useState(false);
+  const [aDropdown, setADropdown] = useState(false);
 
   // const [Pdropdown, setPDropdown] = useState(false);
 
@@ -31,23 +31,6 @@ function Navbar() {
       setADropdown(false);
     }
   };
-  //**DUPLICATE FOR PROJS */ when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
-   //**DUPLICATE FOR PROJS  when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
-
-  // const PonMouseEnter = () => {
-  //   if (window.innerWidth < 960) {
-  //     setPDropdown(false);
-  //   } else {
-  //     setPDropdown(true);
-  //   }
-  // };
-  // const PonMouseLeave = () => {
-  //   if (window.innerWidth < 960) {
-  //     setPDropdown(false);
-  //   } else {
-  //     setPDropdown(false);
-  //   }
-  // };
 
   return (
     <div className='navbar'>
@@ -63,10 +46,8 @@ function Navbar() {
           onMouseEnter={AonMouseEnter}
           onMouseLeave={AonMouseLeave}
         >
-
           <div className='aboutProj'>ABOUT</div><i className='fas fa-caret-down'/>
-
-          {Adropdown && < AboutDropdown />}
+          {aDropdown && < AboutDropdown />}
         </li>
         
         <li

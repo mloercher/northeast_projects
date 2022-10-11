@@ -9,6 +9,10 @@
   transform: scale(1.05);
 }
 
+#card-main{
+  height: 100vh;
+}
+
 .container-fluid {
   background-color: white;
   padding-bottom: 5.2%;

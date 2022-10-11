@@ -1,27 +1,52 @@
 .contact-container {
-  display: flex;
+  background-color: #f2e9dc;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  margin: 0;
   width: 100vw;
-  height: 91vh;
-  flex-direction: column;
-  align-items: center;
 }
 
-.top-container {
-  height: 55vh;
-  width: 100vw;
+.contact-intro {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.93) 10%,
+      rgba(0, 0, 0, 0.85) 40%,
+      rgba(0, 0, 0, 0.1) 60%,
+      rgba(0, 0, 0, 0.1) 20%
+    ),
+    url("/src/assets/images/newContact.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center top;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  height: 78vh;
+  width: 100%;
 }
 
-.bottom-container {
-  height: 36vh;
+.contact-text {
   display: flex;
-  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 100%;
+  padding-left: 4rem;
+}
+
+#contact-heading {
+  padding-top: 1rem;
+  font-family: "Roboto Mono", monospace;
+  font-weight: lighter;
+  color: white;
+  font-size: 4rem;
+}
+
+.contact-p {
+  color: white;
+}
+
+.contact-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 #bg {
@@ -42,7 +67,7 @@
 }
 
 .c-title {
-  font-size: 45px;
+  /* font-size: 45px; */
   font-weight: 100;
 }
 
@@ -93,9 +118,8 @@ button {
   font-size: 80%;
 }
 
-
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
-@media only screen and (min-device-width: 412px) and (max-device-width:1200px){
+@media only screen and (min-device-width: 412px) and (max-device-width: 1200px) {
   .contact-container {
     display: flex;
     width: 100vw;
@@ -105,9 +129,9 @@ button {
     align-items: center;
     /* justify-content: center; */
   }
- 
+
   .top-container {
-    height:40vh;
+    height: 40vh;
     width: 100vw;
     /* background-image: url(../../../public/images/contact-bg.png); */
     background-repeat: no-repeat;
@@ -165,8 +189,8 @@ button {
     width: 25px;
   }
 
-  .services{
-      width: 95%;
+  .services {
+    width: 95%;
   }
 
   .services p {
@@ -181,13 +205,13 @@ button {
     margin-top: 5%;
   }
 
-  #friend{
+  #friend {
     margin-top: 0%;
   }
 }
 
 /* Iphone SE + friends */
-@media only screen and (max-device-width: 393px) and (min-device-width: 270px ) {
+@media only screen and (max-device-width: 393px) and (min-device-width: 270px) {
   .contact-container {
     display: flex;
     width: 100vw;
@@ -197,9 +221,9 @@ button {
     align-items: center;
     /* justify-content: center; */
   }
- 
+
   .top-container {
-    height:40vh;
+    height: 40vh;
     width: 100vw;
     /* background-image: url(../../../public/images/contact-bg.png); */
     background-repeat: no-repeat;
@@ -257,8 +281,8 @@ button {
     width: 25px;
   }
 
-  .services{
-      width: 95%;
+  .services {
+    width: 95%;
   }
 
   .services p {
@@ -275,7 +299,7 @@ button {
 }
 
 /* Galaxy Fold */
-@media only screen and (max-device-width: 281px){
+@media only screen and (max-device-width: 281px) {
   .contact-container {
     display: flex;
     width: 100vw;
@@ -285,9 +309,9 @@ button {
     align-items: center;
     /* justify-content: center; */
   }
- 
+
   .top-container {
-    height:40vh;
+    height: 40vh;
     width: 100vw;
     /* background-image: url(../../../public/images/contact-bg.png); */
     background-repeat: no-repeat;
@@ -345,8 +369,8 @@ button {
     width: 25px;
   }
 
-  .services{
-      width: 95%;
+  .services {
+    width: 95%;
   }
 
   .services p {

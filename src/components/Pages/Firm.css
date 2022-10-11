@@ -31,8 +31,8 @@
 }
 
 .firm-title {
-  font-family: "Roboto Mono", monospace;
-  font-weight: lighter;
+  font-family: 'Roboto', sans-serif;
+  font-weight: light;
   color: white;
   font-size: 3rem;
   /* padding-top: 5rem; */
@@ -61,6 +61,11 @@
 #firm-heading {
   height: 20rem;
   width: 45rem;
+}
+
+.firmP{
+font-family: 'Roboto Condensed', sans-serif;
+color: white;
 }
 
 /* .about-ne2 {

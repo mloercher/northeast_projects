@@ -1,3 +1,35 @@
+.hero-main{
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.6) 10%,
+    rgba(0, 0, 0, 0.5) 40%,
+    rgba(0, 0, 0, 0.1) 60%,
+    rgba(0, 0, 0, 0.1) 20%
+  ),
+  url('../assets/images/newlake.png');
+background-size: cover;
+background-position: center;
+padding: 0;
+background-repeat: no-repeat;
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content:center ;
+align-items: flex-start;
+}
+
+.Northeast-title{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  opacity: 0.5;
+  font-size: 6rem;
+  padding-top: 5rem;
+}
+.hero-text{
+
+}
+
+
+
 .hero-container {
   height: 100vh;
   display: flex;
@@ -63,6 +95,7 @@ h1 {
   height: 100%;
 }
 
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   /* Use to adjust size of icons */
@@ -71,10 +104,11 @@ h1 {
 }
 
 .carousel-overlay {
-  background: linear-gradient(90deg, rgb(0,0,0,0.9) 50%, rgb(0,0,0,0.9)  100%);
   width: 100vw;
   height: 100vh;
+  background-image: url('../assets/images/hilltop/newlong.png')linear-gradient rgba(0,0,0,0.8);
 }
+
 /* Portrait */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
   .carousel {

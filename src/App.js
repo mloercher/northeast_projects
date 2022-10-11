@@ -37,9 +37,9 @@ function App() {
       <NavBar />
       <div className="container-wrap">
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path='/' element={<Firm />} />
           <Route exact path='/northeast_projects' element={<Home />}/>
-          <Route exact path='/firm' element={<Firm />} />
+          {/* <Route exact path='/firm' element={<Firm />} /> */}
           <Route exact path='/services' element={<Services />} />
           <Route exact path='/projects' element={<Projects />} />
           <Route exact path='/passiveHouse' element={<PassiveHouse />} />

@@ -49,6 +49,14 @@ const project_data = [
     img: require('../assets/images/pr/whyNot.jpg'),
     id: '6',
     type: 'mult-family'
+  },
+  {
+    link: '/pr',
+    title: 'PR Passive House',
+    text: '2018 PHIUS Design Competition Honorable Mention: Residential',
+    img: require('../assets/images/pr/whyNot.jpg'),
+    id: '6',
+    type: 'mult-family'
   }
   
 ]

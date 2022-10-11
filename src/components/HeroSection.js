@@ -8,37 +8,45 @@ import hilltopAlt from '../assets/images/hilltop/newlong.png'
 
 function HeroSection() {
   return (
-    <div className='left-panel'>
-      <div className='carousel-overlay'>
-        <Carousel fade indicators={false} autoPlay={true} interval={2500} controls={true}>
-          <Carousel.Item >
-            <img id="h-img"
-              className='carousel-img d-block w-100  carousel-fade'
-              // id='slider'
-              src={gallatinLake}
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img id="h-img"
-              className='carousel-img d-block w-100 carousel-fade'
-              // id='slider'
-              src={duboisPoster}
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img id="h-img"
-              className='carousel-img d-block w-100  carousel-fade'
-              // id='slider'
-              src={hilltopAlt}
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+    <div className='hero-main'>
+      <div className='hero-text'>
+        <h1 className='Northeast-title' alt='title'>NORTHEAST PROJECTS</h1>
       </div>
     </div>
+ 
   )
 }
 
 export default HeroSection;
+
+
+{/* <div className='left-panel'>
+<div className='carousel-overlay'>
+  <Carousel fade indicators={false} autoPlay={true} interval={2500} controls={true}>
+    <Carousel.Item >
+      <img id="h-img"
+        className='carousel-img d-block w-100  carousel-fade'
+        // id='slider'
+        src={gallatinLake}
+        alt="First slide"
+      />
+    </Carousel.Item>
+    <Carousel.Item>
+      <img id="h-img"
+        className='carousel-img d-block w-100 carousel-fade'
+        // id='slider'
+        src={duboisPoster}
+        alt="Second slide"
+      />
+    </Carousel.Item>
+    <Carousel.Item>
+      <img id="h-img"
+        className='carousel-img d-block w-100  carousel-fade'
+        // id='slider'
+        src={hilltopAlt}
+        alt="Third slide"
+      />
+    </Carousel.Item>
+  </Carousel>
+</div>
+</div> */}

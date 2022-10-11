@@ -34,7 +34,7 @@ function Firm() {
               {/* <img src={speed} alt='meter' height='80rem'></img> */}
               <br></br>
               <br></br>
-              <p className='servicesP'>Northeast Projects is one of the lead Passive House Consultants in the Northeast and can help deliver your high performance project within your needs, on time and on budget. Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project. Advanced energy modeling simulates the performance of your project before breaking ground, eliminating guess work, over-estimation and fine-tuning your project to meet all its intended goals.</p>
+              <p className='firmP'>Northeast Projects is one of the lead Passive House Consultants in the Northeast and can help deliver your high performance project within your needs, on time and on budget. Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project. Advanced energy modeling simulates the performance of your project before breaking ground, eliminating guess work, over-estimation and fine-tuning your project to meet all its intended goals.</p>
               <br></br>
               <br></br>
               <div className='border'></div>
@@ -51,7 +51,7 @@ function Firm() {
               <br></br>
               <img id="portrait" src={JL} alt='portrait' height='80rem'></img>
               <br></br>
-              <p className='servicesP'>John is a Professor of Architecture, CPHC instructor for the Passive House Institute U.S. and owner of Northeast Projects LLC. He is a Certified Passive House Consultant and holds a masters of architecture from Parsons the New School for Design. His firm, Northeast Projects, specializes in Passive House design, high performance building envelopes and advanced energy modeling. It serves a diverse range of projects from single-family and multi-family residential, commercial, new construction and retrofits.</p>
+              <p className='firmP'>John is a Professor of Architecture, CPHC instructor for the Passive House Institute U.S. and owner of Northeast Projects LLC. He is a Certified Passive House Consultant and holds a masters of architecture from Parsons the New School for Design. His firm, Northeast Projects, specializes in Passive House design, high performance building envelopes and advanced energy modeling. It serves a diverse range of projects from single-family and multi-family residential, commercial, new construction and retrofits.</p>
             </motion.li>
           </ul>
         </div>

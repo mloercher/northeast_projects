@@ -4,7 +4,8 @@ import fairShare from '../../assets/images/fairShare.png'
 import characteristics from '../../assets/images/characteristicsPH.png'
 import phiusgraph from '../../assets/images/PHIUSgraph.png'
 import phAlliance from '../../assets/images/phAlliance.png'
-import { motion} from 'framer-motion'
+import phiusLogo from '../../assets/images/phiusLogo.png'
+import { motion } from 'framer-motion'
 
 function PassiveHouse() {
   return (
@@ -13,7 +14,7 @@ function PassiveHouse() {
         <motion.h1
           animate={{ y: 0 }}
           initial={{ y: -20 }}
-          transition={{ type: "spring", stiffness: 100 }} id='services-heading'>What is Passive House?</motion.h1>
+          transition={{ type: "spring", stiffness: 100 }} className='services-heading'>WHAT IS PASSIVE HOUSE?</motion.h1>
       </section>
       <section id="no-parallax1">
         <p id='whatIsP'>
@@ -23,7 +24,7 @@ function PassiveHouse() {
         </p>
       </section>
       <section className="parallax bg2" style={{ margin: 0 }}>
-        <h1>Fair Share Principle</h1>
+        <h1 className='services-heading'>FAIR SHARE PRINCIPLE</h1>
       </section>
       <section id="no-parallax2">
         <p id='fairP'>
@@ -31,7 +32,7 @@ function PassiveHouse() {
         </p>
       </section>
       <section className="parallax bg3">
-        <h1>Characteristics of a Passive House</h1>
+        <h1 className='services-heading'>CHARACTERISTICS OF A PASSIVE HOUSE</h1>
       </section>
       <section id="no-parallax3">
         <p id='fairP'>
@@ -40,9 +41,9 @@ function PassiveHouse() {
         </p>
       </section>
       <section className="parallax bg4">
-        <h1>PHIUS Certification</h1>
+        <h1 className='services-heading'>PHIUS CERTIFICATION</h1>
       </section>
-      <section id="no-parallax4">
+      <section id="no-parallax4">¸
         <p id='fairP'>
           The PHIUS+ Certification Program is the leading passive building certification program in North America. It is the only passive building certification that combines a thorough passive house design verification protocol with a stringent Quality Assurance/Quality Control (QA/QC) program performed onsite by highly skilled and specialized PHIUS+ Raters and Verifiers.
           The benefits of PHIUS+ certification include:
@@ -55,11 +56,12 @@ function PassiveHouse() {
         </p>
       </section>
       <section className="parallax bg5">
-        <h1>Passive House Alliance</h1>
+        <h1 className='services-heading'>PASSIVE HOUSE ALLIANCE</h1>
       </section>
-      <section id="no-parallax5" F>
+      <section id="no-parallax5" >
+        <a href="https://www.pha-hv.org/" target="_blank" ><img src={phiusLogo} alt='passive house institute logo'></img></a>
         <p id='phiusAbout'>
-          <a href="https://www.pha-hv.org/" target="_blank" >Passive House Alliance - Hudson Valley (PHA-HV)</a> is the exclusive local chapter of the Passive House Alliance U.S. (PHAUS) in the Northeast region. It provides a robust membership-based network with over 1000 members throughout North America and provides training, resources, marketing, and advocacy support to its members throughout New York, New Jersey, Connecticut, Pennsylvania and New England.
+          <a href="https://www.pha-hv.org/" id='phius-link'target="_blank" >Passive House Alliance - Hudson Valley (PHA-HV)</a> is the exclusive local chapter of the Passive House Alliance U.S. (PHAUS) in the Northeast region. It provides a robust membership-based network with over 1000 members throughout North America and provides training, resources, marketing, and advocacy support to its members throughout New York, New Jersey, Connecticut, Pennsylvania and New England.
         </p>
       </section>
     </main>
