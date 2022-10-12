@@ -77,21 +77,37 @@ section {
   background-color: #010e12;
   z-index: 999;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 #no-parallax2 {
   background-color: #000000;
   z-index: 999;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 #no-parallax3 {
   background-color: #021108;
   z-index: 999;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 #no-parallax4 {
   background-color: #021d1e;
   z-index: 999;
   color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 #no-parallax5 {
   background-color: #000000;
@@ -101,6 +117,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .parallax-bg1 {
@@ -166,13 +183,13 @@ section h1 {
 }
 
 section h1 {
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto", sans-serif;
   font-weight: 100;
   width: 100vw;
 }
 
 .services-heading {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 @media screen and (min-width: 768px) {

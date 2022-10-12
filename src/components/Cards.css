@@ -1,9 +1,9 @@
-.rounded-0 {
+/* .rounded-0 {
   color: black;
   width: 100%;
   height: 100%;
   text-align: center;
-}
+} */
 
 .rounded-0:hover {
   transform: scale(1.05);
@@ -11,17 +11,22 @@
 
 #card-main{
   height: 100vh;
+  overflow: scroll;
+  width: 100vw;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
-.container-fluid {
+/* .container-fluid {
   background-color: white;
   padding-bottom: 5.2%;
   width:90vw;
-  background: #CED116;
-}
+  background: whitesmoke;
+} */
 
 .proj-img {
-  height: 12rem;
+  height: 15rem;
   object-fit: cover;
 }
 
@@ -80,9 +85,8 @@
 }
 
 #card {
-  width: 100%;
-  padding: 0 !important;
-  height: 12rem;
+  width:33rem;
+  height: 15rem;
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/

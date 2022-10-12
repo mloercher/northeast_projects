@@ -38,7 +38,7 @@ function App() {
       <div className="container-wrap">
         <Routes>
           <Route exact path='/' element={<Firm />} />
-          <Route exact path='/northeast_projects' element={<Home />}/>
+          <Route exact path='/northeast_projects' element={<Firm />}/>
           {/* <Route exact path='/firm' element={<Firm />} /> */}
           <Route exact path='/services' element={<Services />} />
           <Route exact path='/projects' element={<Projects />} />
