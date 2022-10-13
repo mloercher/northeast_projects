@@ -28,7 +28,7 @@ function Firm() {
             <br></br>
             <li className="firm-list-item"
               initial="hidden"
-              whileInView={'visible'}
+              whileinview={'visible'}
               viewport={{ once: true }}>
               <div className='border'></div>
               {/* <img src={speed} alt='meter' height='80rem'></img> */}
@@ -44,7 +44,7 @@ function Firm() {
             <br></br>
             <motion.li className="services-list-item"
               initial="hidden"
-              whileInView={'visible'}
+              whileinview={'visible'}
 
               viewport={{ once: true }}>
               <h3 className='firm-title'>John Loercher</h3>

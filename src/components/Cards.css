@@ -26,8 +26,10 @@
 } */
 
 .proj-img {
-  height: 15rem;
+  height: 100%;
   object-fit: cover;
+  width: 100%;
+  
 }
 
 .proj-title {
@@ -45,7 +47,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 12rem;
+  height: 16rem;
   background: rgba(0, 0, 0, 0.6);
   color: white;
   display: flex;
@@ -56,6 +58,7 @@
   transition: opacity 0.3s;
   font-weight: 100;
   border-radius: 5px;
+  
 }
 
 .img-overlay > * {
@@ -65,28 +68,33 @@
 
 .img-overlay:hover {
   opacity: 1;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* means every direct child of... */
 
 .img-overlay:hover > * {
-  transform: translateY(0);
+  /* transform: translateY(0); */
   transition: 0.25s;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .img-title {
   font-size: 2em;
-  /* font-weight: bold; */
+  font-family: "Roboto Condensed", sans-serif;
 }
-
+/* 
 .img-description {
   font-size: 1.25 em;
   margin-top: 0.25em;
-}
+} */
 
 #card {
   width:33rem;
-  height: 15rem;
+  height: 17rem;
+  background-color: black;
+  box-shadow: black 2,5;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/

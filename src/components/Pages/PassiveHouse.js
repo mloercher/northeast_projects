@@ -52,6 +52,8 @@ function PassiveHouse() {
       <section id="no-parallax4">
         <p id='fairP'>
           The PHIUS+ Certification Program is the leading passive building certification program in North America. It is the only passive building certification that combines a thorough passive house design verification protocol with a stringent Quality Assurance/Quality Control (QA/QC) program performed onsite by highly skilled and specialized PHIUS+ Raters and Verifiers.
+          </p>
+          <p id='fairP'>
           The benefits of PHIUS+ certification include:
           PHIUS+ 2015 Climate-Specific & Cost-Optimized Performance Metrics*
           Comprehensive Design and Energy Model Review
