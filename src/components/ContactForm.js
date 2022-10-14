@@ -15,12 +15,12 @@ export const ContactForm = () => {
     // email validation
 
     const schema = yup.object().shape({
-        name: yup.string().required().min(1),
-        email: yup.string().required().email(),
-        message: yup.string().required()
+        name: yup.string().required('Name is required').min(1),
+        email: yup.string().required('Email is required').email('Valid address is required'),
+        message: yup.string()
     });
 
-    const { register, handleSubmit } = useForm({
+    const { register, handleSubmit, formState: {errors} } = useForm({
         resolver: yupResolver(schema)
     });
 
@@ -66,10 +66,13 @@ export const ContactForm = () => {
             <form ref={form} onSubmit={handleSubmit(sendEmail)}>
                 <label >Your Name:</label>
                 <input  type="text" placeholder='Your Name...' name="user_name" {...register("name")} />
+                <p className='errors'>{errors.name?.message}</p>
                 <label>Your Email Address:</label>
                 <input type="email" placeholder='client@email.com' name="user_email" {...register("email")} />
+                <p className='errors'>{errors.email?.message}</p>
                 <label>Message:</label>
                 <textarea placeholder='Hello...' name="message" />
+                <p className='errors'>{errors.message?.message}</p>
                 <input type="submit" value="Send" {...register("message")} />
             </form>
         </div>

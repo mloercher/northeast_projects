@@ -26,3 +26,7 @@ textarea {
 form > label{
     text-align: left;
 }
+
+.errors{
+  color: red;
+}
