@@ -5,7 +5,7 @@
     justify-content: space-around;
     border-right: solid black;
     width: 12rem;
-    min-width: 2rem;
+    min-width: 12rem;
     padding-top: .5rem;
     background:linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }

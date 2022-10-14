@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import './ContactForm.css';
 // email validation
@@ -24,24 +24,39 @@ export const ContactForm = () => {
         resolver: yupResolver(schema)
     });
 
+    // clear form after submit
+
+    // const [name, setName] = useState('')
+    // const [email, setEmtail] = useState('')
+    // const [message, setMessage] = useState('')
+
 
 
     // email.js setup 
-    const form = useRef();
+    const form = useRef('');
+    // const name = useRef('');
+    // const email = useRef('');
+    // const message = useRef('');
+
 
     const sendEmail = (e) => {
-    // e.preventDefault();
 
-        emailjs.sendForm('service_qnqavv9', 'template_xs82bgl', form.current, 'dTiaTbtT44HNitmOd')
-            .then((result) => {
-                console.log(result.text);
-                alert("Email sent successfully!");
-            
-            }, (error) => {
-                console.log(error.text);
-            });
+        // ****already called in react-hook-form vvv
+        // e.preventDefault();
+
+        // emailjs.sendForm('service_qnqavv9', 'template_xs82bgl', form.current, 'dTiaTbtT44HNitmOd')
+        //     .then((result) => {
+        //         console.log(result.text);
+        //         alert("Email sent successfully!");
+
+        //     }, (error) => {
+        //         console.log(error.text);
+        //     });
         console.log(e)
-        // e.target.reset();
+        form.current.reset();
+
+
+
     };
 
 
@@ -50,7 +65,7 @@ export const ContactForm = () => {
         <div className='outside-form'>
             <form ref={form} onSubmit={handleSubmit(sendEmail)}>
                 <label >Your Name:</label>
-                <input type="text" placeholder='Your Name...' name="user_name" {...register("name")} />
+                <input  type="text" placeholder='Your Name...' name="user_name" {...register("name")} />
                 <label>Your Email Address:</label>
                 <input type="email" placeholder='client@email.com' name="user_email" {...register("email")} />
                 <label>Message:</label>

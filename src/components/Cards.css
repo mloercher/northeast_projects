@@ -13,9 +13,11 @@
   height: 100vh;
   overflow: scroll;
   width: 100vw;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
   padding-bottom: 1rem;
+  /* background-image: url('../assets/images/heroCROP.png'); */
+  background-color: whitesmoke;
 }
 
 /* .container-fluid {
@@ -26,9 +28,13 @@
 } */
 
 .proj-img {
-  height: 100%;
-  object-fit: cover;
-  width: 100%;
+  /* height: 16rem; */
+  top: 0;
+  /* width:33rem; */
+  height: 16rem;
+  margin: 0;
+  /* object-fit: cover; */
+  /* width: 100%; */
   
 }
 
@@ -91,11 +97,12 @@
 
 #card {
   width:33rem;
-  height: 17rem;
-  background-color: black;
-  box-shadow: black 2,5;
+  height: 16rem;
+  background-color: transparent;
+  box-shadow: 5px 10px;
   font-family: "Roboto Condensed", sans-serif;
 }
+
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
 @media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {

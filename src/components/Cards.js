@@ -16,9 +16,9 @@ function Cards({ projectMenuItem }) {
       <Row className='gy-6' id='card-main'lg={2}>
         {
           projectMenuItem.map((project) => (
-            <Link key={project.id} style={{ textDecoration: 'none' }} to={project.link}>
+            <Link className="link" key={project.id} style={{ textDecoration: 'none' }} to={project.link}>
               <Card 
-              className="shadow-lg p-3 rounded-2 mt-4" id='card'>
+              className="shadow p-0 rounded-2 mt-3" id='card'>
                 <img src={project.img} className="proj-img rounded-2 position-relative" alt="project" ></img>
                 <div className='img-overlay'>
                   <div className='img-title'>
