@@ -31,14 +31,14 @@ export const ContactForm = () => {
         // ****already called in react-hook-form vvv
         // e.preventDefault();
 
-        // emailjs.sendForm('service_qnqavv9', 'template_xs82bgl', form.current, 'C8SHKhuKTEZwN9gg9')
-        //     .then((result) => {
-        //         console.log(result.text);
-        //         form.current.reset();
+        emailjs.sendForm('service_qnqavv9', 'template_xs82bgl', form.current, 'C8SHKhuKTEZwN9gg9')
+            .then((result) => {
+                console.log(result.text);
+                form.current.reset();
                
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+            }, (error) => {
+                console.log(error.text);
+            });
         console.log(e)
         form.current.reset();
         setShow(true)
@@ -67,7 +67,7 @@ export const ContactForm = () => {
             </form>
             {/* modal */}
             <Modal className="modal-outer"show={show} onHide={handleClose}>
-                <Modal.Title id='modal-title'>Email Sent Successfully!</Modal.Title>
+                <Modal.Title id='modal-title'>Message Sent Successfully!</Modal.Title>
                     <Button id='modal-btn' variant="dark" onClick={handleClose}>
                         Close
                     </Button>
