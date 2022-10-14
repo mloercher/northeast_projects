@@ -13,7 +13,7 @@ function Cards({ projectMenuItem }) {
 
   return (
     // <Container fluid>
-      <Row className='gy-6' id='card-main'lg={2}>
+      <Row className='gy-6 gx-0'  id='card-main'lg={2}>
         {
           projectMenuItem.map((project) => (
             <Link className="link" key={project.id} style={{ textDecoration: 'none' }} to={project.link}>

@@ -12,12 +12,13 @@
 #card-main{
   height: 100vh;
   overflow: scroll;
+  padding-left: .7rem;
   width: 100vw;
   /* padding-left: 1rem; */
   /* padding-right: 1rem; */
   padding-bottom: 1rem;
   /* background-image: url('../assets/images/heroCROP.png'); */
-  background-color: whitesmoke;
+  background: linear-gradient(white,silver)
 }
 
 /* .container-fluid {

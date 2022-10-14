@@ -30,3 +30,19 @@ form > label{
 .errors{
   color: red;
 }
+
+
+#modal-title{
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+
+.modal-content{
+  height: 10rem;
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0 1rem 0;
+}
