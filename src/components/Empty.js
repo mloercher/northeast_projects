@@ -1,8 +1,11 @@
 import React from 'react'
+import './Empty.css'
 
 function Empty() {
   return (
-    <div>empty</div>
+    <div id='empty-container'>
+        <h1 id='empty-text'>No Projects in this Category...</h1>
+    </div>
   )
 }
 

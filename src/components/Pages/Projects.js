@@ -12,7 +12,7 @@ function Projects() {
   // const [buttons, setButtons] = useState('')
 
 
-  // empty
+  // no projects that fit selected category
   const [empty, setEmpty] = useState(false)
 
 
@@ -30,6 +30,7 @@ function Projects() {
 
    console.log(filteredData)
 
+  //  display 'empty' component if no projects fit project type selected
    if(filteredData.length === 0){
     console.log('no projects found')
     setEmpty(true)
