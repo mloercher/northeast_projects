@@ -55,7 +55,7 @@ const project_data = [
     title: 'PR Passive House',
     text: '2018 PHIUS Design Competition Honorable Mention: Residential',
     img: require('../assets/images/pr/whyNot.jpg'),
-    id: '6',
+    id: '7',
     type: 'mult-family'
   },
   {
@@ -63,7 +63,7 @@ const project_data = [
     title: 'PR Passive House',
     text: '2018 PHIUS Design Competition Honorable Mention: Residential',
     img: require('../assets/images/pr/whyNot.jpg'),
-    id: '6',
+    id: '8',
     type: 'mult-family'
   },
   {
@@ -71,7 +71,7 @@ const project_data = [
     title: 'PR Passive House',
     text: '2018 PHIUS Design Competition Honorable Mention: Residential',
     img: require('../assets/images/pr/whyNot.jpg'),
-    id: '6',
+    id: '9',
     type: 'mult-family'
   },
   {
@@ -79,7 +79,7 @@ const project_data = [
     title: 'PR Passive House',
     text: '2018 PHIUS Design Competition Honorable Mention: Residential',
     img: require('../assets/images/pr/whyNot.jpg'),
-    id: '6',
+    id: '10',
     type: 'mult-family'
   },
   {
@@ -87,7 +87,7 @@ const project_data = [
     title: 'PR Passive House',
     text: '2018 PHIUS Design Competition Honorable Mention: Residential',
     img: require('../assets/images/pr/whyNot.jpg'),
-    id: '6',
+    id: '11',
     type: 'mult-family'
   }
   

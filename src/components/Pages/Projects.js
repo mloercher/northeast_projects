@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { set } from 'react-hook-form';
 import Buttons from '../Buttons';
 import Cards from '../Cards'
 import Empty from '../Empty';
@@ -18,26 +19,33 @@ function Projects() {
 
   const filter = (button) => {
 
-    if(button === 'All'){
+    if (button === 'All') {
       setProjectMenuItem(project_data);
+
+      console.log(project_data)
+      setEmpty(false)
+      console.log(empty)
+      
       return;
+
     }
 
-
-    const filteredData = project_data.filter(project =>  button === project.type)
+    const filteredData = project_data.filter(project => button === project.type)
     console.log(button)
     setProjectMenuItem(filteredData)
 
-   console.log(filteredData)
+    console.log(filteredData)
 
-  //  display 'empty' component if no projects fit project type selected
-   if(filteredData.length === 0){
-    console.log('no projects found')
-    setEmpty(true)
-   } else {
-    setEmpty(false)
-   }
-    
+    //  display 'empty' component if no projects fit project type selected
+    if (filteredData.length === 0) {
+      console.log('no projects found')
+      setEmpty(true)
+    } else {
+      setEmpty(false)
+    }
+
+
+
   }
 
 
@@ -46,7 +54,7 @@ function Projects() {
 
     <div className='project-main'>
       <Buttons filter={filter} />
-      {empty ? <Empty /> : <Cards projectMenuItem={projectMenuItem} /> }
+      {empty ? <Empty /> : <Cards projectMenuItem={projectMenuItem} />}
     </div>
 
   )
