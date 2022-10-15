@@ -18,7 +18,7 @@
   /* padding-right: 1rem; */
   padding-bottom: 1rem;
   /* background-image: url('../assets/images/heroCROP.png'); */
-  background: linear-gradient(white,silver)
+  background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0,0,1,1));
 }
 
 /* .container-fluid {

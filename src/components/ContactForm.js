@@ -63,7 +63,7 @@ export const ContactForm = () => {
                 <label>Message:</label>
                 <textarea placeholder='Hello...' name="message" />
                 <p className='errors'>{errors.message?.message}</p>
-                <input type="submit" value="Send" {...register("message")} />
+                <Button type="submit" value="Send" {...register("message")}>SEND</Button>
             </form>
             {/* modal */}
             <Modal className="modal-outer"show={show} onHide={handleClose}>

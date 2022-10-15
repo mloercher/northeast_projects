@@ -16,7 +16,7 @@ function Footer() {
             </div>
           </div>
           <div className='copyright'>
-          &#169;{new Date().getFullYear()} NorthEast Projects, LLC
+          &#169;{new Date().getFullYear()} Northeast Projects, LLC
           </div>
         </div>
       </footer>
