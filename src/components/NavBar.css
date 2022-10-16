@@ -79,10 +79,19 @@
 }
 
 @media screen and (max-width: 960px) {
+
+  .aboutProj{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .nav-item {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    height: 300px;
+    justify-content: center;
   }
   .NavbarItems {
     position: relative;
@@ -106,6 +115,7 @@
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 1;
+    padding-top: 100px;
   }
 
   .nav-links {

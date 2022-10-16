@@ -1,10 +1,12 @@
-import React, { useState } from 'react'
+import React, { useState, } from 'react'
 import { set } from 'react-hook-form';
 import Buttons from '../Buttons';
 import Cards from '../Cards'
 import Empty from '../Empty';
 import project_data from '../project_data'
 import './Projects.css'
+import { Modal, Button } from 'react-bootstrap/'
+
 
 
 
@@ -25,7 +27,7 @@ function Projects() {
       console.log(project_data)
       setEmpty(false)
       console.log(empty)
-      
+
       return;
 
     }
@@ -48,12 +50,21 @@ function Projects() {
 
   }
 
-
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
 
   return (
 
     <div className='project-main'>
       <Buttons filter={filter} />
+      {/* modal */}
+      <Modal className="modal-outer" show={show} onHide={handleClose}>
+        <Modal.Title id='modal-title'>Message Sent Successfully!</Modal.Title>
+        <Button id='modal-btn' variant="dark" onClick={handleClose}>
+          Close
+        </Button>
+
+      </Modal>
       {empty ? <Empty /> : <Cards projectMenuItem={projectMenuItem} />}
     </div>
 

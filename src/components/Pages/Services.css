@@ -16,7 +16,7 @@
 }
 
 .services-title {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: white;
   font-size: 3rem;
   /* padding-top: 5rem; */
@@ -24,7 +24,7 @@
 
 #services-heading {
   padding-top: 1rem;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
   color: white;
   font-size: 4rem;
@@ -101,3 +101,61 @@
 /* .services-outside-container {
   width: 100vw;
 } */
+
+@media only screen and (device-width: 414px) and (device-height: 896px) {
+  .services-intro {
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.92) 20%,
+        rgba(0, 0, 0, 0.85) 35%,
+        rgba(0, 0, 0, 0.1) 66%,
+        rgba(0, 0, 0, 0.1) 29%
+      ),
+      url("/src/assets/images/heroCROP.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-position: center;
+  }
+
+  .services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding-bottom:2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+
+  #ne-mission {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    /* margin: 0; */
+    padding: 0 5px 0 5px;
+  }
+
+  /* #ne-mission {
+    color: white;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+  } */
+
+  /* .services-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  } */
+}

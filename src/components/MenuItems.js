@@ -1,4 +1,4 @@
-export const AboutMenuItems = [
+export const MenuItems = [
     // {
     //     title: "Firm",
     //     path: '/firm',

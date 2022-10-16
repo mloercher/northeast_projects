@@ -24,9 +24,6 @@ align-items: flex-start;
   font-size: 6rem;
   padding-top: 5rem;
 }
-.hero-text{
-
-}
 
 
 
@@ -51,77 +48,4 @@ align-items: flex-start;
   width: 20%;
 }
 
-.carousel {
-  box-shadow: 0.75px 0.75px 0px 0px;
-  overflow: hidden;
-  width: 100%;
-  object-fit: cover;
-}
 
-#h-img {
-  height: 100vh;
-  width: 100vw;
-}
-
-/* .carousel-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-} */
-
-/* adjusts size of carousel images */
-.carousel-item :active {
-  width: 100vw;
-  height: 100vh;
-  object-fit: cover;
-}
-
-.text p {
-  display: flex;
-  flex-direction: column;
-  font-weight: 100;
-  font-size: 3.6vw;
-  width: 25px;
-  margin-top: 3%;
-  border-left: solid black;
-  padding-left: 3px;
-}
-
-h1 {
-  z-index: 1;
-}
-
-.carousel-img {
-  height: 100%;
-}
-
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-  /* Use to adjust size of icons */
-  width: 3rem;
-  height: 3rem;
-}
-
-.carousel-overlay {
-  width: 100vw;
-  height: 100vh;
-  background-image: url('../assets/images/hilltop/newlong.png')linear-gradient rgba(0,0,0,0.8);
-}
-
-/* Portrait */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
-  .carousel {
-    box-shadow: 0.75px 0.75px 0px 0px;
-    height: 100%;
-    overflow: hidden;
-    width: 100%;
-    object-fit: cover;
-  }
-
-  .carousel-item img {
-    height: 100vh;
-    object-fit: cover;
-    object-position: center;
-  }
-}

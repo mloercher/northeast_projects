@@ -14,7 +14,7 @@ function Firm() {
           <motion.img
             animate={{ y: 0 }}
             initial={{ y: -20 }}
-            transition={{ type: "spring", stiffness: 100 }} id='firm-heading' src={firmLogo}>
+            transition={{ type: "spring", stiffness: 100, duration:300}} id='firm-heading' src={firmLogo}>
           </motion.img>
           <br></br>
         </div>
@@ -47,11 +47,11 @@ function Firm() {
               whileinview={'visible'}
 
               viewport={{ once: true }}>
-              <h3 className='firm-title'>John Loercher</h3>
-              <br></br>
+              {/* <h3 className='firm-title'>John Loercher</h3>
+              <br></br> */}
               <img id="portrait" src={JL} alt='portrait' height='80rem'></img>
               <br></br>
-              <p className='firmP'>John is a Professor of Architecture, CPHC instructor for the Passive House Institute U.S. and owner of Northeast Projects LLC. He is a Certified Passive House Consultant and holds a masters of architecture from Parsons the New School for Design. His firm, Northeast Projects, specializes in Passive House design, high performance building envelopes and advanced energy modeling. It serves a diverse range of projects from single-family and multi-family residential, commercial, new construction and retrofits.</p>
+              <p className='firmP'>John Loercher is a Professor of Architecture, CPHC instructor for the Passive House Institute U.S. and owner of Northeast Projects LLC. He is a Certified Passive House Consultant and holds a masters of architecture from Parsons the New School for Design. His firm, Northeast Projects, specializes in Passive House design, high performance building envelopes and advanced energy modeling. It serves a diverse range of projects from single-family and multi-family residential, commercial, new construction and retrofits.</p>
             </motion.li>
           </ul>
         </div>

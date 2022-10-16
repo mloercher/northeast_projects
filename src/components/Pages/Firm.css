@@ -28,6 +28,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .firm-title {
@@ -66,6 +67,7 @@
 .firmP{
 font-family: 'Roboto Condensed', sans-serif;
 color: white;
+text-align: center;
 }
 
 /* .about-ne2 {
@@ -96,57 +98,29 @@ color: white;
   margin-left: 2%;
 } */
 
-@media only screen and (min-width: 280px) and (max-width: 767px) {
-  .about-ne2 {
-    display: block;
-    margin-top: 0%;
-    text-align: center;
+@media screen and (max-width: 960px) {
+#firm-heading{
+  height: 10rem;
+  width:21rem;
+}
+
+.firm-text{
+  padding-top: 7rem;
+}
+
+#portrait{
+  height: 18rem;
+  width: rem;
+}
+
+
+.firmP{
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: x-large;
   }
 
-  #friend {
-    width: 100%;
-    margin-left: 0%;
-    height: auto;
-  }
 
-  .about-ne2 p {
-    font-size: 160%;
-    width: 100%;
-    font-weight: 100;
-    /* padding-top: .5%; */
-    /* padding-left: 1%;
-        padding-right: 1%; */
-  }
 
-  .services-container {
-    display: block;
-  }
-
-  .services-about {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    margin-top: 2%;
-    border-top: solid black;
-  }
-  #services-next {
-    width: 100%;
-    height: auto;
-    border: solid black;
-    /* margin-top: 3%; */
-    margin-right: 0%;
-  }
-
-  .service-imgs {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-  }
-
-  #passive-logo {
-    border: solid black;
-    width: 100%;
-  }
 }

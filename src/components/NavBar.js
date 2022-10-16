@@ -1,34 +1,33 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
-import AboutDropdown from './AboutDropdown';
-import ProjectsDropdown from './ProjectsDropdown';
 import logo2 from '../assets/images/logo2.png'
+import DropdownMenu from './DropdownMenu'
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [aDropdown, setADropdown] = useState(false);
+  const [Dropdown, setDropdown] = useState(false);
 
   // const [Pdropdown, setPDropdown] = useState(false);
 
   const handleClick = () => setClick(!click);
- const closeMobileMenu = () => setClick(false);
+  const closeMobileMenu = () => setClick(false);
 
 
   // when mouse enters image (hovers), set dropdown to true if window size is larger than 960px
-  const AonMouseEnter = () => {
+  const onMouseEnter = () => {
     if (window.innerWidth < 960) {
-      setADropdown(false);
+      setDropdown(false);
     } else {
-      setADropdown(true);
+      setDropdown(true);
     }
   };
   // when mouse leaves image (no longer hovers), set dropdown to false --again disregard dropdown for mobile(see above)
-  const AonMouseLeave = () => {
+  const onMouseLeave = () => {
     if (window.innerWidth < 960) {
-      setADropdown(false);
+      setDropdown(false);
     } else {
-      setADropdown(false);
+      setDropdown(false);
     }
   };
 
@@ -43,20 +42,18 @@ function Navbar() {
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li
           className='nav-item'
-          onMouseEnter={AonMouseEnter}
-          onMouseLeave={AonMouseLeave}
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
         >
-          <div className='aboutProj'>ABOUT</div><i className='fas fa-caret-down'/>
-          {aDropdown && < AboutDropdown />}
+          <div className='aboutProj' onClick={()=>setDropdown(true)}>ABOUT</div><i className='fas fa-caret-down' 
+          />
+          {Dropdown && <DropdownMenu />}
         </li>
-        
         <li
           className='nav-item'
-          // onMouseEnter={PonMouseEnter}
-          // onMouseLeave={PonMouseLeave}
         >
           <Link to='/projects' style={{ textDecoration: 'none' }}>
-          <div className='aboutProj' textDecoration="none">PROJECTS</div>
+            <div className='aboutProj' textDecoration="none" onClick={closeMobileMenu}>PROJECTS</div>
           </Link>
         </li>
       </ul>
