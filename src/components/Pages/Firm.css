@@ -120,7 +120,9 @@ text-align: center;
   text-align: center;
   font-size: x-large;
   }
-
-
+/* 
+  .list-outside{
+    padding: 0 !important;
+  } */
 
 }

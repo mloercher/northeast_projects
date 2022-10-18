@@ -107,7 +107,7 @@
     /* align-items: center; */
     width: 100%;
     height: auto;
-    position: fixed;
+    position:fixed;
     left: 0;
     bottom: 0;
     right: 0;

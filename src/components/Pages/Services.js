@@ -66,11 +66,11 @@ function Services() {
             <div className='services-container'>
                 <div className='services-about'>
                     {/* <motion.h1 className="services-title">Services:</motion.h1> */}
-                    <ul>
+                    <div>
                         <br></br>
                         <br></br>
                         <br></br>
-                        <li className="services-list-item" ref={ref1}
+                        <div className="services-list-item" ref={ref1}
                             initial="hidden"
                             whileInView={'visible'}
                             variants={serviceVariants}
@@ -87,11 +87,11 @@ function Services() {
                             <br></br>
                             <br></br>
                             <div className='border'></div>
-                        </li>
+                        </div>
                         <br></br>
                         <br></br>
                         <br></br>
-                        <motion.li className="services-list-item" ref={ref2}
+                        <motion.div className="services-list-item" ref={ref2}
                             initial="hidden"
                             whileInView={'visible'}
                             variants={serviceVariants}
@@ -105,11 +105,11 @@ function Services() {
                             <br></br>
                             <br></br>
                             <div className='border'></div>
-                        </motion.li>
+                        </motion.div>
                         <br></br>
                         <br></br>
                         <br></br>
-                        <motion.li className="services-list-item" ref={ref3}
+                        <motion.div className="services-list-item" ref={ref3}
                             initial="hidden"
                             whileInView={'visible'}
                             variants={serviceVariants}
@@ -123,11 +123,11 @@ function Services() {
                             <br></br>
                             <br></br>
                             <div className='border'></div>
-                        </motion.li>
+                        </motion.div>
                         <br></br>
                         <br></br>
                         <br></br>
-                        <motion.li className="services-list-item" ref={ref4}
+                        <motion.div className="services-list-item" ref={ref4}
                             initial="hidden"
                             variants={serviceVariants}
                             whileInView={'visible'}
@@ -138,8 +138,8 @@ function Services() {
                             <br></br>
                             <br></br>
                             <p className='servicesP'>Passive House certification involves many parties and processes. Working with Architects and other Building professionals, develop all required design documentation to submit to the Passive House Institute U.S. Coordinate with certification body, design team and PHIUS+ 2018 rater through design, QA/QC and final certification. Please reach out to talk more about your project and request a proposal.</p>
-                        </motion.li>
-                    </ul>
+                        </motion.div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -22,11 +22,11 @@ function Firm() {
       <div className='firm-container'>
         <div className='firm-about'>
           {/* <motion.h1 className="services-title">Services:</motion.h1> */}
-          <ul>
+          <div className='list-outside'>
             <br></br>
             <br></br>
             <br></br>
-            <li className="firm-list-item"
+            <div className="firm-list-item"
               initial="hidden"
               whileinview={'visible'}
               viewport={{ once: true }}>
@@ -38,11 +38,11 @@ function Firm() {
               <br></br>
               <br></br>
               <div className='border'></div>
-            </li>
+            </div>
             <br></br>
             <br></br>
             <br></br>
-            <motion.li className="services-list-item"
+            <motion.div className="services-list-item"
               initial="hidden"
               whileinview={'visible'}
 
@@ -52,8 +52,8 @@ function Firm() {
               <img id="portrait" src={JL} alt='portrait' height='80rem'></img>
               <br></br>
               <p className='firmP'>John Loercher is a Professor of Architecture, CPHC instructor for the Passive House Institute U.S. and owner of Northeast Projects LLC. He is a Certified Passive House Consultant and holds a masters of architecture from Parsons the New School for Design. His firm, Northeast Projects, specializes in Passive House design, high performance building envelopes and advanced energy modeling. It serves a diverse range of projects from single-family and multi-family residential, commercial, new construction and retrofits.</p>
-            </motion.li>
-          </ul>
+            </motion.div>
+          </div>
         </div>
       </div>
     </div>

@@ -18,8 +18,8 @@ function Cards({ projectMenuItem }) {
         projectMenuItem.map((project) => (
           <Link className="link" key={project.id} style={{ textDecoration: 'none' }} to={project.link}>
             <Card
-              className="shadow p-0 rounded-2" id='card'>
-              <img src={project.img} className="proj-img rounded-2 position-relative" alt="project" ></img>
+              className="shadow p-0 " id='card'>
+              <img src={project.img} className="proj-img  position-relative" alt="project" ></img>
               <div className='img-overlay'>
                 <div className='img-title'>
                   {project.title}

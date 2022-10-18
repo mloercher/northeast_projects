@@ -27,4 +27,13 @@
       rgb(26, 23, 23) 100%
     );
   }
+
+  .img-overlay{
+    border-radius: 0px;
+  }
+
+  /* .row>* {
+    padding-left: 0 !important;
+  } */
+
 }
