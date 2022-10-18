@@ -7,10 +7,27 @@
 }
 
 #fairP {
-  width: 60%;
+  width: 80%;
   font-size: 1.4rem;
   margin-top: 1.4rem;
-  margin-left: 1.4rem;
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#char {
+  width: 90%;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#cert {
+  width: 90%;
+  font-size: 1.3rem;
+  margin-top: 1.4rem;
   font-weight: 400;
   color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
@@ -45,7 +62,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#phius-link{
+#phius-link {
   text-decoration: none;
   color: white;
 }
@@ -73,52 +90,30 @@ section {
   color: white;
 }
 
-#no-parallax1 {
+#np1 {
   background-color: #010e12;
+}
+#np2 {
+  background-color: #000000;
+}
+#np3 {
+  background-color: #021108;
+}
+#np4 {
+  background-color: #021d1e;
+}
+#np5 {
+  background-color: #000000;
+}
+
+.no-parallax {
+  height: 70%;
   z-index: 999;
-  color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   object-fit: cover;
-}
-#no-parallax2 {
-  background-color: #000000;
-  z-index: 999;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-#no-parallax3 {
-  background-color: #021108;
-  z-index: 999;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-#no-parallax4 {
-  background-color: #021d1e;
-  z-index: 999;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-#no-parallax5 {
-  background-color: #000000;
-  height: 70%;
-  z-index: 999;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
 }
 
 .parallax-bg1 {
@@ -132,8 +127,8 @@ section h1 {
 }
 
 .parallax h1 {
-  width: 60%;
-  font-size: 2rem;
+  /* width: 60%; */
+  font-size: 4rem;
 }
 
 .parallax::after {
@@ -150,8 +145,9 @@ section h1 {
 
 .bg1::after {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-  url("/src/assets/images/accord_crop.png");
-  background-size: contain;
+    url("/src/assets/images/accord_crop.png");
+  background-size: cover;
+  background-position: left;
   height: 100vh;
 }
 .bg2::after {
@@ -170,6 +166,7 @@ section h1 {
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("/src/assets/images/PHIUSgraph.png");
   background-size: cover;
+  background-position: right;
   height: 100vh;
 }
 .bg5::after {
@@ -187,6 +184,8 @@ section h1 {
 
 .services-heading {
   font-family: "Roboto Condensed", sans-serif;
+  /* width:100vw; */
+  text-align: center;
 }
 
 @media screen and (max-width: 960px) {
@@ -194,7 +193,21 @@ section h1 {
     font-size: 8rem;
   }
   .parallax h1 {
-    font-size: 4rem;
+    font-size: 3rem;
+  }
+
+  #phiusAbout {
+    width: 75%;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+    color: white;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  #whatIsP {
+    width: 90%;
   }
 }
 
