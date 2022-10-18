@@ -111,7 +111,7 @@
         rgba(0, 0, 0, 0.1) 66%,
         rgba(0, 0, 0, 0.1) 29%
       ),
-      url("/src/assets/images/heroCROP.png");
+      url('../../assets/images/heroCROP.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;
@@ -128,9 +128,9 @@
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    padding-bottom:2rem;
-    padding-left: .5rem;
-    padding-right: .5rem;
+    padding-bottom: 2rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
   }
 
   #ne-mission {

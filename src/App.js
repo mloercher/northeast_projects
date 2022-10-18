@@ -32,21 +32,16 @@ import Pr from './components/Pages/Pr';
 
 function App() {
   return (
-
-    <Router>
-      <NavBar />
-      <div className="container-wrap">
+    <>
+      <Router>
+        <NavBar />
+        {/* <div className="container-wrap"> */}
         <Routes>
           <Route exact path='/' element={<Firm />} />
-          <Route exact path='/northeast_projects' element={<Firm />}/>
-          {/* <Route exact path='/firm' element={<Firm />} /> */}
+          <Route exact path='/northeast_projects' element={<Firm />} />
           <Route exact path='/services' element={<Services />} />
           <Route exact path='/projects' element={<Projects />} />
           <Route exact path='/passiveHouse' element={<PassiveHouse />} />
-          {/* <Route exact path='/singleFam' element={<SingleFam />} />
-          <Route exact path='/multiFam' element={<MultiFam />} />
-          <Route exact path='/commercial' element={<Commercial />} />
-          <Route exact path='/retro' element={<Retro />} /> */}
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/accord' element={<Accord />} />
           <Route exact path='/newburgh' element={<Newburgh />} />
@@ -55,10 +50,22 @@ function App() {
           <Route exact path='/dubois' element={<Dubois />} />
           <Route exact path='/pr' element={<Pr />} />
         </Routes>
-      </div>
+        {/* </div> */}
+      </Router>
       <Footer />
-    </Router>
+    </>
   );
 }
 
 export default App;
+
+
+
+
+
+
+
+{/* <Route exact path='/singleFam' element={<SingleFam />} />
+<Route exact path='/multiFam' element={<MultiFam />} />
+<Route exact path='/commercial' element={<Commercial />} />
+<Route exact path='/retro' element={<Retro />} /> */}

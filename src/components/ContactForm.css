@@ -1,9 +1,8 @@
-.outside-form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.outside-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 
 form {
   display: flex;
@@ -23,21 +22,19 @@ textarea {
   height: 10rem;
 }
 
-form > label{
-    text-align: left;
+form > label {
+  text-align: left;
 }
 
-.errors{
+.errors {
   color: red;
 }
 
-
-#modal-title{
+#modal-title {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-
-.modal-content{
+.modal-content {
   height: 10rem;
   margin-top: 15rem;
   display: flex;
@@ -45,4 +42,23 @@ form > label{
   align-items: center;
   justify-content: space-between;
   padding: 1rem 0 1rem 0;
+}
+
+@media screen and (max-width: 960px) {
+
+  textarea {
+    width: 90vw;
+  }
+
+  form {
+    width: 90vw;
+  }
+
+  input {
+    width: 90vw;
+  }
+
+  .btn{
+    width: 90vw;
+  }
 }

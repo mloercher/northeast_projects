@@ -17,3 +17,16 @@
     padding: 0;
     /* box-shadow: 2px; */
 }
+
+@media screen and (max-width: 960px) {
+.btn{
+    height: 3rem;
+}
+
+.link{
+    height: 2px;
+}
+
+
+
+}

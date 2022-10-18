@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 function DropdownMenu() {
     const [click, setClick] = useState(false);
 
-    const handleClick = () => setClick(!click);
+    const handleClick = () => setClick(false);
 
     return (
         <>
@@ -21,7 +21,7 @@ function DropdownMenu() {
                             <Link
                                 className={item.cName}
                                 to={item.path}
-                                onClick={() => setClick(false)}
+                                onClick={() => setClick(!click)}
                             >
                                 {item.title}
                             </Link>
