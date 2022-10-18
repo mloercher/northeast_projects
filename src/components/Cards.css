@@ -30,7 +30,7 @@
 .proj-img {
   /* height: 16rem; */
   top: 0;
-  /* width:33rem; */
+  width:100%;
   height: 16rem;
   margin: 0;
   /* object-fit: cover; */
@@ -106,23 +106,24 @@
   #card-main {
     display: flex;
     flex-wrap: wrap;
-    /* flex-direction: column; */
+    justify-content: space-around;
     overflow: scroll;
     margin: 0;
     width: 100vw;
     height: 73%;
     padding-left: 0rem;
     padding-right: 0rem;
-    padding-bottom:4.5rem;
+    /* padding-bottom: 4.5rem; */
     background: whitesmoke;
   }
 
   .proj-img {
     /* top: 0; */
-    /* width: 100vw; */
+    width: 100%;
     height: 16rem;
+    object-fit: contain;
     /* margin: 0;
-    object-fit: cover; */
+    
     /* width: 100%; */
   }
 
@@ -132,9 +133,12 @@
 
   .link {
     height: 16rem;
+    top: 0;
+    /* width: 100%; */
   }
 
   .img-overlay {
     opacity: 1;
+    width: 100vw;
   }
 }

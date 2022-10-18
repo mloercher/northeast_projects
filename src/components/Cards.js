@@ -16,17 +16,19 @@ function Cards({ projectMenuItem }) {
     <Row className='gy-0 gx-0' id='card-main' lg={2}>
       {
         projectMenuItem.map((project) => (
-          <Link className="link" key={project.id} style={{ textDecoration: 'none' }} to={project.link}>
-            <Card
-              className="shadow p-0 " id='card'>
+
+          <Card
+            className="shadow p-0 mt-2" id='card'>
+            <Link className="link" key={project.id} style={{ textDecoration: 'none' }} to={project.link}>
               <img src={project.img} className="proj-img  position-relative" alt="project" ></img>
               <div className='img-overlay'>
                 <div className='img-title'>
                   {project.title}
                 </div>
               </div>
-            </Card>
-          </Link>
+            </Link>
+          </Card>
+
 
         ))}
     </Row>
