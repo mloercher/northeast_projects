@@ -15,11 +15,15 @@ Business page for Northeast Projects, llc -- a Hudson Valley, NY based Passive H
 
 ## Screenshots
 
-![Homescreen](src/assets/screenshots/homescreen.png)
-![Contact screen](src/assets/screenshots/contactscreen.png)
-![Mobile View](src/assets/screenshots/mobileview.png)
+![Homescreen](src/assets/screenshots/updateNEHOME.png)
+![Contact screen](src/assets/screenshots/NEupdateContact.png)
+![Mobile View](src/assets/screenshots/NEmobileNew.png)
+![What is Passive](src/assets/screenshots/NEupdatePassive.png)
+![Services](src/assets/screenshots/NEupdateServices.pngpng)
+![Projects](src/assets/screenshots/NEupdateProj.png)
 
-## Link to deployed site
+
+## Link to deployed site (v1)
 https://mloercher.github.io/northeast_projects/
 
 ## Run Instructions
