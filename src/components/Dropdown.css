@@ -4,7 +4,7 @@
   padding: 0 !important;
   top: 60px;
   background:linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
-  border-radius: 5px;
+  /* border-radius: 5px; */
   /* list-style: none; */
   /* text-align: start; */
 }

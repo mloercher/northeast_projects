@@ -7,12 +7,12 @@ import { Link } from 'react-router-dom';
 function DropdownMenu() {
     const [click, setClick] = useState(false);
 
-    const handleClick = () => setClick(false);
+    const handleClick = () => setClick(!click);
+
 
     return (
         <>
-            <ul
-                onClick={handleClick}
+            <ul onClick={handleClick}
                 className={click ? 'dropdown-menu clicked' : 'dropdown-menu'}
             >
                 {MenuItems.map((item, index) => {
@@ -21,7 +21,7 @@ function DropdownMenu() {
                             <Link
                                 className={item.cName}
                                 to={item.path}
-                                onClick={() => setClick(!click)}
+                                onClick={() => setClick(false)}
                             >
                                 {item.title}
                             </Link>
