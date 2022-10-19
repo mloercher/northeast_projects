@@ -12,6 +12,8 @@ Business page for Northeast Projects, llc -- a Hudson Valley, NY based Passive H
 *HTML
 *CSS
 *JavaScript
+*EmailJS
+*Framer 
 
 ## Screenshots
 
