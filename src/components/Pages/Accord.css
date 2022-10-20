@@ -115,12 +115,29 @@ h3, p{
   /* align-items: center; */
   justify-content: center;
   margin-top: 2rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#proj-location {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#proj-type {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.proj-desc {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .proj-text {
   display: flex;
   flex-direction: row;
   width: 100vw;
+}
+
+.proj-addtl-info {
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .a-column1 {
@@ -132,7 +149,6 @@ h3, p{
   padding-left: 2rem;
   padding-right: 2rem;
   /* padding-top: 2rem; */
-
 }
 
 .a-column2 {
@@ -150,3 +166,38 @@ h3, p{
     height: 100%;
     width: 100%;
 } */
+
+@media only screen and (max-device-width: 960px) {
+  .top-cont {
+    padding-top: 1rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  #carousel-hero {
+    height: 30vh;
+    width: 100vw;
+  }
+
+  #proj-info {
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+  }
+
+  .a-column1 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100vw;
+  }
+  .a-column2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 100vw;
+    width: 100vw;
+  }
+
+  .publications p a {
+    width: 100%;
+  }
+}

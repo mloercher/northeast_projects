@@ -40,22 +40,22 @@ function Accord() {
             <div id='proj-info'>
                 <div className='a-column1'>
                     <h1 id='proj-title'>Accord Passive House</h1>
-                    <h3 id='proj-location'>Accord, NY</h3>
-                    <p>
+                    <h2 id='proj-location'>Accord, NY</h2>
+                    <p className='proj-desc'>
                         'Passive House' is a building methodology developed to aggressively meet the climate crisis carbon reduction imperative while making a comfortable, healthy and affordable built environment.
                         It calls for drastic cuts in the amount of energy our buildings consume through passive methods (insulation, solar heat gain, etc) - hence the name 'Passive House'.
 
                     </p>
                 </div>
                 <div className='a-column2'>
-                    <h3>Type</h3>
+                    <h3 id='proj-type'>Type</h3>
                     <p>Multi-Family</p>
-                    <p>
+                    <p className='proj-desc'>
                         'Passive House' is a building methodology developed to aggressively meet the climate crisis carbon reduction imperative while making a comfortable, healthy and affordable built environment.
                         It calls for drastic cuts in the amount of energy our buildings consume through passive methods (insulation, solar heat gain, etc) - hence the name 'Passive House'.
                     </p>
-                    <h3>Additional Info</h3>
-                    <p>Publication: <a href='https://www.w3schools.com/'>www.forbes.com/passivehouse</a></p>
+                    <h4 className='proj-addtl-info'>Additional Info</h4>
+                    <p className='proj-desc'>Publication: <a href='https://www.w3schools.com/'>www.forbes.com/passivehouse</a></p>
                 </div>
             </div>
         </div>
