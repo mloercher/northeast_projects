@@ -30,7 +30,8 @@ function Cards({ projectMenuItem }) {
           </Card>
 
 
-        ))}
+        ))
+      }
     </Row>
     // </Container>
   )
