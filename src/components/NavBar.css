@@ -1,15 +1,24 @@
 #logo {
   padding-left: 1rem;
+  padding-bottom: 0rem;
+  height: 80%;
+  width: 80%;
   /* padding-bottom: 1.5rem; */
 }
+
+/* .navbar-logo {
+  padding-bottom: 2rem;
+} */
+
+
 
 .navbar {
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
   height: 4rem;
   font-size: 1.1rem;
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end !important;
+  /* justify-content: center; */
+  /* align-items: flex-end !important; */
   padding: 0 !important;
 }
 
@@ -27,12 +36,17 @@
 }
 
 .nav-menu {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  grid-gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  height: 4rem;
+  /* grid-template-columns: repeat(5, auto); */
+  /* grid-gap: 10px; */
   list-style: none;
-  text-align: end;
+  /* text-align: end; */
   margin: 0;
+  padding-bottom: 0rem;
+  width: 40rem;
   /* width: 25vw; */
   /* justify-content: center; */
   /* margin-right: 2rem; */
@@ -43,7 +57,7 @@
   align-items: center;
   /* height: 50px; */
   color: white;
-  padding: 2rem 2rem 0rem 2rem;
+  /* padding: 2rem 2rem 0rem 2rem; */
   font-family: "Roboto Mono", monospace;
 }
 .aboutProj:hover {
