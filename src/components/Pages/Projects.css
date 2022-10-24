@@ -1,0 +1,39 @@
+.project-main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+@media screen and (max-width: 960px) {
+  .project-main {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+  }
+
+  .btn {
+    width: 80vw;
+  }
+
+  .button-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-width: 12rem;
+    background: linear-gradient(
+      90deg,
+      rgb(28, 27, 27) 0%,
+      rgb(26, 23, 23) 100%
+    );
+  }
+
+  .img-overlay{
+    border-radius: 0px;
+  }
+
+  /* .row>* {
+    padding-left: 0 !important;
+  } */
+
+}

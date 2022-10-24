@@ -1,0 +1,308 @@
+#whatIsP {
+  width: 60%;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#fairP {
+  width: 80%;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#char {
+  width: 90%;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#cert {
+  width: 90%;
+  font-size: 1.3rem;
+  margin-top: 1.4rem;
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#modelAbout {
+  width: 60%;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#row4p {
+  width: 60%;
+  color: whitesmoke;
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#phiusAbout {
+  width: 60%;
+  font-size: 1.4rem;
+  margin-top: 1.4rem;
+  margin-left: 1.4rem;
+  color: white;
+  font-weight: 400;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#phius-link {
+  text-decoration: none;
+  color: white;
+}
+
+/* parallax styling */
+body {
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  overflow-x: hidden;
+  /* look into functionality of below  */
+  overflow-y: auto;
+  perspective: 2px;
+}
+
+section {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 78vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+#np1 {
+  background-color: #010e12;
+}
+#np2 {
+  background-color: #000000;
+}
+#np3 {
+  background-color: #021108;
+}
+#np4 {
+  background-color: #021d1e;
+}
+#np5 {
+  background-color: #000000;
+}
+
+.no-parallax {
+  height: 70%;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  object-fit: cover;
+}
+
+.parallax-bg1 {
+  height: 100vh;
+}
+
+section h1 {
+  text-align: center;
+  font-size: 4rem;
+  font-family: sans-serif;
+}
+
+.parallax h1 {
+  /* width: 60%; */
+  font-size: 4rem;
+}
+
+.parallax::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: translateZ(-1px) scale(1.5);
+  background-size: 100%;
+  z-index: -1;
+}
+
+.bg1::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("/src/assets/images/accord_crop.png");
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+}
+.bg2::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("/src/assets/images/fairShare.png");
+  background-size: cover;
+  height: 100vh;
+}
+.bg3::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/src/assets/images/characteristicsPH.png");
+  background-size: cover;
+  height: 100vh;
+}
+.bg4::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/src/assets/images/PHIUSgraph.png");
+  background-size: cover;
+  background-position: right;
+  height: 100vh;
+}
+.bg5::after {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("/src/assets/images/ph-logo.png");
+  background-size: cover;
+  height: 100vh;
+}
+
+section h1 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  width: 100vw;
+}
+
+.services-heading {
+  font-family: "Roboto Condensed", sans-serif;
+  /* width:100vw; */
+  text-align: center;
+}
+
+@media screen and (max-width: 960px) {
+  section h1 {
+    font-size: 8rem;
+  }
+  .parallax h1 {
+    font-size: 3rem;
+  }
+
+  #phiusAbout {
+    width: 75%;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+    color: white;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  #whatIsP {
+    width: 90%;
+  }
+}
+
+/* row1
+#phRow1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2e9dc;
+}
+#whatIs {
+  height: auto;
+  font-family: "PT Sans, sans-serif";
+  font-size: 5.5rem;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+
+
+row2 
+#phRow2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  background-color: #f06c37;
+}
+
+
+
+#fairPic {
+  height: 55%;
+  width: 55%;
+  margin-top: 0.5rem;
+  border: solid black;
+  border-radius: 5px;
+}
+
+row3
+#phRow3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  background-color: #ced116;
+}
+#modelPic {
+  height: 50%;
+  width: 50%;
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: solid black;
+}
+
+
+
+row4
+#phRow4 {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100vh;
+  background-color: #000000;
+}
+
+#phiusGraph {
+  height: 60%;
+  width: 60%;
+  margin-top: 1.4rem;
+  margin-right: 2rem;
+  border: solid limegreen;
+}
+
+
+
+row5
+#phRow5 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  background-color: #8e8c8c;
+}
+
+#phiusAlliance {
+  height: 8rem;
+  width: 30rem;
+  margin-left: 1.4rem;
+  margin-top: 1.4rem;
+}
+
+ */

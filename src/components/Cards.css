@@ -1,22 +1,39 @@
-.rounded-0 {
-  color: black;
-  width: auto;
-  height: 100%;
-  text-align: center;
-}
-
 .rounded-0:hover {
   transform: scale(1.05);
 }
 
-.container-fluid {
-  background-color: white;
-  padding-bottom: 5.2%;
+.link {
+  height: auto;
 }
 
+#card-main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  overflow: scroll;
+  padding-left: 1rem;
+  width: 100vw;
+  /* padding-right: 1rem; */
+  padding-bottom: 1rem;
+  /* background-image: url('../assets/images/heroCROP.png'); */
+  background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
+}
+
+/* .container-fluid {
+  background-color: white;
+  padding-bottom: 5.2%;
+  width:90vw;
+  background: whitesmoke;
+} */
+
 .proj-img {
-  height: 100%;
-  width: 100%;
+  /* height: 16rem; */
+  top: 0;
+  width:100%;
+  height: 16rem;
+  margin: 0;
+  /* object-fit: cover; */
+  /* width: 100%; */
 }
 
 .proj-title {
@@ -34,7 +51,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 16rem;
   background: rgba(0, 0, 0, 0.6);
   color: white;
   display: flex;
@@ -44,7 +61,7 @@
   opacity: 0;
   transition: opacity 0.3s;
   font-weight: 100;
-  
+  border-radius: 5px;
 }
 
 .img-overlay > * {
@@ -54,33 +71,73 @@
 
 .img-overlay:hover {
   opacity: 1;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* means every direct child of... */
 
 .img-overlay:hover > * {
-  transform: translateY(0);
+  /* transform: translateY(0); */
   transition: 0.25s;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .img-title {
   font-size: 2em;
-  /* font-weight: bold; */
+  font-family: "Roboto Condensed", sans-serif;
 }
-
+/* 
 .img-description {
   font-size: 1.25 em;
   margin-top: 0.25em;
-}
+} */
 
 #card {
-  padding: 0 !important;
-  border-radius: 25px !important;
+  width: 33rem;
+  height: 16rem;
+  background-color: transparent;
+  box-shadow: 5px 10px;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
-@media only screen and (min-device-width: 280px) and (max-device-width: 1200px) {
-  .container-wrap {
-    padding-bottom: 5%;
+@media only screen and (max-device-width: 960px) {
+  #card-main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow: scroll;
+    margin: 0;
+    width: 100vw;
+    height: 73%;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    /* padding-bottom: 4.5rem; */
+    background: whitesmoke;
+  }
+
+  .proj-img {
+    /* top: 0; */
+    width: 100%;
+    height: 16rem;
+    object-fit: contain;
+    /* margin: 0;
+    
+    /* width: 100%; */
+  }
+
+  #card {
+    width: 100%;
+  }
+
+  .link {
+    height: 16rem;
+    top: 0;
+    /* width: 100%; */
+  }
+
+  .img-overlay {
+    opacity: 1;
+    width: 100vw;
   }
 }
