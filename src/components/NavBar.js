@@ -36,7 +36,7 @@ function Navbar() {
   return (
     <div className='navbar'>
       <Link to='/' className='navbar-logo'>
-        <img id="logo" src={logo2} alt='logo' onClick={handleClick}></img>
+        <img id="logo" src={logo2} alt='logo' onClick={closeMobileMenu}></img>
       </Link>
       <div className='menu-icon' onClick={handleClick}>
         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
