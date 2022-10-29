@@ -39,6 +39,7 @@ export const ContactForm = () => {
             }, (error) => {
                 console.log(error.text);
             });
+            
         console.log(e)
         form.current.reset();
         setShow(true)

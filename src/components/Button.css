@@ -28,6 +28,7 @@
   }
 
   .button-container {
-    padding-bottom: 1rem;
+    padding-bottom: .5rem;
+    height: 32vh;
   }
 }
