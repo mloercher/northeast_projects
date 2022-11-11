@@ -12,3 +12,16 @@
   font-size: 2rem;
   font-weight: 100;
 }
+
+@media only screen and (max-device-width: 960px) {
+
+  #empty-container {
+    background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 68vh;
+  }
+
+}

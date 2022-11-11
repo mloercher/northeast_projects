@@ -26,7 +26,7 @@
 
 #cert {
   width: 90%;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   margin-top: 1.4rem;
   font-weight: 400;
   color: whitesmoke;
@@ -188,7 +188,7 @@ section h1 {
   text-align: center;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (min-width: 375px) {
   section h1 {
     font-size: 8rem;
   }
@@ -200,16 +200,98 @@ section h1 {
     width: 75%;
     font-size: 1.4rem;
     margin-top: 1.4rem;
-    margin-left: 1.4rem;
+    /* margin-left: 1.4rem; */
+    color: white;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  #fairP {
+    font-size: 1.4rem;
+    width: 90%;
+    margin-top: 1.4rem;
+    /* margin-left: 1.4rem; */
     color: white;
     font-weight: 400;
     font-family: "Roboto Condensed", sans-serif;
   }
 
+  #char {
+    width: 90%;
+    font-size: 1.4rem;
+    margin-top: 1.4rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
   #whatIsP {
+    font-size: 1.4rem;
     width: 90%;
   }
+
+  #cert {
+    width: 90%;
+    font-size: 1.3rem;
+    margin-top: 1.4rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
 }
+@media screen and (max-width: 375px) {
+  section h1 {
+    font-size: 8rem;
+  }
+  .parallax h1 {
+    font-size: 3rem;
+  }
+
+  #phiusAbout {
+    width: 75%;
+    font-size: 1rem;
+    margin-top: 1.4rem;
+    margin-left: 1.4rem;
+    color: white;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+  #fairP {
+    font-size: 1.15rem;
+    width: 90%;
+    margin-top: 1.4rem;
+    color: white;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  #char {
+    width: 90%;
+    font-size: 1.1rem;
+    margin-top: 1.4rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  #whatIsP {
+    font-size: 1.2rem;
+    width: 90%;
+  }
+
+  #cert {
+    width: 90%;
+    font-size: 1.08rem;
+    margin-top: 1.4rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  #phiusAbout{
+    font-size: 1.1rem;
+  }
+}
+
 
 /* row1
 #phRow1 {
