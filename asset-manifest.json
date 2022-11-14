@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/northeast_projects/static/css/main.f26cc09d.css",
-    "main.js": "/northeast_projects/static/js/main.cd14dcbe.js",
+    "main.css": "/northeast_projects/static/css/main.124821ff.css",
+    "main.js": "/northeast_projects/static/js/main.89c96d95.js",
     "static/media/newlake.png": "/northeast_projects/static/media/newlake.48b9dca37168de6d0f18.png",
     "static/media/heroCROP.png": "/northeast_projects/static/media/heroCROP.05f7948e8ea2b47eb202.png",
     "static/media/newren.png": "/northeast_projects/static/media/newren.a058c535c55cb816a1c4.png",
@@ -25,11 +25,11 @@
     "static/media/phiusLogo.png": "/northeast_projects/static/media/phiusLogo.59412e54b348101fa85b.png",
     "static/media/fairShare.png": "/northeast_projects/static/media/fairShare.4f44de956740d92b5313.png",
     "index.html": "/northeast_projects/index.html",
-    "main.f26cc09d.css.map": "/northeast_projects/static/css/main.f26cc09d.css.map",
-    "main.cd14dcbe.js.map": "/northeast_projects/static/js/main.cd14dcbe.js.map"
+    "main.124821ff.css.map": "/northeast_projects/static/css/main.124821ff.css.map",
+    "main.89c96d95.js.map": "/northeast_projects/static/js/main.89c96d95.js.map"
   },
   "entrypoints": [
-    "static/css/main.f26cc09d.css",
-    "static/js/main.cd14dcbe.js"
+    "static/css/main.124821ff.css",
+    "static/js/main.89c96d95.js"
   ]
 }
