@@ -35,7 +35,7 @@
 
 #phiusAbout {
   width: 60%;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   /* margin-top: 1.4rem; */
   /* margin-left: 1.4rem; */
   color: white;
@@ -61,8 +61,6 @@
   font-weight: 400;
   font-family: "Roboto Condensed", sans-serif;
 }
-
-
 
 #phius-link {
   text-decoration: none;
@@ -109,7 +107,7 @@ section {
 }
 
 .no-parallax {
-  height: 70%;
+  height: 60%;
   z-index: 999;
   display: flex;
   flex-direction: column;
@@ -199,34 +197,34 @@ section h1 {
   }
 
   #phiusAbout {
-    width: 75%;
-    /* font-size: 1.4rem; */
-    margin-top: 0rem;
-    margin-left: 0rem;
+    width: 98%;
+    font-size: 1.4rem;
+    margin: 0;
     color: white;
     font-weight: 400;
     font-family: "Roboto Condensed", sans-serif;
   }
 
   .whatIsP {
-    width: 85%;
-    margin-top: 0rem;
+    width: 100%;
+    margin: 0;
+    font-size: 1.4rem;
     color: whitesmoke;
     font-family: "Roboto Condensed", sans-serif;
   }
 
   .fairP {
-    width: 90%;
-    /* font-size: 1.4rem; */
-    margin-top: 0rem;
+    width: 85%;
+    font-size: 1.3rem;
+    margin: 0rem;
     font-weight: 400;
     color: whitesmoke;
     font-family: "Roboto Condensed", sans-serif;
   }
 
   .char {
-    width: 90%;
-    /* font-size: 1.4rem; */
+    width: 100%;
+    font-size: 1.3rem;
     margin-top: 0rem;
     font-weight: 400;
     color: whitesmoke;
@@ -234,14 +232,17 @@ section h1 {
   }
 
   .cert {
-    width: 80%;
-    font-size: 1.3rem;
-    /* margin-top: 1.4rem; */
+    width: 99%;
+    font-size: 1.275rem;
     font-weight: 400;
+    margin: 0;
     color: whitesmoke;
     font-family: "Roboto Condensed", sans-serif;
   }
 
+  #np1{
+    height: 57%;
+  }
 }
 
 /* row1
