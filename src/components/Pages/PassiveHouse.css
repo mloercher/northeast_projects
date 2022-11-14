@@ -1,4 +1,4 @@
-#whatIsP {
+.whatIsP {
   width: 60%;
   font-size: 1.5rem;
   font-weight: 400;
@@ -6,8 +6,17 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#fairP {
-  width: 80%;
+.fairP {
+  width: 60%;
+  font-size: 1.5rem;
+  /* margin-top: 1.4rem; */
+  font-weight: 400;
+  color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.char {
+  width: 60%;
   font-size: 1.4rem;
   margin-top: 1.4rem;
   font-weight: 400;
@@ -15,21 +24,22 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#char {
-  width: 90%;
+.cert {
+  width: 60%;
   font-size: 1.4rem;
-  margin-top: 1.4rem;
+  /* margin-top: 1.4rem; */
   font-weight: 400;
   color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#cert {
-  width: 90%;
-  font-size: 1.3rem;
-  margin-top: 1.4rem;
+#phiusAbout {
+  width: 60%;
+  font-size: 1.5rem;
+  /* margin-top: 1.4rem; */
+  /* margin-left: 1.4rem; */
+  color: white;
   font-weight: 400;
-  color: whitesmoke;
   font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -52,15 +62,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-#phiusAbout {
-  width: 60%;
-  font-size: 1.4rem;
-  margin-top: 1.4rem;
-  margin-left: 1.4rem;
-  color: white;
-  font-weight: 400;
-  font-family: "Roboto Condensed", sans-serif;
-}
+
 
 #phius-link {
   text-decoration: none;
@@ -198,17 +200,48 @@ section h1 {
 
   #phiusAbout {
     width: 75%;
-    font-size: 1.4rem;
-    margin-top: 1.4rem;
-    margin-left: 1.4rem;
+    /* font-size: 1.4rem; */
+    margin-top: 0rem;
+    margin-left: 0rem;
     color: white;
     font-weight: 400;
     font-family: "Roboto Condensed", sans-serif;
   }
 
-  #whatIsP {
-    width: 90%;
+  .whatIsP {
+    width: 85%;
+    margin-top: 0rem;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
   }
+
+  .fairP {
+    width: 90%;
+    /* font-size: 1.4rem; */
+    margin-top: 0rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .char {
+    width: 90%;
+    /* font-size: 1.4rem; */
+    margin-top: 0rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .cert {
+    width: 80%;
+    font-size: 1.3rem;
+    /* margin-top: 1.4rem; */
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
 }
 
 /* row1

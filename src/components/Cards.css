@@ -14,29 +14,19 @@
   height: 100vh;
   overflow: scroll;
   margin-right: -8px;
-  /* padding-left: 8px; */
   width: 100vw;
-  /* padding-right: 1rem; */
   padding-bottom: 1rem;
-  /* background-image: url('../assets/images/heroCROP.png'); */
   background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
 }
 
-/* .container-fluid {
-  background-color: white;
-  padding-bottom: 5.2%;
-  width:90vw;
-  background: whitesmoke;
-} */
 
 .proj-img {
-  /* height: 16rem; */
   top: 0;
   width: 100%;
   height: 16rem;
   margin: 0;
   border-radius: 5px;
-  /* object-fit: cover; */
+  object-fit: cover;
   /* width: 100%; */
 }
 
@@ -101,6 +91,7 @@
 } */
 
 #card {
+  display: flex;
   width: 33rem;
   height: 16rem;
   background-color: transparent;
@@ -130,7 +121,7 @@
     /* top: 0; */
     width: 100%;
     height: 16rem;
-    object-fit: contain;
+    object-fit: cover;
     /* margin: 0;
     
     /* width: 100%; */

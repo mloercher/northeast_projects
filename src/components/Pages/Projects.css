@@ -1,6 +1,6 @@
 .project-main {
   display: flex;
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 
@@ -32,8 +32,5 @@
     border-radius: 0px;
   }
 
-  /* .row>* {
-    padding-left: 0 !important;
-  } */
 
 }
