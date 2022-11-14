@@ -83,10 +83,6 @@ h3, p{
     width: 100vw;
 } */
 
-.accord-main-cont{
-  height: 100vh;
-}
-
 .top-cont {
   display: flex;
   justify-content: center;

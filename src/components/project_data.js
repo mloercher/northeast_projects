@@ -8,7 +8,7 @@ const project_data = [
     text: '2018 PHIUS Design Competition Honorable Mention: Residential',
     img: require('../assets/images/accord_crop.png'),
     id: '1',
-    type: 'single-family',
+    type: 'single-family'
   },
   {
     link: '/newburgh',
