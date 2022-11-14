@@ -214,8 +214,8 @@ section h1 {
   }
 
   .fairP {
-    width: 85%;
-    font-size: 1.3rem;
+    width: 95%;
+    font-size: 1.4rem;
     margin: 0rem;
     font-weight: 400;
     color: whitesmoke;
@@ -224,8 +224,8 @@ section h1 {
 
   .char {
     width: 100%;
-    font-size: 1.3rem;
-    margin-top: 0rem;
+    font-size: 1.31rem;
+    margin: 0rem;
     font-weight: 400;
     color: whitesmoke;
     font-family: "Roboto Condensed", sans-serif;
