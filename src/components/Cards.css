@@ -35,8 +35,13 @@
   width: 100%;
   height: 16rem;
   margin: 0;
+  border-radius: 5px;
   /* object-fit: cover; */
   /* width: 100%; */
+}
+
+#card:hover {
+  transform: scale(.98);
 }
 
 .proj-title {
