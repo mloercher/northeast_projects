@@ -23,7 +23,7 @@
     justify-content: space-between;
     flex-direction: column;
     width: 100vw;
-    height: 25rem;
+    height: 19rem;
     min-width: 12rem;
     background: linear-gradient(
       90deg,
@@ -34,5 +34,6 @@
 
   .img-overlay {
     border-radius: 0px;
+    opacity: 1;
   }
 }

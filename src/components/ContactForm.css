@@ -46,6 +46,7 @@ form > label {
 
 @media screen and (max-width: 414px) {
 
+
   textarea {
     width: 90vw;
   }
@@ -59,6 +60,6 @@ form > label {
   }
 
   .btn{
-    width: 90vw;
+    width: 100%;
   }
 }

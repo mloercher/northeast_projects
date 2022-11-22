@@ -101,7 +101,7 @@
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
-@media only screen and (max-device-width: 414px) {
+@media only screen and (max-device-width: 800px) {
   #card-main {
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +116,7 @@
     padding-right: 0rem;
     /* padding-bottom: 4.5rem; */
     background: whitesmoke;
-    background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
+    /* background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1)); */
   }
 
   .proj-img {
@@ -147,16 +147,26 @@
   }
 }
 
-
 @media only screen and (max-device-width: 820px) {
-#card {
-  width: 100%;
-  margin-right: 0px;
-  margin-left: -2px;
+  #card {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: -2px;
+  }
 }
 
-.btn{
-  
-}
+/* @media only screen and (min-device-width: 823px) and (max-device-width: 1439px) {
+  #card {
+    width: 50rem;
+    margin-right: 0px;
+    margin-left: -2px;
+  }
+} */
 
-}
+/* @media only screen and (min-device-width: 1440px) and (max-device-width: 5000px) {
+  #card {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: -2px;
+  }
+} */
