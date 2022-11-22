@@ -101,7 +101,7 @@
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
-@media only screen and (max-device-width: 960px) {
+@media only screen and (max-device-width: 414px) {
   #card-main {
     display: flex;
     flex-wrap: wrap;
@@ -145,4 +145,18 @@
     opacity: 1;
     width: 100vw;
   }
+}
+
+
+@media only screen and (max-device-width: 820px) {
+#card {
+  width: 100%;
+  margin-right: 0px;
+  margin-left: -2px;
+}
+
+.btn{
+  
+}
+
 }

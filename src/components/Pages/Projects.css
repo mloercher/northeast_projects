@@ -4,22 +4,26 @@
   width: 100%;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 912px) {
   .project-main {
     display: flex;
     flex-wrap: wrap;
     height: auto;
     width: 100%;
+    height: auto;
   }
 
   .btn {
-    width: 80vw;
+    width: 90vw;
+    margin: 0;
   }
 
   .button-container {
     display: flex;
+    justify-content: space-between;
     flex-direction: column;
     width: 100vw;
+    height: 25rem;
     min-width: 12rem;
     background: linear-gradient(
       90deg,
