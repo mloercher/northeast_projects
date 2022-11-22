@@ -94,7 +94,7 @@
   text-decoration: none !important;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 414px) {
 #logo{
   /* height: 60%; */
   width: 80%;

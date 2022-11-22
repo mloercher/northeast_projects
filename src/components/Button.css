@@ -20,7 +20,7 @@
   /* box-shadow: 2px; */
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 414px) {
   .btn {
     height: 3rem;
     margin-top: 0px;

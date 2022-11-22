@@ -37,7 +37,7 @@
 }
 
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 414px) {
  .dropdown-menu{
   padding-top: 50px;
  }

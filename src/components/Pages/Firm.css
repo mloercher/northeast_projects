@@ -103,7 +103,7 @@ text-align: center;
   margin-left: 2%;
 } */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 414px) {
 #firm-heading{
   height: 10rem;
   width:21rem;
