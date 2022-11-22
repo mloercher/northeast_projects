@@ -245,6 +245,55 @@ section h1 {
   }
 }
 
+/* IPHONE SE AND SMALLER */
+@media screen and (max-width: 375px) {
+  .whatIsP {
+    width: 100%;
+    margin: 0;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .fairP {
+    width: 95%;
+    font-size: 1.2rem;
+    margin: 0rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .char {
+    width: 100%;
+    font-size: 1.15rem;
+    margin: 0rem;
+    font-weight: 400;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .cert {
+    width: 99%;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+    color: whitesmoke;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  #phiusAbout {
+    width: 98%;
+    font-size: 1.2rem;
+    margin: 0;
+    color: white;
+    font-weight: 400;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+
+}
+
 /* row1
 #phRow1 {
   display: flex;

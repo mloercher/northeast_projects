@@ -11,14 +11,14 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  height: 100vh;
+  height: auto;
+  min-height: 90vh;
   overflow: scroll;
   margin-right: -8px;
   width: 100vw;
   padding-bottom: 1rem;
   background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
 }
-
 
 .proj-img {
   top: 0;
@@ -31,7 +31,7 @@
 }
 
 #card:hover {
-  transform: scale(.98);
+  transform: scale(0.98);
 }
 
 .proj-title {
@@ -110,11 +110,13 @@
     overflow-x: scroll;
     margin: 0;
     width: 100vw;
+    min-height: 90vh;
     height: 69vh;
     padding-left: 0rem;
     padding-right: 0rem;
     /* padding-bottom: 4.5rem; */
     background: whitesmoke;
+    background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
   }
 
   .proj-img {

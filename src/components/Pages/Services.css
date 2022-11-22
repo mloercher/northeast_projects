@@ -142,6 +142,11 @@
     padding: 0 5px 0 5px;
   }
 
+  .servicesP {
+    font-size: 1.2rem;
+    width: 96vw;
+  }
+
   /* #ne-mission {
     color: white;
     font-family: "Roboto Condensed", sans-serif;
@@ -158,4 +163,13 @@
     align-items: center;
     height: 100%;
   } */
+}
+
+/* IPHONE SE AND SMALLER */
+@media screen and (max-width: 375px) {
+  .servicesP {
+    font-size: 1.1rem;
+  }
+
+
 }
