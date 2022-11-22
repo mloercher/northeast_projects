@@ -10,10 +10,11 @@
 
 .firm-intro {
   background: linear-gradient(
-      rgba(0, 0, 0, 0.8) 10%,
-      rgba(0, 0, 0, 0.75) 40%,
-      rgba(0, 0, 0, 0.3) 80%,
-      rgba(0, 0, 0, 0.2) 20%
+      rgba(0, 0, 0, 0.9) ,
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.1) 
     ),
     url("/src/assets/images/livingRoom.jpg");
   background-size: cover;

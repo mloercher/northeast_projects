@@ -14,8 +14,8 @@
   height: auto;
   min-height: 90vh;
   overflow: scroll;
-  margin-right: -8px;
-  width: 100vw;
+  /* margin-right: -8px; */
+  width: auto;
   padding-bottom: 1rem;
   background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
 }
@@ -23,7 +23,7 @@
 .proj-img {
   top: 0;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   margin: 0;
   border-radius: 5px;
   object-fit: cover;
@@ -49,7 +49,7 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 16rem;
+  height: 20rem;
   background: rgba(0, 0, 0, 0.6);
   color: white;
   display: flex;
@@ -92,8 +92,8 @@
 
 #card {
   display: flex;
-  width: 33rem;
-  height: 16rem;
+  width: 84vw;
+  height: 20rem;
   background-color: transparent;
   box-shadow: 5px 10px;
   font-family: "Roboto Condensed", sans-serif;
@@ -122,7 +122,7 @@
   .proj-img {
     /* top: 0; */
     width: 100%;
-    height: 16rem;
+    height: 20rem;
     object-fit: cover;
     /* margin: 0;
     
@@ -132,7 +132,7 @@
   #card {
     width: 100%;
     margin-right: 0px;
-    margin-left: -2px;
+    /* margin-left: -2px; */
   }
 
   .link {
@@ -140,28 +140,50 @@
     top: 0;
     /* width: 100%; */
   }
+}
+
+@media only screen and (max-device-width: 1024px) {
+  #card {
+    width: 96%;
+    /* margin-right: 0px;
+    margin-left: -2px; */
+  }
 
   .img-overlay {
     opacity: 1;
-    width: 100vw;
-  }
-}
-
-@media only screen and (max-device-width: 820px) {
-  #card {
     width: 100%;
-    margin-right: 0px;
-    margin-left: -2px;
+    border-radius: 5px;
+    transition: none;
   }
 }
 
-/* @media only screen and (min-device-width: 823px) and (max-device-width: 1439px) {
+@media only screen and (min-device-width: 1280px) {
   #card {
-    width: 50rem;
-    margin-right: 0px;
-    margin-left: -2px;
+    width: 33rem;
+    /* margin-right: 0px;
+    margin-left: -2px; */
   }
-} */
+
+  .img-overlay {
+    opacity: 1;
+    width: 33rem;
+    border-radius: 5px;
+    transition: none;
+  }
+}
+
+@media only screen and (min-device-width: 1440px) {
+  #card {
+    width: 33rem;
+    min-width: 38rem;
+  }
+
+  .img-overlay {
+    width: 33rem;
+    min-width: 38rem;
+    border-radius: 5px;
+  }
+}
 
 /* @media only screen and (min-device-width: 1440px) and (max-device-width: 5000px) {
   #card {
