@@ -24,7 +24,7 @@ const project_data = [
     text: '2018 PHIUS Design Competition Honorable Mention: Residential',
     img: require('../assets/images/gallatin/sideEleBlast.jpg'),
     id: '3',
-    type: 'commercial'
+    type: 'single-family'
   },
   {
     link: '/hilltop',

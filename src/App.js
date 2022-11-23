@@ -31,7 +31,7 @@ import Pr from './components/Pages/Pr';
 
 function App() {
   return (
-    <>
+    <div className='container-wrap'>
       <Router>
         <NavBar />
         {/* <div className="container-wrap"> */}
@@ -52,7 +52,7 @@ function App() {
         {/* </div> */}
       </Router>
       <Footer />
-    </>
+    </div>
   );
 }
 

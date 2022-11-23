@@ -3,9 +3,9 @@
   flex-direction: column;
   align-items: center;
   border-right: solid black;
-  width: 42%;
+  width: auto;
   /* top: 0; */
-  min-width: 12rem;
+  min-width: 11rem;
   height: auto;
   padding-top: 0.5rem;
   background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
@@ -58,4 +58,20 @@
   align-items: center;
   justify-content: center;
 }
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100vw;
+    height: 19rem;
+    min-width: 12rem;
+    background: linear-gradient(
+      90deg,
+      rgb(28, 27, 27) 0%,
+      rgb(26, 23, 23) 100%
+    );
+}
+
+
 }
