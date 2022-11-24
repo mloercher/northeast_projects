@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 912px) {
+@media screen and (max-width: 1279px) {
   .project-main {
     display: flex;
     flex-wrap: wrap;

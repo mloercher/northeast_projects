@@ -106,7 +106,7 @@
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
-@media only screen and (max-device-width: 800px) {
+@media only screen and (max-device-width: 912px) {
   #card-main {
     display: flex;
     flex-wrap: wrap;
@@ -115,7 +115,7 @@
     overflow-x: scroll;
     margin: 0;
     width: 100vw;
-    min-height: 51vh;
+    min-height: 57vh;
     height: auto;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -155,10 +155,10 @@
   }
 
   .img-overlay {
-    opacity: 1;
+    /* opacity: 1; */
     width: 100%;
     border-radius: 5px;
-    transition: none;
+    /* transition: none; */
   }
 }
 
@@ -170,10 +170,7 @@
   }
 
   .img-overlay {
-    opacity: 1;
     width: 100%;
-    border-radius: 5px;
-    transition: none;
   }
 }
 
@@ -185,8 +182,6 @@
 
   .img-overlay {
     width: 100%;
-    min-width: 38rem;
-    border-radius: 5px;
   }
 }
 
