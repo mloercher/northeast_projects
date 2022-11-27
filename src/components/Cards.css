@@ -22,7 +22,7 @@
   width: 100%;
   padding-bottom: 0.5rem;
   object-fit: cover;
-  background: linear-gradient(rgba(124, 119, 119, 0.1), rgba(0, 0, 1, 1));
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }
 
 .proj-img {
