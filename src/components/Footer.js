@@ -7,11 +7,14 @@ function Footer() {
     <>
       <footer className='footer-container'>
         <div className='contact-content'>
-         
           <div className='follow'>
-            <p>FOLLOW:</p>
+            {/* <p>FOLLOW:</p> */}
             <div className='icons'>
             <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><FaInstagram size={30} style={{ color: '#FFF' }} id="insta" /></a>
+            <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><FaInstagram size={30} style={{ color: '#FFF' }} id="insta" /></a>
+            <p>PHONE</p>
+            <p>EMAIL</p>
+            {/*  */}
             {/* <a href="https://www.facebook.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}> <FaFacebook size={30} style={{ color: '#FFF' }}id="facebook"/></a> */}
             </div>
           </div>

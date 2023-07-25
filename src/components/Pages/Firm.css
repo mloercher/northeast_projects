@@ -14,13 +14,25 @@
       rgba(0, 0, 0, 0.3) 80%,
       rgba(0, 0, 0, 0.2) 20%
     ),
-    url("/src/assets/images/livingRoom.jpg");
+    url("/src/assets/images/new_splash_img_2.JPG");
+  /* background: linear-gradient(
+      rgba(0, 0, 0, 0.1),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.9)
+    ),
+    url("/src/assets/images/new_splash_img.JPG"); */
   background-size: cover;
   background-repeat: no-repeat;
   height: 78vh;
   width: 100%;
   text-align: center;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding-bottom: 5rem; */
 }
 
 .firm-about {
@@ -28,11 +40,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .firm-title {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: light;
   color: white;
   font-size: 3rem;
@@ -60,14 +71,17 @@
 }
 
 #firm-heading {
-  height: 20rem;
-  width: 45rem;
+  height: auto;
+  width: 50rem;
 }
 
-.firmP{
-font-family: 'Roboto Condensed', sans-serif;
-color: white;
-text-align: center;
+
+.about_ne_home{
+  width: 80%;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 18px;
 }
 
 /* .about-ne2 {
@@ -98,7 +112,7 @@ text-align: center;
   margin-left: 2%;
 } */
 
-@media screen and (max-width: 960px) {
+/* @media screen and (max-width: 414px) {
 #firm-heading{
   height: 10rem;
   width:21rem;
@@ -120,9 +134,12 @@ text-align: center;
   text-align: center;
   font-size: x-large;
   }
-/* 
-  .list-outside{
-    padding: 0 !important;
-  } */
 
+} */
+
+/* IPHONE SE AND SMALLER */
+@media screen and (max-width: 375px) {
+  .firmP {
+    font-size: 1.2rem;
+  }
 }

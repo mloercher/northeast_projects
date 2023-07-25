@@ -47,18 +47,18 @@ function Navbar() {
             <div className='aboutProj' textDecoration="none" onClick={closeMobileMenu}>SERVICES</div>
           </Link>
         </li>
-        <li
+        {/* <li
           className='nav-item'
         >
           <Link to='/passiveHouse' style={{ textDecoration: 'none' }}>
             <div className='aboutProj' textDecoration="none" onClick={closeMobileMenu}>PASSIVE HOUSE</div>
           </Link>
-        </li>
+        </li> */}
         <li
           className='nav-item'
         >
           <Link to='/contact' style={{ textDecoration: 'none' }}>
-            <div className='aboutProj' textDecoration="none" onClick={closeMobileMenu}>CONTACT</div>
+            <div className='aboutProj' textDecoration="none" onClick={closeMobileMenu}>ABOUT</div>
           </Link>
         </li>
         <li

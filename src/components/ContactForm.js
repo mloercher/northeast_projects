@@ -31,14 +31,15 @@ export const ContactForm = () => {
         // ****already called in react-hook-form vvv
         // e.preventDefault();
 
-        // emailjs.sendForm('service_qnqavv9', 'template_xs82bgl', form.current, 'C8SHKhuKTEZwN9gg9')
-        //     .then((result) => {
-        //         console.log(result.text);
-        //         form.current.reset();
-               
-        //     }, (error) => {
-        //         console.log(error.text);
-        //     });
+        emailjs.sendForm('service_qnqavv9', 'template_xs82bgl', form.current, 'C8SHKhuKTEZwN9gg9')
+            .then((result) => {
+                console.log(result.text);
+                form.current.reset();
+
+            }, (error) => {
+                console.log(error.text);
+            });
+
         console.log(e)
         form.current.reset();
         setShow(true)
@@ -52,28 +53,30 @@ export const ContactForm = () => {
 
 
     return (
-        <div className='outside-form'>
-            <form ref={form} onSubmit={handleSubmit(sendEmail)}>
-                <label >Your Name:</label>
+        // <div className='outside-form'>
+        <>
+            <form id='form' ref={form} onSubmit={handleSubmit(sendEmail)}>
+                <label >Name:</label>
                 <input type="text" placeholder='Your Name...' name="name" {...register("name")} />
                 <p className='errors'>{errors.name?.message}</p>
-                <label>Your Email Address:</label>
+                <label>Email Address:</label>
                 <input type="email" placeholder='client@email.com' name="email" {...register("email")} />
                 <p className='errors'>{errors.email?.message}</p>
                 <label>Message:</label>
                 <textarea placeholder='Hello...' name="message" />
                 <p className='errors'>{errors.message?.message}</p>
-                <Button type="submit" value="Send" {...register("message")}>SEND</Button>
+                <Button id='contact-submit' type="submit" value="Send" {...register("message")}>SEND</Button>
             </form>
             {/* modal */}
-            <Modal className="modal-outer"show={show} onHide={handleClose}>
+            <Modal className="modal-outer" show={show} onHide={handleClose}>
                 <Modal.Title id='modal-title'>Message Sent Successfully!</Modal.Title>
-                    <Button id='modal-btn' variant="dark" onClick={handleClose}>
-                        Close
-                    </Button>
+                <Button id='modal-btn' variant="dark" onClick={handleClose}>
+                    Close
+                </Button>
 
             </Modal>
-        </div>
+        </>
+        // </div>
     );
 };
 

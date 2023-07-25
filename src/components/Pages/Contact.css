@@ -18,18 +18,22 @@
       rgba(0, 0, 0, 0.1) 60%,
       rgba(0, 0, 0, 0.1) 20%
     ),
-    url("/src/assets/images/newContact.png");
-  background-size: cover;
+    url("/src/assets/images/new_contact_header.JPG");
+  background-size: cover; /* Use 'cover' to make the background image cover the entire container */
   background-repeat: no-repeat;
   height: 78vh;
   width: 100%;
+  display: flex;
+  /* justify-content: start; */
+  aspect-ratio: 16/9;
 }
+
 
 .contact-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   width: 40%;
   height: 100%;
   padding-left: 4rem;
@@ -123,6 +127,34 @@ button {
   font-size: 80%;
 }
 
+input{
+  width: 100%;
+}
+
+.firmP{
+max-width: 50%;
+font-size: 18px;
+text-align: left;
+color: white;
+}
+
+#portrait{
+  padding-right: 40px;
+  height: 300px;
+  width: auto;
+  /* aspect-ratio: 16/9; */
+}
+
+#top-contact{
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+
+#ne-mission{
+  font-size: 20px;
+}
+
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/
 @media screen and (max-device-width: 960px) {
   .contact-intro {
@@ -144,8 +176,8 @@ button {
   .contact-text {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: left;
     width: 100%;
     height: 100%;
     padding-left: .5rem;
