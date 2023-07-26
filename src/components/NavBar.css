@@ -1,16 +1,12 @@
 #logo {
-  padding-left: 1rem;
-  padding-bottom: 0rem;
-  height: 80%;
-  width: 80%;
-  /* padding-bottom: 1.5rem; */
+  padding: 10px 0 10px 10px;
+  height: 100%;
+  width: 100%;
 }
 
 /* .navbar-logo {
   padding-bottom: 2rem;
 } */
-
-
 
 .navbar {
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
@@ -18,9 +14,8 @@
   height: 4rem;
   font-size: 1.1rem;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: flex-end !important; */
-  padding: 0 !important;
+  justify-content: space-between;
+  /* padding: 0 !important; */
 }
 
 .aboutProj {
@@ -41,16 +36,10 @@
   justify-content: space-evenly;
   align-items: flex-end;
   height: 4rem;
-  /* grid-template-columns: repeat(5, auto); */
-  /* grid-gap: 10px; */
   list-style: none;
-  /* text-align: end; */
   margin: 0;
   padding-bottom: 0rem;
-  width: 40rem;
-  /* width: 25vw; */
-  /* justify-content: center; */
-  /* margin-right: 2rem; */
+  width: 38rem;
 }
 
 .nav-item {
@@ -95,13 +84,52 @@
   text-decoration: none !important;
 }
 
-@media screen and (max-width: 960px) {
-#logo{
-  /* height: 60%; */
-  width: 80%;
-  /* height: 50px; */
-  padding-top: .5rem;
+.dropdown {
+  position: relative;
 }
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 0.5rem;
+  width: 10rem;
+  /* height: 15rem; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  font-family: "Roboto Condensed", sans-serif;
+  border-radius: 5px;
+}
+
+.dropdown.active .dropdown-menu {
+  display: block;
+  background-color: black;
+}
+
+.fa-caret-down.active {
+  transform: rotate(180deg);
+}
+
+.dropdown-item {
+  font-size: 16px; /* Example font size */
+  color: white;
+  /* padding: 0.25rem 0.5rem; */
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-item:hover {
+  background-color: #f5f5f5;
+}
+
+@media screen and (max-width: 960px) {
+  #logo {
+    /* height: 60%; */
+    width: 80%;
+    /* height: 50px; */
+    padding-top: 0.5rem;
+  }
   .aboutProj {
     display: flex;
     flex-direction: column;

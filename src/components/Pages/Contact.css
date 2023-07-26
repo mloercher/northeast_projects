@@ -151,8 +151,12 @@ color: white;
   font-size: 20px;
 }
 
-#ne-mission{
-  font-size: 20px;
+#contact-blurb{
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1rem;
+  /* min-width: 40px; */
+  max-width: 24rem;
+  color: white;
 }
 
 /* iPhone XR, Galaxy s20, Ipad Air, Ipad Mini, Surface pro 7, Galaxy A51*/

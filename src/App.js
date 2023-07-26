@@ -50,9 +50,9 @@ function App() {
           <Route exact path='/dubois' element={<Dubois />} />
           <Route exact path='/pr' element={<Pr />} />
         </Routes>
-        {/* </div> */}
+        <Footer />
       </Router>
-      <Footer />
+
     </>
   );
 }
@@ -64,8 +64,3 @@ export default App;
 
 
 
-
-{/* <Route exact path='/singleFam' element={<SingleFam />} />
-<Route exact path='/multiFam' element={<MultiFam />} />
-<Route exact path='/commercial' element={<Commercial />} />
-<Route exact path='/retro' element={<Retro />} /> */}

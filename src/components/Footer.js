@@ -1,34 +1,39 @@
-import React from 'react'
-import './Footer.css'
-import { FaInstagram, FaFacebook} from 'react-icons/fa'
+import React, { useEffect } from 'react';
+import './Footer.css';
+import { FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { Link, useLocation } from 'react-router-dom';
 
 function Footer() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
     <>
       <footer className='footer-container'>
         <div className='contact-content'>
           <div className='follow'>
-            {/* <p>FOLLOW:</p> */}
             <div className='icons'>
-            <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><FaInstagram size={30} style={{ color: '#FFF' }} id="insta" /></a>
-            <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}><FaInstagram size={30} style={{ color: '#FFF' }} id="insta" /></a>
-            <p>PHONE</p>
-            <p>EMAIL</p>
-            {/*  */}
-            {/* <a href="https://www.facebook.com/ne_projects" rel="noreferrer" target="_blank" style={{textDecoration: 'none'}}> <FaFacebook size={30} style={{ color: '#FFF' }}id="facebook"/></a> */}
+              <a href="https://www.instagram.com/ne_projects" rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
+                <FaInstagram size={30} style={{ color: '#FFF' }} id="insta" />
+              </a>
+              <Link to='/contact' style={{ textDecoration: 'none' }}>
+                <FaPhone size={24} style={{ color: '#FFF' }} id="phone" />
+              </Link>
+              <Link to='/contact' style={{ textDecoration: 'none' }}>
+                <FaEnvelope size={28} style={{ color: '#FFF' }} id="email" />
+              </Link>
             </div>
           </div>
           <div className='copyright'>
-          &#169;{new Date().getFullYear()} Northeast Projects, LLC
+            &#169;{new Date().getFullYear()} Northeast Projects, LLC
           </div>
         </div>
       </footer>
     </>
-  )
+  );
 }
 
 export default Footer;
-
-
-
-

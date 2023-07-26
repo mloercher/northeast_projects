@@ -44,7 +44,9 @@
   width: 100%;
   justify-content: center;
   border-bottom: solid white 0.75px;
+  align-items: center;
 }
+
 .follow p {
   margin-bottom: 0%;
   margin-left: 0%;
@@ -66,7 +68,10 @@
   display: flex;
   justify-content: center;
   padding-bottom: 6px;
+  width: 80%;
+  justify-content: space-between;
 }
+
 .icons a {
   text-decoration: none;
 }

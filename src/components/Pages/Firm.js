@@ -1,6 +1,6 @@
 import React from 'react'
 import './Firm.css'
-import JL from '../../assets/images/JL.png'
+// import JL from '../../assets/images/JL.png'
 import { motion } from 'framer-motion'
 import firmLogo from '../../assets/images/firmLogo.png'
 
