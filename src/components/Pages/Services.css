@@ -46,7 +46,8 @@
 .servicesP {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
-  width: 60rem;
+  width: 50rem;
+  font-size: 18px;
 }
 
 .border {
@@ -68,10 +69,11 @@
       rgba(0, 0, 0, 0.1) 60%,
       rgba(0, 0, 0, 0.1) 20%
     ),
-    url("/src/assets/images/serviceRender.jpg");
+    url("/src/assets/images/Services_new_photo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 78vh;
+  min-height: 35rem;
   width: 100%;
   /* display: flex;
   flex-direction: column;
@@ -104,7 +106,7 @@
   width: 100vw;
 } */
 
-@media only screen and (max-width: 960px){
+@media only screen and (max-width: 960px) {
   .services-intro {
     background: linear-gradient(
         0deg,
@@ -113,7 +115,7 @@
         rgba(0, 0, 0, 0.1) 66%,
         rgba(0, 0, 0, 0.1) 29%
       ),
-      url('../../assets/images/heroCROP.png');
+      url("/src/assets/images/Services_new_photo.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh;

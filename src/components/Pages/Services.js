@@ -77,38 +77,27 @@ function Services() {
                             viewport={{ once: true }}>
                             <div className='border'></div>
                             <br></br>
-                            <br></br>
                             <h3 className='services-title'>Building Performance Consulting</h3>
-                            <br></br>
                             <img src={speed} alt='meter' height='80rem'></img>
-                            <br></br>
-                            <br></br>
                             <p className='servicesP'>Bring Northeast Projects onto your team and take advantage of dynamic energy model updates integrated into the design process. Consultation includes Drawing review, design walkthrough, mechanical system review, Assembly and detail design as well as energy modeling.</p>
                             <br></br>
                             <br></br>
                             <div className='border'></div>
+                            <br></br>
                         </div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
                         <motion.div className="services-list-item" ref={ref2}
                             initial="hidden"
                             whileInView={'visible'}
                             variants={serviceVariants}
                             viewport={{ once: true }}>
                             <h3 className='services-title'>Whole Building Energy Modeling</h3>
-                            <br></br>
                             <img src={graph} alt='graph' height='80rem'></img>
-                            <br></br>
-                            <br></br>
                             <p className='servicesP'>The first time a detail is tested should not be in the field. With the use of energy modeling software that addresses both the whole building as well as it’s individual components we can accurately predict a completed project’s success. The best approach to delivering a high-performance project on time and on budget is through an intelligent design and planning process.</p>
                             <br></br>
                             <br></br>
                             <div className='border'></div>
+                            <br></br>
                         </motion.div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
                         <motion.div className="services-list-item" ref={ref3}
                             initial="hidden"
                             whileInView={'visible'}
@@ -118,15 +107,11 @@ function Services() {
                             <br></br>
                             <img src={study} alt='clipboard' height='80rem'></img>
                             <br></br>
-                            <br></br>
                             <p className='servicesP'>Dedicated to Passive House, but not sure if your design will meet the standards? Before you fully commit to certification, find out if you’ll make the cut. The feasibility report includes review of the design drawings and a design development energy model that will allow testing of multiple wall assemblies, windows and HVAC systems. Even if Passive House certification is not pursued at the end, this is a valuable service to predict and optimize the performance of your project.</p>
                             <br></br>
                             <br></br>
                             <div className='border'></div>
                         </motion.div>
-                        <br></br>
-                        <br></br>
-                        <br></br>
                         <motion.div className="services-list-item" ref={ref4}
                             initial="hidden"
                             variants={serviceVariants}
@@ -135,7 +120,6 @@ function Services() {
                             <h3 className='services-title'>Passive House Design and Certification</h3>
                             <br></br>
                             <img src={chat} alt='bubble' height='80rem'></img>
-                            <br></br>
                             <br></br>
                             <p className='servicesP'>Passive House certification involves many parties and processes. Working with Architects and other Building professionals, develop all required design documentation to submit to the Passive House Institute U.S. Coordinate with certification body, design team and PHIUS+ 2018 rater through design, QA/QC and final certification. Please reach out to talk more about your project and request a proposal.</p>
                         </motion.div>

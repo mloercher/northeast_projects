@@ -15,7 +15,7 @@ function DropdownMenu({ isOpen, onMouseEnter, onMouseLeave }) {
       <Link to='/projects/commercial' className='dropdown-item' onClick={onMouseLeave}>
         Commercial
       </Link>
-      <Link to='/projects/mult-family' className='dropdown-item' onClick={onMouseLeave}>
+      <Link to='/projects/multi-family' className='dropdown-item' onClick={onMouseLeave}>
         Multi-Family
       </Link>
     </div>

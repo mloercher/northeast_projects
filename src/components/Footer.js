@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import './Footer.css';
-import { FaInstagram, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaInstagram, FaEnvelope, FaPhone, FaLinkedin } from 'react-icons/fa';
 import { Link, useLocation } from 'react-router-dom';
 
 function Footer() {
@@ -25,6 +25,9 @@ function Footer() {
               <Link to='/contact' style={{ textDecoration: 'none' }}>
                 <FaEnvelope size={28} style={{ color: '#FFF' }} id="email" />
               </Link>
+              <a href="https://www.linkedin.com/in/john-loercher-93026332/" rel="noreferrer" target="_blank" style={{ textDecoration: 'none' }}>
+                <FaLinkedin size={28} style={{ color: '#FFF' }} id="email" />
+              </a>
             </div>
           </div>
           <div className='copyright'>

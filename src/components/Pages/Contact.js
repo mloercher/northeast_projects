@@ -36,13 +36,13 @@ function Contact() {
                         transition={{ stiffness: 100 }} id='contact-blurb'>Northeast Projects supports designers, builders and homeowners to complete their high performance projects. Before investing in training or losing valuable time and money in mistakes, take advantage of these valuable design support services.</motion.p>
                 </div>
             </div>
-
             <div className='contact-container'>
+                <div className='border'></div>
+                <br></br>
+                <h2>About</h2>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img id="portrait" src={JL} alt='portrait' height='80rem'></img>
                     <p className='firmP'>John Loercher is a Professor of Architecture, CPHC instructor for the Passive House Institute U.S. and owner of Northeast Projects LLC. He is a Certified Passive House Consultant and holds a masters of architecture from Parsons the New School for Design. His firm, Northeast Projects, specializes in Passive House design, high performance building envelopes and advanced energy modeling. It serves a diverse range of projects from single-family and mti-family residential, commercial, new construction and retrofits.</p>
-                    {/* <div className='border'></div> */}
-
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img id="portrait" src={JL} alt='portrait' height='80rem'></img>

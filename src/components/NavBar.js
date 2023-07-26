@@ -25,7 +25,7 @@ function Navbar() {
 
 
   return (
-    <div className='navbar'>
+    <div className='navigation'>
       <Link to='/' className='navbar-logo'>
         <img id="logo" src={logo2} alt='logo'></img>
       </Link>
@@ -33,17 +33,17 @@ function Navbar() {
         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-        <li className='nav-item'>
+        <li className='navigationItem'>
           <Link to='/services' style={{ textDecoration: 'none' }}>
             <div className='aboutProj' textDecoration="none" onClick={closeMobileMenu}>SERVICES</div>
           </Link>
         </li>
-        <li className='nav-item'>
+        <li className='navigationItem'>
           <Link to='/contact' style={{ textDecoration: 'none' }}>
             <div className='aboutProj' textDecoration="none" onClick={closeMobileMenu}>ABOUT</div>
           </Link>
         </li>
-        <li className={`nav-item dropdown ${dropdownOpen ? 'active' : ''}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} onClick={handleDropdown}>
+        <li className={`navigationItem dropdown ${dropdownOpen ? 'active' : ''}`} onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} onClick={handleDropdown}>
           <div className='aboutProj'>PROJECTS</div>
           <i className={`fas fa-caret-down ${dropdownOpen ? 'active' : ''}`} />
           {dropdownOpen && <DropdownMenu />}
