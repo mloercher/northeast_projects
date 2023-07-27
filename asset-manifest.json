@@ -1,20 +1,17 @@
 {
   "files": {
-    "main.css": "/northeast_projects/static/css/main.65dfde7f.css",
-    "main.js": "/northeast_projects/static/js/main.564c9a8f.js",
+    "main.css": "/northeast_projects/static/css/main.25795997.css",
+    "main.js": "/northeast_projects/static/js/main.7c1d7011.js",
+    "static/media/Gallatin_About_new.jpg": "/northeast_projects/static/media/Gallatin_About_new.bbe0fa093f32e7043673.jpg",
     "static/media/newlake.png": "/northeast_projects/static/media/newlake.48b9dca37168de6d0f18.png",
-    "static/media/heroCROP.png": "/northeast_projects/static/media/heroCROP.05f7948e8ea2b47eb202.png",
+    "static/media/new_splash_img_2.JPG": "/northeast_projects/static/media/new_splash_img_2.9b1fc2473689be207a10.JPG",
+    "static/media/Services_new_photo.jpg": "/northeast_projects/static/media/Services_new_photo.9ffb2a2d9342d579c399.jpg",
     "static/media/newren.png": "/northeast_projects/static/media/newren.a058c535c55cb816a1c4.png",
     "static/media/JL.png": "/northeast_projects/static/media/JL.6b7180239928cdbc80cc.png",
     "static/media/accord_crop.png": "/northeast_projects/static/media/accord_crop.2c0f0be2cce0b549d2c0.png",
-    "static/media/newburgh_proj.png": "/northeast_projects/static/media/newburgh_proj.005c5f0720554267b034.png",
     "static/media/ph-logo.png": "/northeast_projects/static/media/ph-logo.ead52521cc9eec20f0fd.png",
-    "static/media/newContact.png": "/northeast_projects/static/media/newContact.2a094db2395e1c891518.png",
-    "static/media/whyNot.jpg": "/northeast_projects/static/media/whyNot.264a926076e50294f145.jpg",
     "static/media/sketch.png": "/northeast_projects/static/media/sketch.741adc32bc96eb266645.png",
-    "static/media/sideEleBlast.jpg": "/northeast_projects/static/media/sideEleBlast.784d5bb2e4a2af1faff4.jpg",
     "static/media/poster.jpg": "/northeast_projects/static/media/poster.44f0242c12e2082674cf.jpg",
-    "static/media/livingRoom.jpg": "/northeast_projects/static/media/livingRoom.2c4ae8774d6c65e566b9.jpg",
     "static/media/graph.gif": "/northeast_projects/static/media/graph.31c2685194e199740dbc.gif",
     "static/media/study.gif": "/northeast_projects/static/media/study.062b0128ed2f4d1e2310.gif",
     "static/media/chat.gif": "/northeast_projects/static/media/chat.03174e6abb5a903e5589.gif",
@@ -25,11 +22,11 @@
     "static/media/phiusLogo.png": "/northeast_projects/static/media/phiusLogo.59412e54b348101fa85b.png",
     "static/media/fairShare.png": "/northeast_projects/static/media/fairShare.4f44de956740d92b5313.png",
     "index.html": "/northeast_projects/index.html",
-    "main.65dfde7f.css.map": "/northeast_projects/static/css/main.65dfde7f.css.map",
-    "main.564c9a8f.js.map": "/northeast_projects/static/js/main.564c9a8f.js.map"
+    "main.25795997.css.map": "/northeast_projects/static/css/main.25795997.css.map",
+    "main.7c1d7011.js.map": "/northeast_projects/static/js/main.7c1d7011.js.map"
   },
   "entrypoints": [
-    "static/css/main.65dfde7f.css",
-    "static/js/main.564c9a8f.js"
+    "static/css/main.25795997.css",
+    "static/js/main.7c1d7011.js"
   ]
 }
