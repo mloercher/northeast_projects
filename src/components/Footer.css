@@ -38,13 +38,15 @@
 
 .follow {
   margin-bottom: 0%;
-  margin-left: 2%;
+  /* margin-left: 2%; */
   display: flex;
   flex-direction: column;
   width: 100%;
-  justify-content: center;
+  justify-content: space-between;
   border-bottom: solid white 0.75px;
+  align-items: center;
 }
+
 .follow p {
   margin-bottom: 0%;
   margin-left: 0%;
@@ -66,7 +68,10 @@
   display: flex;
   justify-content: center;
   padding-bottom: 6px;
+  width: 100%;
+  justify-content: space-between;
 }
+
 .icons a {
   text-decoration: none;
 }

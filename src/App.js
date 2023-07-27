@@ -5,13 +5,18 @@ import NavBar from './components/NavBar';
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Routes, Route } from 'react-router-dom';
 import './App.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Page components
-import Home from './components/Pages/Home';
-import Firm from './components/Pages/Firm'
+// import HomeOld from './components/Pages/HomeOld';
+// import Projects from './components/Pages/Projects'
+import Home from './components/Pages/Home'
 import Services from './components/Pages/Services'
-import Projects from './components/Pages/Projects'
 import PassiveHouse from './components/Pages/PassiveHouse';
+import SingleFamily from './components/Pages/Projects/SingleFamily/SingleFamily';
+import MultiFamily from './components/Pages/Projects/MultiFamily/MultiFamily'
+import Retrofit from './components/Pages/Projects/Retrofit/Retrofit'
+import Commercial from './components/Pages/Projects/Commercial/Commercial'
 // import SingleFam from './components/Pages/SingleFam';
 // import MultiFam from './components/Pages/MultiFam';
 // import Commercial from './components/Pages/Commercial';
@@ -36,10 +41,14 @@ function App() {
         <NavBar />
         {/* <div className="container-wrap"> */}
         <Routes>
-          <Route exact path='/' element={<Firm />} />
-          <Route exact path='/northeast_projects' element={<Firm />} />
+          <Route exact path='/' element={<Home />} />
+          <Route exact path='/northeast_projects' element={<Home />} />
           <Route exact path='/services' element={<Services />} />
-          <Route exact path='/projects' element={<Projects />} />
+          {/* <Route exact path='/projects' element={<Projects />} /> */}
+          <Route exact path="/projects/single-family" element={<SingleFamily />} />
+          <Route exact path="/projects/multi-family" element={<MultiFamily />} />
+          <Route exact path="/projects/retrofit" element={<Retrofit />} />
+          <Route exact path="/projects/commercial" element={<Commercial />} />
           <Route exact path='/passiveHouse' element={<PassiveHouse />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/accord' element={<Accord />} />
@@ -49,9 +58,8 @@ function App() {
           <Route exact path='/dubois' element={<Dubois />} />
           <Route exact path='/pr' element={<Pr />} />
         </Routes>
-        {/* </div> */}
+        <Footer />
       </Router>
-      <Footer />
     </div>
   );
 }
@@ -63,8 +71,3 @@ export default App;
 
 
 
-
-{/* <Route exact path='/singleFam' element={<SingleFam />} />
-<Route exact path='/multiFam' element={<MultiFam />} />
-<Route exact path='/commercial' element={<Commercial />} />
-<Route exact path='/retro' element={<Retro />} /> */}

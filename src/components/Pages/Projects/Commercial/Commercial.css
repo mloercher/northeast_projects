@@ -1,0 +1,61 @@
+.top-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  padding: 0 !important;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.carousel {
+  width: 70%;
+  border: solid black 2px;
+  border-radius: 5px;
+}
+
+.carousel-item img {
+  border-radius: 5px;
+}
+
+#cat-title {
+  padding: 20px 0 0 190px;
+  font-weight: 300;
+  color: white;
+}
+
+.bottom-cont {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.info-container {
+  padding-top: 20px;
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+  padding: 0;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+h3 {
+  font-weight: 500;
+  color: white;
+}
+
+.feat-proj-title {
+  color: white;
+}
+
+.feat-proj-description {
+  color: white;
+}

@@ -78,29 +78,24 @@ function Services() {
                             <div className='border'></div>
                             <br></br>
                             <h3 className='services-title'>Building Performance Consulting</h3>
-                            {/* <br></br> */}
                             <img src={speed} alt='meter' height='80rem'></img>
-                            <br></br>
                             <p className='servicesP'>Bring Northeast Projects onto your team and take advantage of dynamic energy model updates integrated into the design process. Consultation includes Drawing review, design walkthrough, mechanical system review, Assembly and detail design as well as energy modeling.</p>
                             <br></br>
                             <div className='border'></div>
+                            <br></br>
                         </div>
-                        <br></br>
                         <motion.div className="services-list-item" ref={ref2}
                             initial="hidden"
                             whileInView={'visible'}
                             variants={serviceVariants}
                             viewport={{ once: true }}>
                             <h3 className='services-title'>Whole Building Energy Modeling</h3>
-                            {/* <br></br> */}
                             <img src={graph} alt='graph' height='80rem'></img>
-                            <br></br>
                             <p className='servicesP'>The first time a detail is tested should not be in the field. With the use of energy modeling software that addresses both the whole building as well as it’s individual components we can accurately predict a completed project’s success. The best approach to delivering a high-performance project on time and on budget is through an intelligent design and planning process.</p>
                             <br></br>
                             <div className='border'></div>
+                            <br></br>
                         </motion.div>
-                        <br></br>
-                        {/* <br></br> */}
                         <motion.div className="services-list-item" ref={ref3}
                             initial="hidden"
                             whileInView={'visible'}
@@ -114,8 +109,6 @@ function Services() {
                             <br></br>
                             <div className='border'></div>
                         </motion.div>
-                        <br></br>
-                        {/* <br></br> */}
                         <motion.div className="services-list-item" ref={ref4}
                             initial="hidden"
                             variants={serviceVariants}

@@ -1,0 +1,16 @@
+.dropdown-item {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px; /* Example font size */
+  padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+}
+
+.dropdown-item:hover {
+  /* Your desired hover styles for individual dropdown items */
+  background-color: #f5f5f5; /* Example background color on hover */
+  /* transition: all 0.5s ease; */
+  color: black;
+  border-radius: 5px;
+}
