@@ -2,10 +2,26 @@ import React from 'react'
 import gallatinLake from '../../../../assets/images/gallatin/newlake.png'
 import duboisPoster from '../../../../assets/images/dubois/poster.jpg'
 import { Carousel } from 'react-bootstrap'
+import { Table } from 'react-bootstrap'
 
-import '../Commercial/Commercial.css'
+import '../SingleFamily/SingleFamily.css'
 
-function Commercial() {
+function SingleFamily() {
+
+  const tableData = [
+    {
+      project_name: 'Accord Passive House',
+      location: 'Accord, NY',
+      certifications: 'PHIUS',
+      year: '2018'
+    },
+    {
+      project_name: 'Newburgh Passive House',
+      location: 'Newburgh, NY',
+      certifications: 'PHIUS',
+      year: '2017'
+    }
+  ]
   return (
     <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'flex-start' }}>
       <div className='top-cont'>
@@ -38,57 +54,81 @@ function Commercial() {
         </div>
       </div>
       <div className='bottom-cont'>
-        <div className='info-container'>
-          <div className='year'>
-            <h3>Year</h3>
-            <ul>
-              <li>
-                2018
-              </li>
-              <li>
-                2019
-              </li>
-            </ul>
-          </div>
-          <div className='name'>
-            <h3>Project Name</h3>
-            <ul>
-              <li>
-                Accord Passive House
-              </li>
-              <li>
-                Newburgh Passive House
-              </li>
-            </ul>
-          </div>
-          <div className='location'>
-            <h3>Location</h3>
-            <ul>
-              <li>
-                Accord, NY
-              </li>
-              <li>
-                Newburgh, NY
-              </li>
-            </ul>
-
-          </div>
-          <div className='certification'>
-            <h3>Certification</h3>
-            <ul>
-              <li>
-                PHIUS
-              </li>
-              <li>
-                PHIUS
-              </li>
-            </ul>
-
-          </div>
+        <div className='table_container'>
+          <Table striped bordered hover>
+            <thead>
+              <tr>
+                <th>Project Name</th>
+                <th>Location</th>
+                <th>Year of Completion</th>
+                <th>Certifications</th>
+              </tr>
+            </thead>
+            <tbody>
+              {tableData.map((row) => (
+                <tr key={row.id}>
+                  <td>{row.project_name}</td>
+                  <td>{row.location}</td>
+                  <td>{row.year}</td>
+                  <td>{row.certifications}</td>
+                </tr>
+              ))}
+            </tbody>
+          </Table>
         </div>
       </div>
     </div>
   )
 }
 
-export default Commercial
+export default SingleFamily;
+
+
+{/* <div className='info-container'>
+<div className='year'>
+  <h3>Year</h3>
+  <ul>
+    <li>
+      2018
+    </li>
+    <li>
+      2019
+    </li>
+  </ul>
+</div>
+<div className='name'>
+  <h3>Project Name</h3>
+  <ul>
+    <li>
+      Accord Passive House
+    </li>
+    <li>
+      Newburgh Passive House
+    </li>
+  </ul>
+</div>
+<div className='location'>
+  <h3>Location</h3>
+  <ul>
+    <li>
+      Accord, NY
+    </li>
+    <li>
+      Newburgh, NY
+    </li>
+  </ul>
+
+</div>
+<div className='certification'>
+  <h3>Certification</h3>
+  <ul>
+    <li>
+      PHIUS
+    </li>
+    <li>
+      PHIUS
+    </li>
+  </ul>
+
+</div>
+</div> */}

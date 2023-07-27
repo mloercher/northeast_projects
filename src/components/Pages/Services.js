@@ -8,9 +8,6 @@ import speed from '../../assets/images/icons/speedGif.gif'
 import graph from '../../assets/images/icons/graph.gif'
 import study from '../../assets/images/icons/study.gif'
 import chat from '../../assets/images/icons/chat.gif'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCity } from '@fortawesome/free-solid-svg-icons'
-// import hero from '../../assets/images/heroCROP.png'
 
 
 
