@@ -1,13 +1,12 @@
-import React from 'react'
-import gallatinLake from '../../../../assets/images/gallatin/newlake.png'
-import duboisPoster from '../../../../assets/images/dubois/poster.jpg'
-import { Carousel } from 'react-bootstrap'
-import { Table } from 'react-bootstrap'
+import React from 'react';
+import gallatinLake from '../../../../assets/images/gallatin/newlake.png';
+import duboisPoster from '../../../../assets/images/dubois/poster.jpg';
+import { Carousel } from 'react-bootstrap';
+import { Table } from 'react-bootstrap';
 
-import '../SingleFamily/SingleFamily.css'
+import '../SingleFamily/SingleFamily.css';
 
 function SingleFamily() {
-
   const tableData = [
     {
       project_name: 'Accord Passive House',
@@ -21,56 +20,53 @@ function SingleFamily() {
       certifications: 'PHIUS',
       year: '2017'
     }
-  ]
+  ];
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'flex-start' }}>
-      <div className='top-cont'>
-        <div style={{ display: 'flex', justifyContent: 'flex-start', width: '100%' }}>
-          <h1 id='cat-title'>Commercial Projects</h1>
-        </div>
-        <Carousel>
-          <Carousel.Item>
+    <div className='proj-outside-container'>
+      <div className='proj-top-container'>
+        <Carousel style={{ height: '100%' }}>
+          <Carousel.Item style={{ maxHeight: '78vh', objectFit: 'contain', position: 'relative' }}>
             <img
               className="d-block w-100"
               src={gallatinLake}
               alt="First slide"
             />
+            <div className="overlay">
+              <p>Text Overlay on First Image</p>
+            </div>
           </Carousel.Item>
-          <Carousel.Item>
+          <Carousel.Item style={{ maxHeight: '78vh', objectFit: 'cover', position: 'relative' }}>
             <img
               className="d-block w-100"
               src={duboisPoster}
               alt="Second slide"
             />
+            <div className="overlay">
+              <p>Text Overlay on Second Image</p>
+            </div>
           </Carousel.Item>
         </Carousel>
-        <div style={{ display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', width: '70%', paddingTop: '10px' }}>
-          <h2 className='feat-proj-title'>Featured Project: Accord Passive House</h2>
-          <p className='feat-proj-description'>
-            'Passive House' is a building methodology developed to aggressively meet the climate crisis carbon reduction imperative while making a comfortable, healthy and affordable built environment.
-            It calls for drastic cuts in the amount of energy our buildings consume through passive methods (insulation, solar heat gain, etc) - hence the name 'Passive House'.
-
-          </p>
-        </div>
       </div>
-      <div className='bottom-cont'>
-        <div className='table_container'>
+      <div className='proj-bottom-container'>
+        <div className='table-container'>
+          <h1 style={{color:'white'}}>Single-Family Projects</h1>
           <Table striped bordered hover>
             <thead>
               <tr>
                 <th>Project Name</th>
                 <th>Location</th>
-                <th>Year of Completion</th>
                 <th>Certifications</th>
+                <th>Year of Completion</th>
               </tr>
             </thead>
             <tbody>
-              {tableData.map((row) => (
-                <tr key={row.id}>
+              {tableData.map((row, index) => (
+                <tr key={index}>
                   <td>{row.project_name}</td>
                   <td>{row.location}</td>
-                  <td>{row.year}</td>
                   <td>{row.certifications}</td>
+                  <td>{row.year}</td>
                 </tr>
               ))}
             </tbody>
@@ -78,57 +74,7 @@ function SingleFamily() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default SingleFamily;
-
-
-{/* <div className='info-container'>
-<div className='year'>
-  <h3>Year</h3>
-  <ul>
-    <li>
-      2018
-    </li>
-    <li>
-      2019
-    </li>
-  </ul>
-</div>
-<div className='name'>
-  <h3>Project Name</h3>
-  <ul>
-    <li>
-      Accord Passive House
-    </li>
-    <li>
-      Newburgh Passive House
-    </li>
-  </ul>
-</div>
-<div className='location'>
-  <h3>Location</h3>
-  <ul>
-    <li>
-      Accord, NY
-    </li>
-    <li>
-      Newburgh, NY
-    </li>
-  </ul>
-
-</div>
-<div className='certification'>
-  <h3>Certification</h3>
-  <ul>
-    <li>
-      PHIUS
-    </li>
-    <li>
-      PHIUS
-    </li>
-  </ul>
-
-</div>
-</div> */}

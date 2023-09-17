@@ -3,6 +3,11 @@
   height: 100vh;
 }
 
+
+.firm-outside-container{
+  width: 100vw;
+}
+
 #portrait {
   height: 25rem;
   border-radius: 50%;
@@ -34,6 +39,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   /* padding-bottom: 5rem; */
 }
 
@@ -81,68 +87,21 @@
   width: 80%;
   font-family: "Roboto Condensed", sans-serif;
   color: white;
-  text-align: center;
-  font-size: 18px;
+  text-align: left;
+  font-size: 17px;
 }
 
 .border {
-  width: 100%;
+  width: 80%;
   height: 3px; /* Adjust the height to control the thickness of the border */
   background-color: white; /* Set the color of the border */
 }
 
-/* .about-ne2 {
-  width: 100vw;
-  display: flex;
-  justify-content: space-around;
-  margin-top: 1%;
-}
-.about-ne2 p {
-  font-size: 140%;
-  width: 50%;
-  font-weight: 100;
-  padding-left: 1%;
-  padding-right: 1%;
-  margin-bottom: 0%;
-}
-
-.about-ne2 p span {
-  font-weight: bold;
-  font-size: 110%;
-} */
-
-/* #friend {
-  width: 40%;
-  height: 90%;
-  border: solid black;
-  margin-top: 1%;
-  margin-left: 2%;
-} */
-
-/* @media screen and (max-width: 414px) {
-#firm-heading{
-  height: 10rem;
-  width:21rem;
-}
-
-.firm-text{
-  padding-top: 7rem;
-}
-
-#portrait{
-  height: 18rem;
-  width: rem;
-}
-
-
-.firmP{
-  font-family: 'Roboto Condensed', sans-serif;
-  color: white;
-  text-align: center;
-  font-size: x-large;
+@media screen and (max-width: 767px) {
+  #firm-heading{
+    width: 18rem;
   }
-
-} */
+}
 
 /* IPHONE SE AND SMALLER */
 @media screen and (max-width: 375px) {

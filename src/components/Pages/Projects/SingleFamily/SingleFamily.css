@@ -1,3 +1,51 @@
-.table_container {
+.proj-outside-container {
+  /* height: 100vh; */
+}
+
+.proj-top-container {
+  height: 78vh;
+  border-bottom: solid black;
+}
+
+.proj-bottom-container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  min-height: 20rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.carousel {
+  height: 50%;
+}
+
+.overlay {
+  position: absolute;
+  /* top: 0;
+  left: 0; */
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 18px;
+}
+
+.table-container{
+  margin: 2rem;
   width: 80%;
+}
+
+.table {
+  width: 100%;
 }

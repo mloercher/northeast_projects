@@ -10,20 +10,22 @@ function Firm() {
   return (
     <div className='firm-outside-container'>
       <div className='firm-intro'>
-        {/* <div className='firm-text'> */}
-          <motion.img
-            animate={{ y: 0 }}
-            initial={{ y: -20 }}
-            transition={{ type: "spring", stiffness: 100, duration:300}} id='firm-heading' src={firmLogo}>
-          </motion.img>
-        {/* </div> */}
+        <motion.img
+          animate={{ y: 0 }}
+          initial={{ y: -20 }}
+          transition={{ type: "spring", stiffness: 100, duration: 300 }} id='firm-heading' src={firmLogo}>
+        </motion.img>
+        <motion.p
+          animate={{ y: 0 }}
+          initial={{ y: 20 }}
+          transition={{ type: "spring", stiffness: 100, duration: 300 }}
+          style={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>Whole system design for better living
+        </motion.p>
       </div>
       <div className='firm-container'>
         <div className='firm-about'>
           {/* <motion.h1 className="services-title">Services:</motion.h1> */}
           <div className='list-outside'>
-            <br></br>
-            <br></br>
             <br></br>
             <div className="firm-list-item"
               initial="hidden"
@@ -32,9 +34,10 @@ function Firm() {
               <div className='border'></div>
               {/* <img src={speed} alt='meter' height='80rem'></img> */}
               <br></br>
-              <br></br>
-              <p className='about_ne_home'>Northeast Projects is one of the lead Passive House Consultants in the Northeast and can help deliver your high performance project within your needs, on time and on budget. Whether it's full Passive House certification, Net-zero, Energy Star or any other form of sustainable building practices, Northeast Projects has the tools to help optimize your project. Advanced energy modeling simulates the performance of your project before breaking ground, eliminating guess work, over-estimation and fine-tuning your project to meet all its intended goals.</p>
-              <br></br>
+              <p className='about_ne_home'>Northeast Projects is a building energy and enclosure consulting firm and one of the lead Passive House consultants in the US. The firm, lead by principle consultant and educator John Loercher, offers specialization in passive house design and certification, high performance construction details and advanced energy modeling that assist corporate, government and higher institutions in achieving their building energy goals.
+                <br></br>
+                <br></br>
+                Northeast Projects engages a wide range of work including single and multi-family residential, commercial, new construction and retrofits projects.  It  applies expertise and agility to provide a custom approach to your project.</p>
               <br></br>
               <div className='border'></div>
             </div>

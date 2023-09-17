@@ -155,7 +155,7 @@ input {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   /* min-width: 40px; */
-  max-width: 24rem;
+  width: 16rem;
   color: white;
 }
 

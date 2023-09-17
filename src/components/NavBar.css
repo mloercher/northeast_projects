@@ -1,7 +1,7 @@
 #logo {
-  padding: 10px 0 10px 10px;
-  height: 100%;
-  width: 100%;
+  padding: 12px 0 10px 10px;
+  height: 70%;
+  width: 70%;
 }
 
 /* .navbar-logo {
@@ -11,10 +11,11 @@
 .navigation {
   /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
   background: black;
-  height: 4rem;
+  height: 5rem;
   font-size: 1.1rem;
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   /* padding: 0 !important; */
 }
 
@@ -39,7 +40,7 @@
   list-style: none;
   margin: 0;
   padding-bottom: 0rem;
-  width: 38rem;
+  width: 25rem;
 }
 
 .navigationItem {

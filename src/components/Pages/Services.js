@@ -74,9 +74,9 @@ function Services() {
                             viewport={{ once: true }}>
                             <div className='border'></div>
                             <br></br>
-                            <h3 className='services-title'>Building Performance Consulting</h3>
-                            <img src={speed} alt='meter' height='80rem'></img>
-                            <p className='servicesP'>Bring Northeast Projects onto your team and take advantage of dynamic energy model updates integrated into the design process. Consultation includes Drawing review, design walkthrough, mechanical system review, Assembly and detail design as well as energy modeling.</p>
+                            <h3 className='services-title'>Passive House Certification</h3>
+                            <img src={study} alt='meter' height='80rem'></img>
+                            <p className='servicesP'>Northeast Projects certifies all project types through the Passive House Institute US (Phius). In addition to the compliance energy model, this service includes full certification expediting and coordination with the design team through early and late design phases.</p>
                             <br></br>
                             <div className='border'></div>
                             <br></br>
@@ -86,9 +86,9 @@ function Services() {
                             whileInView={'visible'}
                             variants={serviceVariants}
                             viewport={{ once: true }}>
-                            <h3 className='services-title'>Whole Building Energy Modeling</h3>
+                            <h3 className='services-title'>Building Energy Modeling</h3>
                             <img src={graph} alt='graph' height='80rem'></img>
-                            <p className='servicesP'>The first time a detail is tested should not be in the field. With the use of energy modeling software that addresses both the whole building as well as it’s individual components we can accurately predict a completed project’s success. The best approach to delivering a high-performance project on time and on budget is through an intelligent design and planning process.</p>
+                            <p className='servicesP'>Northeast Projects offers whole-building energy simulation for  net zero design, project optimization, certification compliance and incentive applications. In addition, building envelope analysis is offered including thermal bridge, condensation risk and hygrothermal simulations.</p>
                             <br></br>
                             <div className='border'></div>
                             <br></br>
@@ -98,24 +98,40 @@ function Services() {
                             whileInView={'visible'}
                             variants={serviceVariants}
                             viewport={{ once: true }}>
-                            <h3 className='services-title'>PH Feasibility Study</h3>
+                            <h3 className='services-title'>Enclosure Design and Consulting</h3>
                             {/* <br></br> */}
-                            <img src={study} alt='clipboard' height='80rem'></img>
-                            <br></br>
-                            <p className='servicesP'>Dedicated to Passive House, but not sure if your design will meet the standards? Before you fully commit to certification, find out if you’ll make the cut. The feasibility report includes review of the design drawings and a design development energy model that will allow testing of multiple wall assemblies, windows and HVAC systems. Even if Passive House certification is not pursued at the end, this is a valuable service to predict and optimize the performance of your project.</p>
+                            <img src={chat} alt='chat' height='80rem'></img>
+                            {/* <br></br> */}
+                            <p className='servicesP'>Enclosure design and detail consulting can be provided at any stage in the project. This may range from schematic design of typical building assemblies to troubleshooting details during the construction process.</p>
                             <br></br>
                             <div className='border'></div>
+                            <br></br>
                         </motion.div>
                         <motion.div className="services-list-item" ref={ref4}
                             initial="hidden"
                             variants={serviceVariants}
                             whileInView={'visible'}
                             viewport={{ once: true }}>
-                            <h3 className='services-title'>Passive House Design and Certification</h3>
+                            <h3 className='services-title'>Embodied Carbon Analysis</h3>
                             {/* <br></br> */}
-                            <img src={chat} alt='bubble' height='80rem'></img>
+                            <img src={study} alt='bubble' height='80rem'></img>
+                            {/* <br></br> */}
+                            <p className='servicesP'>In addition to operational energy analysis, Northeast Projects offers full life cycle analysis (LCA) of the building or individual components of the building assembly.</p>
                             <br></br>
-                            <p className='servicesP'>Passive House certification involves many parties and processes. Working with Architects and other Building professionals, develop all required design documentation to submit to the Passive House Institute U.S. Coordinate with certification body, design team and PHIUS+ 2018 rater through design, QA/QC and final certification. Please reach out to talk more about your project and request a proposal.</p>
+                            <div className='border'></div>
+                            <br></br>
+                        </motion.div>
+                        <motion.div className="services-list-item" ref={ref4}
+                            initial="hidden"
+                            variants={serviceVariants}
+                            whileInView={'visible'}
+                            viewport={{ once: true }}>
+                            <h3 className='services-title'>
+                                Post-occupancy data monitoring</h3>
+                            {/* <br></br> */}
+                            <img src={speed} alt='bubble' height='80rem'></img>
+                            {/* <br></br> */}
+                            <p className='servicesP'>Post-occupancy data monitoring includes the determination of monitoring goals, selectiong of monitor types and locations and the design of a post-occupancy data collection schedule that satisfies the project goals.</p>
                         </motion.div>
                     </div>
                 </div>

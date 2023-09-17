@@ -8,11 +8,12 @@ import './Commercial.css'
 
 function Commercial() {
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'flex-start' }}>
+        // <div style={{ display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'flex-start' }}>
+        <div>
             <div className='top-cont'>
-                <div style={{ display: 'flex', justifyContent: 'flex-start', width:'100%' }}>
+                {/* <div style={{ display: 'flex', justifyContent: 'flex-start', width:'100%' }}>
                     <h1 id='cat-title'>Commercial Projects</h1>
-                </div>
+                </div> */}
                 <Carousel>
                     <Carousel.Item>
                         <img
@@ -29,14 +30,14 @@ function Commercial() {
                         />
                     </Carousel.Item>
                 </Carousel>
-                <div style={{ display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', width: '70%', paddingTop: '10px' }}>
+                {/* <div style={{ display: 'flex', justifyContent: 'flex-start', flexDirection: 'column', width: '70%', paddingTop: '10px' }}>
                     <h2 className='feat-proj-title'>Featured Project: Accord Passive House</h2>
                     <p className='feat-proj-description'>
                         'Passive House' is a building methodology developed to aggressively meet the climate crisis carbon reduction imperative while making a comfortable, healthy and affordable built environment.
                         It calls for drastic cuts in the amount of energy our buildings consume through passive methods (insulation, solar heat gain, etc) - hence the name 'Passive House'.
 
                     </p>
-                </div>
+                </div> */}
             </div>
             <div className='bottom-cont'>
                 <div className='info-container'>
