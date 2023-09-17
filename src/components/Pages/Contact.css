@@ -32,7 +32,7 @@
 .contact-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
   width: 40%;
   height: 100%;
@@ -155,7 +155,7 @@ input {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 1rem;
   /* min-width: 40px; */
-  width: 16rem;
+  width: 23rem;
   color: white;
 }
 

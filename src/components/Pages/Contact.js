@@ -5,6 +5,7 @@ import { FaPhone, FaEnvelope } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import ContactForm from '../ContactForm'
 import JL from '../../assets/images/JL.png'
+import statement from '../../assets/images/statement.pdf'
 
 // nav black to match top of gradient 
 // remove passive house from nav 
@@ -30,11 +31,26 @@ function Contact() {
                     <motion.h2 animate={{ y: 0 }} initial={{ y: 20 }}
                         transition={{ stiffness: 100 }} id='top-contact'><FaPhone size={24} style={{ color: '#FFF' }} id="phone" /> 518-227-0732 </motion.h2>
                     <motion.h2 animate={{ y: 0 }} initial={{ y: 20 }}
-                        transition={{ stiffness: 100 }} id='top-contact'><FaEnvelope size={24} style={{ color: '#FFF' }} id="email" /> john@ne-projects.com </motion.h2>
+                        transition={{ stiffness: 100 }} id='top-contact'><FaEnvelope size={24} style={{ color: '#FFF' }} id="email" /> info@northeastprojects.com </motion.h2>
+                    <br></br>
                     {/* <motion.p animate={{ y: 0 }} initial={{ y: 20 }} className='border'></motion.p> */}
                     <motion.p animate={{ y: 0 }} initial={{ y: 20 }}
-                        transition={{ stiffness: 100 }} id='contact-blurb'>Northeast Projects supports designers, builders and homeowners to complete their high performance projects. Before investing in training or losing valuable time and money in mistakes, take advantage of these valuable design support services.</motion.p>
+                        transition={{ stiffness: 100 }} id='contact-blurb'>Northeast Projects was founded in 2017 in the Hudson Valley of New York state. Through local connections in the high-performance building industry and a reputation of success, it quickly became the consultant for over 50% of the certified passive buildings in the region. Northeast Projects is a registered Primary Energy Consultant (PEC) for NYSERDA and offers support services from design to post-occupancy data monitoring throughout the Northeast and beyond. It offers specialization in passive house design and certification, high performance construction details and advanced energy modeling that assist corporate, government and higher institutions in achieving their building energy goals.
+                    </motion.p>
+                    <p style={{ color: 'white' }}>
+                        <a href={statement} download={statement}>Download</a> the Northeast Projects Capability Statement
+                    </p>
+
                 </div>
+                {/* <div>
+                    <p>Click the link below to download the PDF:</p>
+                    <a
+                        href={statement}
+                        download={statement}
+                    >
+                        Download PDF
+                    </a>
+                </div> */}
             </div>
             <div className='contact-container'>
                 <div className='border'></div>
@@ -46,7 +62,7 @@ function Contact() {
                 </div>
                 <div style={{ display: 'flex', justifyContent: 'center' }}>
                     <img id="portrait" src={JL} alt='portrait' height='80rem'></img>
-                    <p className='firmP'>John Loercher is a Professor of Architecture, CPHC instructor for the Passive House Institute U.S. and owner of Northeast Projects LLC. He is a Certified Passive House Consultant and holds a masters of architecture from Parsons the New School for Design. His firm, Northeast Projects, specializes in Passive House design, high performance building envelopes and advanced energy modeling. It serves a diverse range of projects from single-family and mti-family residential, commercial, new construction and retrofits.</p>
+                    <p className='firmP'>John Loercher is the owner and lead building energy and enclosure consultant for Northeast Projects. Integrated in his work, John is the director of the Building Sciences program at RPI and trainer for Phius (formerly Passive House Institute US).  He currently serves as the President of the Phius alliance New York state chapter and is an active member in the Northeast Sustainable Energy Association (NESEA) community. </p>
                     {/* <div className='border'></div> */}
                 </div>
             </div>
