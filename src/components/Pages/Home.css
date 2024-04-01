@@ -36,7 +36,7 @@
     url("/src/assets/images/new_splash_img.JPG"); */
   background-size: cover;
   background-repeat: no-repeat;
-  height: 78vh;
+  height: 75vh;
   min-height: 59rem;
   width: 100%;
   text-align: center;
@@ -86,6 +86,7 @@
 #firm-heading {
   height: auto;
   width: 35rem;
+  margin-top: -15rem;
 }
 
 .about_ne_home {
@@ -134,3 +135,4 @@ font-size: 20px;
 }
 
 }
+

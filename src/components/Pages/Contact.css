@@ -170,6 +170,7 @@ input {
   font-size: 1rem;
   /* min-width: 40px; */
   width: 23rem;
+  max-width:50rem;
   color: white;
 }
 
@@ -241,7 +242,7 @@ h3 {
     font-family: "Roboto Condensed", sans-serif;
     font-size: .8rem;
     /* min-width: 40px; */
-    width: 90%;
+    width: 80%;
     color: white;
   }
 
@@ -261,7 +262,7 @@ h3 {
     font-family: "Roboto Condensed", sans-serif;
     font-weight: 400;
     color: white;
-    font-size: 3rem;
+    font-size: 4rem;
   }
 
 
@@ -303,6 +304,7 @@ h3 {
     justify-content: center;
     width: 70%;
     max-width: 800px;
+    text-align: center;
   }
 
   .firmP {
@@ -314,9 +316,10 @@ h3 {
     text-align: center;
   }
 
-  /* h3{
+  h3{
     padding-left: 0px;
-  } */
+
+  }
 
   .portrait-div {
     display: flex;
