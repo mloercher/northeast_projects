@@ -64,9 +64,10 @@
       rgba(0, 0, 0, 0.1) 20%
     ),
     url("/src/assets/images/Services_new_photo.jpg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 78vh;
+  background-position: right;
+  height: 72vh;
   min-height: 35rem;
   width: 100%;
   /* display: flex;
@@ -89,18 +90,18 @@
 #ne-mission {
   color: white;
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-align: left;
   margin: 0;
   padding: 0;
-  width: 16rem;
+  /* width: 16rem; */
 }
 
 /* .services-outside-container {
   width: 100vw;
 } */
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1511px) {
   .services-intro {
     background: linear-gradient(
         0deg,
@@ -138,12 +139,38 @@
     text-align: center;
     /* margin: 0; */
     padding: 0 5px 0 5px;
+    width: 80%;
   }
 
   /* IPHONE SE AND SMALLER */
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 767px) {
     .servicesP {
       font-size: 1.1rem;
+      width: 30rem;
     }
+
   }
+
+}
+
+
+@media screen and (max-width: 543px) {
+  .servicesP {
+    font-size: 1rem;
+    width: 18rem;
+  }
+
+  .services-title{
+    font-size: 2rem;
+  }
+
+}
+
+
+@media screen and (min-width: 1940px) {
+  .services-intro{
+    height: 1310px;
+    background-size: cover;
+  }
+
 }

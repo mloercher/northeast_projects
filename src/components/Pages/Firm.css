@@ -1,4 +1,4 @@
-.about-container {
+/* .about-container {
   background-color: white;
   height: 100vh;
 }
@@ -22,7 +22,7 @@
   height: 78vh;
   width: 100%;
   text-align: center;
-  /* padding-top: 5rem; */
+  padding-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,9 +43,9 @@
   color: white;
   font-size: 3rem;
   /* padding-top: 5rem; */
-}
+/* } */
 
-.firm-list-item {
+/* .firm-list-item {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -76,7 +76,7 @@ color: white;
 text-align: center;
 }
 
-/* .about-ne2 {
+.about-ne2 {
   width: 100vw;
   display: flex;
   justify-content: space-around;
@@ -94,7 +94,7 @@ text-align: center;
 .about-ne2 p span {
   font-weight: bold;
   font-size: 110%;
-} */
+} */ 
 
 /* #friend {
   width: 40%;
@@ -102,7 +102,7 @@ text-align: center;
   border: solid black;
   margin-top: 1%;
   margin-left: 2%;
-} */
+}
 
 @media screen and (max-width: 414px) {
 #firm-heading{
@@ -126,16 +126,16 @@ text-align: center;
   text-align: center;
   font-size: x-large;
   }
-/* 
+
   .list-outside{
     padding: 0 !important;
-  } */
+  }
 
 }
 
 /* IPHONE SE AND SMALLER */
-@media screen and (max-width: 375px) {
+/* @media screen and (max-width: 375px) {
   .firmP {
     font-size: 1.2rem;
   }
-}
+}  */

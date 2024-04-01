@@ -19,7 +19,7 @@ function Firm() {
           animate={{ y: 0 }}
           initial={{ y: 20 }}
           transition={{ type: "spring", stiffness: 100, duration: 300 }}
-          style={{ color: 'white', fontSize: '2rem', fontWeight: 'bold' }}>Whole system design for better living
+          style={{ color: 'white', fontSize: '22px', fontWeight: 'bold' }}>Whole system design for better living
         </motion.p>
       </div>
       <div className='firm-container'>

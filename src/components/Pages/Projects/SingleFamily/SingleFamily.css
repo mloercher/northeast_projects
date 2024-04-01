@@ -2,20 +2,64 @@
   /* height: 100vh; */
 }
 
-.proj-top-container {
-  height: 78vh;
-  border-bottom: solid black;
+
+.proj-top-cont-main {
+  display: flex;
+  height: 680px;
+  /* height: 78vh; */
+  position: relative;
+  /* background: linear-gradient(270deg, rgba(66, 63, 63, 1) 0%, rgba(0, 0, 0, 1) 21%); */
 }
+
+.proj-top-container-left {
+  /* min-height: 35rem; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 20%;
+  background: rgb(28, 28, 28);
+}
+
+.proj-top-container-right {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  background-image: linear-gradient(90deg,
+      rgba(28, 28, 28, 1) 5%,
+      /* rgba(27, 27, 27, 1) 5%, */
+      rgba(0, 0, 0, 0.0) 15%),
+    url("/src/assets/images/gallatin/sideEleBlast.jpg");
+}
+
+.proj-left-top-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+
+.phius-logo {
+  width: 30%;
+}
+
+.proj-left-bottom-info {
+  margin-left: 15%;
+  margin-bottom: 2%;
+}
+
+
 
 .proj-bottom-container {
   display: flex;
   text-align: left;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
   width: 100vw;
-  min-height: 20rem;
-  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  height: 660px;
+  background: black;
 }
 
 .carousel {
@@ -27,9 +71,8 @@
   /* top: 0;
   left: 0; */
   bottom: 0;
-  width: 100%;
+  width: 60%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -41,9 +84,9 @@
   font-size: 18px;
 }
 
-.table-container{
-  margin: 2rem;
-  width: 80%;
+.table-container {
+  margin: 5rem 0 0 5rem;
+  width: 60%;
 }
 
 .table {

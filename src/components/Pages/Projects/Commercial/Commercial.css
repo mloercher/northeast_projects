@@ -60,3 +60,19 @@ h3 {
 .feat-proj-description {
   color: white;
 }
+
+/* .proj-top-container {
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.93) 10%,
+      rgba(0, 0, 0, 0.85) 40%,
+      rgba(0, 0, 0, 0.1) 60%,
+      rgba(0, 0, 0, 0.1) 20%
+    ),
+    url("/src/assets/images/Services_new_photo.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 78vh;
+  min-height: 35rem;
+  width: 100%;
+} */
