@@ -37,7 +37,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 75vh;
-  min-height: 59rem;
+  min-height: 45rem;
   width: 100%;
   text-align: center;
   /* padding-top: 5rem; */
@@ -86,7 +86,7 @@
 #firm-heading {
   height: auto;
   width: 35rem;
-  margin-top: -15rem;
+  margin-top: -18rem;
 }
 
 .about_ne_home {
@@ -130,8 +130,17 @@ font-size: 20px;
 
 @media screen and (min-width: 1940px) {
 .firm-intro{
-  height: 1310px;
+  height: 1245px;
   background-size: cover;
+}
+
+.about_ne_home {
+  width: 100%;
+  max-width:900px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 22px;
 }
 
 }

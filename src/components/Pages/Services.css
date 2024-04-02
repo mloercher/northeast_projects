@@ -67,7 +67,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: right;
-  height: 72vh;
+  height: 78vh;
   min-height: 35rem;
   width: 100%;
   /* display: flex;
@@ -135,7 +135,7 @@
   #ne-mission {
     color: white;
     font-family: "Roboto Condensed", sans-serif;
-    font-size: 1rem;
+    font-size: 1.4rem;
     text-align: center;
     /* margin: 0; */
     padding: 0 5px 0 5px;
@@ -171,6 +171,11 @@
   .services-intro{
     height: 1310px;
     background-size: cover;
+  }
+
+  #ne-mission{
+    font-size: 26px;
+    width: 60rem;
   }
 
 }

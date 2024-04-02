@@ -55,7 +55,7 @@ function Contact() {
             </div>
             <div className='contact-container'>
                 {/* <br></br> */}
-                <h2 style={{ color: 'white' }}>About</h2>
+                {/* <h2 style={{ color: 'white' }}>About</h2> */}
                 <div className='border'></div>
                 <br></br>
                 <div className='portrait-div'>

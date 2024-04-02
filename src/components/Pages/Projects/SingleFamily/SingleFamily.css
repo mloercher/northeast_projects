@@ -6,7 +6,9 @@
 .proj-top-cont-main {
   display: flex;
   height: 680px;
-  /* height: 78vh; */
+  width: 100vw;
+  height: 78vh;
+  min-height: 35rem;
   position: relative;
   /* background: linear-gradient(270deg, rgba(66, 63, 63, 1) 0%, rgba(0, 0, 0, 1) 21%); */
 }
@@ -16,20 +18,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  width: 20%;
+  width: 40%;
   background: rgb(28, 28, 28);
 }
 
 .proj-top-container-right {
   background-size: cover;
   background-repeat: no-repeat;
-  width: 80%;
+  width: 70%;
   background-image: linear-gradient(90deg,
       rgba(28, 28, 28, 1) 5%,
       /* rgba(27, 27, 27, 1) 5%, */
       rgba(0, 0, 0, 0.0) 15%),
     url("/src/assets/images/gallatin/sideEleBlast.jpg");
+  background-position: right;
 }
 
 .proj-left-top-info {
@@ -85,10 +87,122 @@
 }
 
 .table-container {
-  margin: 5rem 0 0 5rem;
-  width: 60%;
+  margin-top: 5%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
 }
 
 .table {
   width: 100%;
+}
+
+.notable-container{
+  display: 'flex';
+  flex-direction: column;
+  width: '100%';
+  color: white;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  .proj-top-cont-main {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 78vh;
+  }
+
+
+  .proj-top-container-left {
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+  }
+
+  .proj-top-container-right {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(0deg,
+        rgba(28, 28, 28, 1) 5%,
+        /* rgba(27, 27, 27, 1) 5%, */
+        rgba(0, 0, 0, 0.0) 15%),
+      url("/src/assets/images/gallatin/sideEleBlast.jpg");
+  }
+
+  .proj-left-top-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+    margin-left: 1%;
+    margin-top: 0%;
+  }
+
+  .proj-left-bottom-info {
+    margin-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 30%;
+    margin-right: 5%;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .proj-top-container-right {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: inherit;
+    background-image: linear-gradient(0deg,
+        rgba(28, 28, 28, 1) 5%,
+        /* rgba(27, 27, 27, 1) 5%, */
+        rgba(0, 0, 0, 0.0) 15%),
+      url("/src/assets/images/gallatin/sideEleBlast.jpg");
+  }
+
+
+  .proj-top-container-left {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .proj-left-bottom-info {
+    margin-left: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
+    margin-top: 5%;
+    margin-left: 3%;
+  }
+  .proj-left-top-info {
+    margin-left: 3%;
+  }
+
+  .proj-description{
+    width: 100%;
+    text-align: center;
+  }
+
+  .table-container{
+    margin-top: 30px;
+  }
+
+  .proj-left-top-info {
+    margin-left: 0%;
+    padding: 10px;
+}
+.notable-container{
+  display: 'flex' !important;
+  flex-direction: column !important;
+  justify-content: 'space-evenly';
+  width: '100%';
+}
+
 }
