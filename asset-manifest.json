@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/northeast_projects/static/css/main.e42540a1.css",
-    "main.js": "/northeast_projects/static/js/main.fb4883ce.js",
+    "main.css": "/northeast_projects/static/css/main.8fda05a1.css",
+    "main.js": "/northeast_projects/static/js/main.5b3a0a5b.js",
     "static/media/Gallatin_About_new.jpg": "/northeast_projects/static/media/Gallatin_About_new.bbe0fa093f32e7043673.jpg",
     "static/media/newlake.png": "/northeast_projects/static/media/newlake.48b9dca37168de6d0f18.png",
     "static/media/new_splash_img_2.JPG": "/northeast_projects/static/media/new_splash_img_2.9b1fc2473689be207a10.JPG",
+    "static/media/new_splash_img.JPG": "/northeast_projects/static/media/new_splash_img.bcab9029581dbce74658.JPG",
     "static/media/statement.pdf": "/northeast_projects/static/media/statement.b02cddbfbe1fdafe0c2d.pdf",
     "static/media/consulting.png": "/northeast_projects/static/media/consulting.ee480df34bc14560d6df.png",
     "static/media/headshot.png": "/northeast_projects/static/media/headshot.f9b3ab4df0f7f6c40d95.png",
@@ -24,11 +25,11 @@
     "static/media/phiusLogo.png": "/northeast_projects/static/media/phiusLogo.59412e54b348101fa85b.png",
     "static/media/fairShare.png": "/northeast_projects/static/media/fairShare.4f44de956740d92b5313.png",
     "index.html": "/northeast_projects/index.html",
-    "main.e42540a1.css.map": "/northeast_projects/static/css/main.e42540a1.css.map",
-    "main.fb4883ce.js.map": "/northeast_projects/static/js/main.fb4883ce.js.map"
+    "main.8fda05a1.css.map": "/northeast_projects/static/css/main.8fda05a1.css.map",
+    "main.5b3a0a5b.js.map": "/northeast_projects/static/js/main.5b3a0a5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.e42540a1.css",
-    "static/js/main.fb4883ce.js"
+    "static/css/main.8fda05a1.css",
+    "static/js/main.5b3a0a5b.js"
   ]
 }
