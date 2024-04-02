@@ -13,6 +13,7 @@ function Navbar() {
 
   const handleDropdown = () => {
     setDropdownOpen(!dropdownOpen);
+    closeMobileMenu()
   };
 
   const onMouseEnter = () => {
