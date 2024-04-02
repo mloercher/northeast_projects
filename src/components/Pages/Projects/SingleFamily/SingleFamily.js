@@ -25,6 +25,7 @@ function SingleFamily() {
         <div className='proj-top-container-left'>
           <div className='proj-left-top-info'>
             <h1>Gallatin Passive House</h1>
+            <p>Gallatin, NY</p>
             <div style={{ display: "flex", flexDirection: 'column', paddingTop: "5%" }}>
               <p style={{ margin: "0px", fontWeight: 'lighter' }}>PHIUS+ 2018 Certified</p>
               <p style={{ margin: "0px", fontWeight: 'lighter' }}>Architect: North River Architecture and Planning</p>
@@ -33,7 +34,7 @@ function SingleFamily() {
           </div>
           <div className='proj-left-bottom-info'>
             <img className='phius-logo' src={phiusLogo}></img>
-            <p style={{ color: "white", padding: "10px 0px 0px 0px", fontStyle: 'italic', fontWeight: 'lighter' }}>Photo: Exterior at lift-and-slide wall</p>
+            <p className='photo-desc'>Photo: Exterior at lift-and-slide wall</p>
           </div>
         </div>
         <div className='proj-top-container-right'>

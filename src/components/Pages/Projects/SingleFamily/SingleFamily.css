@@ -98,10 +98,18 @@
 }
 
 .notable-container{
-  display: 'flex';
-  flex-direction: column;
+  display: flex;
+  /* flex-direction: column; */
   width: '100%';
   color: white;
+}
+
+.photo-desc{
+  color: white;
+  padding: 10px 0px 0px 0px; 
+  font-style: italic;
+  font-weight: lighter;
+
 }
 
 
@@ -148,6 +156,25 @@
     width: 30%;
     margin-right: 5%;
   }
+
+  .notable-container{
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .notable-container ul{
+    margin-bottom: 0;
+  }
+
+ .proj-bottom-container{
+  height: 700px;
+ }
+
+ .photo-desc{
+  font-size: 12px;
+
+}
+
 
 }
 

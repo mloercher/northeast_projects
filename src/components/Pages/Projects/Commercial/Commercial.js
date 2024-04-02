@@ -25,16 +25,15 @@ function Commercial() {
       <div className='proj-top-cont-main'>
         <div className='proj-top-container-left'>
           <div className='proj-left-top-info'>
-            <h1>Gallatin Passive House</h1>
+            <h1>Cranwell Foundation</h1>
+            <p>Blacksburg, VA</p>
             <div style={{ display: "flex", flexDirection: 'column', paddingTop: "5%" }}>
-              <p style={{ margin: "0px", fontWeight: 'lighter' }}>PHIUS+ 2018 Certified</p>
-              <p style={{ margin: "0px", fontWeight: 'lighter' }}>Architect: North River Architecture and Planning</p>
-              <p style={{ margin: "0px", fontWeight: 'lighter' }}>Builder: North River Design Build </p>
-            </div>
+              <p style={{ margin: "0px", fontWeight: 'lighter' }}>PHIUS2021 CORE design certified</p>
+              <p style={{ margin: "0px", fontWeight: 'lighter' }}>Architect: R+ Architects</p>            </div>
           </div>
           <div className='proj-left-bottom-info'>
             <img className='phius-logo' src={phiusLogo}></img>
-            <p style={{ color: "white", padding: "10px 0px 0px 0px", fontStyle: 'italic', fontWeight: 'lighter' }}>Photo: Exterior at lift-and-slide wall</p>
+            <p className='photo-desc'>Photo: View from courtyard into gallery</p>
           </div>
         </div>
         <div className='proj-top-container-right'>
@@ -43,22 +42,22 @@ function Commercial() {
       <div className='proj-bottom-container'>
         <div style={{marginTop: '3rem'}}className='border'></div>
         <div className='table-container'>
-          <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', maxWidth: '60rem' }}>
-            <h1 style={{ color: 'white' }}>Selected Work | Single-Family</h1>
-            <p style={{ color: 'white' }}>
+          <div className='table-container-inside'style={{  maxWidth: '60rem' }}>
+            <h1 style={{ color: 'white' }}>Selected Work | Non-Residential</h1>
+            <div style={{width:'100%'}}>
+            <p className='proj-description' style={{ color: 'white' }}>
               Since Northeast Projects started in 2017, detached single-family projects have been the core of the proactice. Its portfolio includes award-winning projects (Phiuscon 2018, Phiuscon 2021). Collaboration with local Habitat for Humanity chapters, pre-fabricated and modular construction and works published in Upstate House and Residential Design Magazine.
             </p>
+            </div>
             <h2 style={{ color: 'white' }}>Notable Projects</h2>
-            <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%' }}>
+            <div className='notable-container'>
               <ul>
-                <li>- Gallatin Passive House</li>
-                <li>- Black Duck Dove Passive - Steve Baczek Architecture</li>
-                <li>- Harmony House - DEMO Architects</li>
+                <li>Cranwell Foundation - R+ Architects</li>
+                <li>Kiles Nest - Kiles Nest</li>
               </ul>
               <ul>
-                <li>- Accord Passive House - North River Architecture and Planning</li>
-                <li>- Mountain Park Passive - Andrew Webster / Graphite Studio</li>
-                <li>- Montem Villam Passive House - Richard Pedranti Architects</li>
+                <li>PS 138X - Urbahn Architects</li>
+                <li>Catskill Hotel - Kane A|UD</li>
               </ul>
             </div>
           </div>
